@@ -9,7 +9,7 @@ import MKTypography from 'components/MKTypography'
 import HorizontalTeamCard from 'examples/Cards/TeamCards/HorizontalTeamCard'
 
 // Images
-import team1 from 'assets/images/team-5.jpg'
+import team1 from 'assets/images/ginger.png'
 import team2 from 'assets/images/bruce-mars.jpg'
 import team3 from 'assets/images/ivana-squares.jpg'
 import team4 from 'assets/images/ivana-square.jpg'
@@ -42,8 +42,8 @@ function Team () {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={team1}
-                name="Emma Roberts"
-                position={{ color: 'info', label: 'UI Designer' }}
+                name="Ginger Lydic"
+                position={{ color: 'info', label: 'Owner & Esthetician' }}
                 description="Welcome to my world of beauty and wellness! I'm Ginger Lydic, a passionate and trained esthetician dedicated to helping you achieve your skin's optimal health and radiance. In the pursuit of my true passion, I made a bold decision to follow my heart after spending over two decades as a financial analyst. With unwavering enthusiasm for skincare, I decided to embark on a new path and devote myself to this lifelong interest.
 
                 As your skincare specialist, I take pride in customizing each treatment to address your unique concerns and goals. Whether you're seeking rejuvenation, acne management, or simply a moment of relaxation, I am here to create a personalized experience tailored just for you.
