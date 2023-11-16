@@ -85,6 +85,6 @@ function NotificationModal() {
   );
 }
 
-export default NotificationModal;`;
+export default NotificationModal;`
 
-export default notificationModalCode;
+export default notificationModalCode

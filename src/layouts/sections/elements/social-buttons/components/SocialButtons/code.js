@@ -67,6 +67,6 @@ function SocialButtons() {
   );
 }
 
-export default SocialButtons;`;
+export default SocialButtons;`
 
-export default socialButtonsCode;
+export default socialButtonsCode

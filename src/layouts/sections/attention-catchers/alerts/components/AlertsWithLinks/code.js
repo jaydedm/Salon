@@ -90,6 +90,6 @@ function AlertsWithLinks() {
   );
 }
 
-export default AlertsWithLinks;`;
+export default AlertsWithLinks;`
 
-export default alertsWithLinksCode;
+export default alertsWithLinksCode

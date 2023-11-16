@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO base styles
-import colors from "assets/theme/base/colors";
-import borders from "assets/theme/base/borders";
-import boxShadows from "assets/theme/base/boxShadows";
+import colors from 'assets/theme/base/colors'
+import borders from 'assets/theme/base/borders'
+import boxShadows from 'assets/theme/base/boxShadows'
 
 // Otis Kit PRO helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
-import linearGradient from "assets/theme/functions/linearGradient";
+import pxToRem from 'assets/theme/functions/pxToRem'
+import linearGradient from 'assets/theme/functions/linearGradient'
 
-const { transparent, gradients } = colors;
-const { borderRadius } = borders;
-const { colored } = boxShadows;
+const { transparent, gradients } = colors
+const { borderRadius } = borders
+const { colored } = boxShadows
 
 export default {
   styleOverrides: {
@@ -34,9 +34,9 @@ export default {
       borderRadius: borderRadius.lg,
       boxShadow: colored.info,
 
-      "&.MuiPaper-root": {
-        backgroundColor: transparent.main,
-      },
-    },
-  },
-};
+      '&.MuiPaper-root': {
+        backgroundColor: transparent.main
+      }
+    }
+  }
+}

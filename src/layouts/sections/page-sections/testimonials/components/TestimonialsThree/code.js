@@ -85,6 +85,6 @@ function TestimonialsThree() {
   );
 }
 
-export default TestimonialsThree;`;
+export default TestimonialsThree;`
 
-export default testimonialsThreeCode;
+export default testimonialsThreeCode

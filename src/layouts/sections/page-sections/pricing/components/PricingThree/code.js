@@ -108,6 +108,6 @@ function PricingThree() {
   );
 }
 
-export default PricingThree;`;
+export default PricingThree;`
 
-export default featuresThreeCode;
+export default featuresThreeCode

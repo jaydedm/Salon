@@ -14,29 +14,29 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Divider from '@mui/material/Divider'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO components
-import MiniReviewCard from "examples/Cards/ReviewCards/MiniReviewCard";
+import MiniReviewCard from 'examples/Cards/ReviewCards/MiniReviewCard'
 
 // Images
-import review1 from "assets/images/team-3.jpg";
-import review2 from "assets/images/marie.jpg";
-import review3 from "assets/images/team-2.jpg";
-import apple from "assets/images/logos/gray-logos/logo-apple.svg";
-import facebook from "assets/images/logos/gray-logos/logo-facebook.svg";
-import behance from "assets/images/logos/gray-logos/logo-behance.svg";
-import spotify from "assets/images/logos/gray-logos/logo-spotify.svg";
-import coinbase from "assets/images/logos/gray-logos/logo-coinbase.svg";
-import pinterest from "assets/images/logos/gray-logos/logo-pinterest.svg";
+import review1 from 'assets/images/team-3.jpg'
+import review2 from 'assets/images/marie.jpg'
+import review3 from 'assets/images/team-2.jpg'
+import apple from 'assets/images/logos/gray-logos/logo-apple.svg'
+import facebook from 'assets/images/logos/gray-logos/logo-facebook.svg'
+import behance from 'assets/images/logos/gray-logos/logo-behance.svg'
+import spotify from 'assets/images/logos/gray-logos/logo-spotify.svg'
+import coinbase from 'assets/images/logos/gray-logos/logo-coinbase.svg'
+import pinterest from 'assets/images/logos/gray-logos/logo-pinterest.svg'
 
-function Testimonials() {
+function Testimonials () {
   return (
     <MKBox py={6}>
       <Container>
@@ -48,7 +48,7 @@ function Testimonials() {
           flexDirection="column"
           justifyContent="center"
           mx="auto"
-          sx={{ textAlign: "center" }}
+          sx={{ textAlign: 'center' }}
         >
           <MKTypography variant="h2" color="warning" textGradient>
             What random people
@@ -58,27 +58,27 @@ function Testimonials() {
           </MKTypography>
           <MKTypography variant="body2" color="text">
             That&apos;s the main thing people are controlled by! Thoughts- their perception of
-            themselves!{" "}
+            themselves!{' '}
           </MKTypography>
         </Grid>
         <Grid container spacing={3} mt={8}>
           <Grid item xs={12} md={8} lg={4}>
             <MiniReviewCard
               review="If you have the opportunity to play this game of life you need to appreciate every moment."
-              author={{ image: review1, name: "Mathew Glock", date: "Posted on 28 February" }}
+              author={{ image: review1, name: 'Mathew Glock', date: 'Posted on 28 February' }}
             />
           </Grid>
           <Grid item xs={12} md={8} lg={4}>
             <MiniReviewCard
               color="warning"
               review="If you have the opportunity to play this game of life you need to appreciate every moment."
-              author={{ image: review2, name: "Mathew Glock", date: "Posted on 28 February" }}
+              author={{ image: review2, name: 'Mathew Glock', date: 'Posted on 28 February' }}
             />
           </Grid>
           <Grid item xs={12} md={8} lg={4}>
             <MiniReviewCard
               review="If you have the opportunity to play this game of life you need to appreciate every moment."
-              author={{ image: review3, name: "Mathew Glock", date: "Posted on 28 February" }}
+              author={{ image: review3, name: 'Mathew Glock', date: 'Posted on 28 February' }}
             />
           </Grid>
         </Grid>
@@ -105,7 +105,7 @@ function Testimonials() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Testimonials;
+export default Testimonials

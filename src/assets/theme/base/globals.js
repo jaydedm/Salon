@@ -14,26 +14,26 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO Base Styles
-import colors from "assets/theme/base/colors";
+import colors from 'assets/theme/base/colors'
 
-const { info, dark } = colors;
+const { info, dark } = colors
 
 export default {
   html: {
-    scrollBehavior: "smooth",
+    scrollBehavior: 'smooth'
   },
-  "*, *::before, *::after": {
+  '*, *::before, *::after': {
     margin: 0,
-    padding: 0,
+    padding: 0
   },
-  "a, a:link, a:visited": {
-    textDecoration: "none !important",
+  'a, a:link, a:visited': {
+    textDecoration: 'none !important'
   },
-  "a.link, .link, a.link:link, .link:link, a.link:visited, .link:visited": {
+  'a.link, .link, a.link:link, .link:link, a.link:visited, .link:visited': {
     color: `${dark.main} !important`,
-    transition: "color 150ms ease-in !important",
+    transition: 'color 150ms ease-in !important'
   },
-  "a.link:hover, .link:hover, a.link:focus, .link:focus": {
-    color: `${info.main} !important`,
-  },
-};
+  'a.link:hover, .link:hover, a.link:focus, .link:focus': {
+    color: `${info.main} !important`
+  }
+}

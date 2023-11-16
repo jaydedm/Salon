@@ -18,6 +18,6 @@ function InputDisabled() {
   );
 }
 
-export default InputDisabled;`;
+export default InputDisabled;`
 
-export default inputDisabledCode;
+export default inputDisabledCode

@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import ColoredBackgroundCard from "examples/Cards/BackgroundCards/ColoredBackgroundCard";
+import ColoredBackgroundCard from 'examples/Cards/BackgroundCards/ColoredBackgroundCard'
 
-function ApplicationOne() {
+function ApplicationOne () {
   return (
     <MKBox component="section" py={6}>
       <Container>
@@ -59,9 +59,9 @@ function ApplicationOne() {
               description="Don't be scared of the truth because we need to restart the human foundation in
                     truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design."
               action={{
-                type: "internal",
-                route: "/sections/page-sections/applications",
-                label: "get started",
+                type: 'internal',
+                route: '/sections/page-sections/applications',
+                label: 'get started'
               }}
             />
           </Grid>
@@ -74,9 +74,9 @@ function ApplicationOne() {
               description="As we live, our hearts turn colder. Cause pain is what we go through as we
                     become older. We get insulted by others, lose trust for those others."
               action={{
-                type: "internal",
-                route: "/sections/page-sections/applications",
-                label: "get started",
+                type: 'internal',
+                route: '/sections/page-sections/applications',
+                label: 'get started'
               }}
             />
           </Grid>
@@ -89,16 +89,16 @@ function ApplicationOne() {
               description="If you have the opportunity to play this game of life you need to appreciate
                     every moment. A lot of people don’t appreciate the moment until it’s passed."
               action={{
-                type: "internal",
-                route: "/sections/page-sections/applications",
-                label: "get started",
+                type: 'internal',
+                route: '/sections/page-sections/applications',
+                label: 'get started'
               }}
             />
           </Grid>
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default ApplicationOne;
+export default ApplicationOne

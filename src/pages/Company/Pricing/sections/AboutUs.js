@@ -14,47 +14,47 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function AboutUs() {
+function AboutUs () {
   const data = [
     {
-      icon: "credit_card",
-      title: "Global payments in a single integration",
-      items: ["120+ global currenices", "Global payment"],
+      icon: 'credit_card',
+      title: 'Global payments in a single integration',
+      items: ['120+ global currenices', 'Global payment']
     },
     {
-      icon: "support_agent",
-      title: "24/7 email, phone and chat support",
-      items: ["24/7 support", "Fast responses"],
+      icon: 'support_agent',
+      title: '24/7 email, phone and chat support',
+      items: ['24/7 support', 'Fast responses']
     },
     {
-      icon: "biotech",
-      title: "Working with the latest technologies",
-      items: ["Custom apps", "Best technologies"],
+      icon: 'biotech',
+      title: 'Working with the latest technologies',
+      items: ['Custom apps', 'Best technologies']
     },
     {
-      icon: "bolt",
-      title: "Fast and secure payments over the world",
-      items: ["Full time access", "Transparent transactions"],
+      icon: 'bolt',
+      title: 'Fast and secure payments over the world',
+      items: ['Full time access', 'Transparent transactions']
     },
     {
-      icon: "receipt_long",
-      title: "Financial reconciliation and reporting",
-      items: ["5.000+ archives", "Real-time reporting"],
+      icon: 'receipt_long',
+      title: 'Financial reconciliation and reporting',
+      items: ['5.000+ archives', 'Real-time reporting']
     },
     {
-      icon: "group",
-      title: "Developer platform and third-party integrations",
-      items: ["Over 100 extensions", "Developer Dashboard"],
-    },
-  ];
+      icon: 'group',
+      title: 'Developer platform and third-party integrations',
+      items: ['Over 100 extensions', 'Developer Dashboard']
+    }
+  ]
 
   return (
     <MKBox component="section" py={12} px={1}>
@@ -80,7 +80,7 @@ function AboutUs() {
                 {items.map((item) => (
                   <MKBox key={item} display="flex" lineHeight={1.25}>
                     <MKTypography variant="body1" color="info">
-                      <Icon sx={{ fontWeight: "bold" }}>done</Icon>
+                      <Icon sx={{ fontWeight: 'bold' }}>done</Icon>
                     </MKTypography>
                     <MKBox pl={2}>
                       <MKTypography variant="button" color="text" fontWeight="bold">
@@ -95,7 +95,7 @@ function AboutUs() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default AboutUs;
+export default AboutUs

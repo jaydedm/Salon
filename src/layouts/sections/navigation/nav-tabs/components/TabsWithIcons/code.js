@@ -27,6 +27,6 @@ function TabsWithIcons() {
   );
 }
 
-export default TabsWithIcons;`;
+export default TabsWithIcons;`
 
-export default tabsWithIconCode;
+export default tabsWithIconCode

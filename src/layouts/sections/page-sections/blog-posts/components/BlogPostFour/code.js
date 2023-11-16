@@ -67,6 +67,6 @@ function BlogPostFour() {
   );
 }
 
-export default BlogPostFour;`;
+export default BlogPostFour;`
 
-export default BlogPostFourCode;
+export default BlogPostFourCode

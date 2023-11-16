@@ -18,6 +18,6 @@ function InputSuccess() {
   );
 }
 
-export default InputSuccess;`;
+export default InputSuccess;`
 
-export default inputSuccessCode;
+export default inputSuccessCode

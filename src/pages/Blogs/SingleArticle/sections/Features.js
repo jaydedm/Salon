@@ -14,41 +14,41 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function Features() {
+function Features () {
   const data = [
     {
-      icon: "credit_card",
-      name: "Modular Components",
+      icon: 'credit_card',
+      name: 'Modular Components'
     },
     {
-      icon: "history_edu",
-      name: "Great Features",
+      icon: 'history_edu',
+      name: 'Great Features'
     },
     {
-      icon: "developer_mode",
-      name: "Modern Frameworks",
+      icon: 'developer_mode',
+      name: 'Modern Frameworks'
     },
     {
-      icon: "history",
-      name: "24/7 Support",
+      icon: 'history',
+      name: '24/7 Support'
     },
     {
-      icon: "support",
-      name: "Awesome Support",
+      icon: 'support',
+      name: 'Awesome Support'
     },
     {
-      icon: "contacts",
-      name: "Modern Interface",
-    },
-  ];
+      icon: 'contacts',
+      name: 'Modern Interface'
+    }
+  ]
 
   return (
     <MKBox component="section" py={8}>
@@ -67,7 +67,7 @@ function Features() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Features;
+export default Features

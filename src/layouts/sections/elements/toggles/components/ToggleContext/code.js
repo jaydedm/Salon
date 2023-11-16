@@ -35,6 +35,6 @@ function ToggleContext() {
   );
 }
 
-export default ToggleContext;`;
+export default ToggleContext;`
 
-export default toggleContextCode;
+export default toggleContextCode

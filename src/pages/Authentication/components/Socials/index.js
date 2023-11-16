@@ -14,10 +14,10 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO components
-import MKButton from "components/MKButton";
-import MKBox from "components/MKBox";
+import MKButton from 'components/MKButton'
+import MKBox from 'components/MKBox'
 
-function Socials() {
+function Socials () {
   return (
     <MKBox display="flex" justifyContent="center">
       <MKButton variant="outlined" color="light" sx={{ py: 1.75, px: 1.25 }}>
@@ -46,7 +46,7 @@ function Socials() {
       </MKBox>
       <MKButton variant="outlined" color="light" sx={{ py: 1.75, px: 1.25 }}>
         <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1">
-          {" "}
+          {' '}
           <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g transform="translate(3.000000, 2.000000)" fillRule="nonzero">
               <path
@@ -70,7 +70,7 @@ function Socials() {
         </svg>
       </MKButton>
     </MKBox>
-  );
+  )
 }
 
-export default Socials;
+export default Socials

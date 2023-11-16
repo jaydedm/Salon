@@ -30,6 +30,6 @@ function CardWithColoredShadow() {
   );
 }
 
-export default CardWithColoredShadow;`;
+export default CardWithColoredShadow;`
 
-export default cardWithColoredShadowCode;
+export default cardWithColoredShadowCode

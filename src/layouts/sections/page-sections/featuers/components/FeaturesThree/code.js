@@ -64,6 +64,6 @@ function FeaturesThree() {
   );
 }
 
-export default FeaturesThree;`;
+export default FeaturesThree;`
 
-export default featuresThreeCode;
+export default featuresThreeCode

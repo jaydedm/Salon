@@ -30,6 +30,6 @@ function AvatarGroup() {
   );
 }
 
-export default AvatarGroup;`;
+export default AvatarGroup;`
 
-export default avatarGroupCode;
+export default avatarGroupCode

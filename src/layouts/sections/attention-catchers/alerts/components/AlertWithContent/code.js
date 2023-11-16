@@ -38,6 +38,6 @@ function AlertWithContent() {
   );
 }
 
-export default AlertWithContent;`;
+export default AlertWithContent;`
 
-export default alertWithContentCode;
+export default alertWithContentCode

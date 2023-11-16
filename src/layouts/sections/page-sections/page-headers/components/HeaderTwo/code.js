@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 const bgImage =
-  "`${linearGradient(rgba(gradients.info.main, 0.5), rgba(gradients.info.state, 0.5))}, url(${bgImage})`";
+  '`${linearGradient(rgba(gradients.info.main, 0.5), rgba(gradients.info.state, 0.5))}, url(${bgImage})`'
 
 const headerTwoCode = `import { useEffect, useRef } from "react";
 
@@ -197,6 +197,6 @@ function HeaderTwo() {
   );
 }
 
-export default HeaderTwo;`;
+export default HeaderTwo;`
 
-export default headerTwoCode;
+export default headerTwoCode

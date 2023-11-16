@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import AboutUs from "pages/Company/AboutUs";
+import AboutUs from 'pages/Company/AboutUs'
 
-export default function AboutUsPage() {
-  return <AboutUs />;
+export default function AboutUsPage () {
+  return <AboutUs />
 }

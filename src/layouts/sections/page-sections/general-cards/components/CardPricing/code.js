@@ -30,6 +30,6 @@ function CardPricing() {
   );
 }
 
-export default CardPricing;`;
+export default CardPricing;`
 
-export default cardPricingCode;
+export default cardPricingCode

@@ -14,23 +14,23 @@ Coded by www.creative-tim.com
 */
 
 // react-router components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Card from "@mui/material/Card";
-import MuiLink from "@mui/material/Link";
+import Card from '@mui/material/Card'
+import MuiLink from '@mui/material/Link'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKButton from 'components/MKButton'
 
-function CenteredBlogCard({ image, title, description, action }) {
+function CenteredBlogCard ({ image, title, description, action }) {
   return (
-    <Card sx={{background: '#e8d4d4'}}>
+    <Card sx={{ background: '#e8d4d4' }}>
       <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>
         <MKBox
           component="img"
@@ -51,9 +51,9 @@ function CenteredBlogCard({ image, title, description, action }) {
           top={0}
           sx={{
             backgroundImage: `url(${image})`,
-            transform: "scale(0.94)",
-            filter: "blur(12px)",
-            backgroundSize: "cover",
+            transform: 'scale(0.94)',
+            filter: 'blur(12px)',
+            backgroundSize: 'cover'
           }}
         />
       </MKBox>
@@ -66,7 +66,8 @@ function CenteredBlogCard({ image, title, description, action }) {
             {description}
           </MKTypography>
         </MKBox>
-        {action.type === "external" ? (
+        {action.type === 'external'
+          ? (
           <MKButton
             component={MuiLink}
             href={action.route}
@@ -74,24 +75,26 @@ function CenteredBlogCard({ image, title, description, action }) {
             rel="noreferrer"
             variant="gradient"
             size="small"
-            color={action.color ? action.color : "dark"}
+            color={action.color ? action.color : 'dark'}
+            sx={{ color: 'white' }}
           >
             {action.label}
           </MKButton>
-        ) : (
+            )
+          : (
           <MKButton
             component={Link}
             to={action.route}
             variant="gradient"
             size="small"
-            color={action.color ? action.color : "dark"}
+            color={action.color ? action.color : 'dark'}
           >
             {action.label}
           </MKButton>
-        )}
+            )}
       </MKBox>
     </Card>
-  );
+  )
 }
 
 // Typechecking props for the CenteredBlogCard
@@ -100,20 +103,20 @@ CenteredBlogCard.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   action: PropTypes.shape({
-    type: PropTypes.oneOf(["external", "internal"]).isRequired,
+    type: PropTypes.oneOf(['external', 'internal']).isRequired,
     route: PropTypes.string.isRequired,
     color: PropTypes.oneOf([
-      "primary",
-      "secondary",
-      "info",
-      "success",
-      "warning",
-      "error",
-      "dark",
-      "light",
+      'primary',
+      'secondary',
+      'info',
+      'success',
+      'warning',
+      'error',
+      'dark',
+      'light'
     ]),
-    label: PropTypes.string.isRequired,
-  }).isRequired,
-};
+    label: PropTypes.string.isRequired
+  }).isRequired
+}
 
-export default CenteredBlogCard;
+export default CenteredBlogCard

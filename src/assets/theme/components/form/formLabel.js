@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO base styles
-import colors from "assets/theme/base/colors";
+import colors from 'assets/theme/base/colors'
 
-const { text } = colors;
+const { text } = colors
 
 export default {
   styleOverrides: {
     root: {
-      color: text.main,
-    },
-  },
-};
+      color: text.main
+    }
+  }
+}

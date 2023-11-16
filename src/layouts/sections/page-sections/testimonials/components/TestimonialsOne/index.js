@@ -14,29 +14,29 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Divider from '@mui/material/Divider'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
+import DefaultReviewCard from 'examples/Cards/ReviewCards/DefaultReviewCard'
 
 // Images
-import team1 from "assets/images/team-3.jpg";
-import team2 from "assets/images/marie.jpg";
-import team3 from "assets/images/team-2.jpg";
-import appleLogo from "assets/images/logos/gray-logos/logo-apple.svg";
-import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
-import behanceLogo from "assets/images/logos/gray-logos/logo-behance.svg";
-import spotifyLogo from "assets/images/logos/gray-logos/logo-spotify.svg";
-import coinbaseLogo from "assets/images/logos/gray-logos/logo-coinbase.svg";
-import pinterestLogo from "assets/images/logos/gray-logos/logo-pinterest.svg";
+import team1 from 'assets/images/team-3.jpg'
+import team2 from 'assets/images/marie.jpg'
+import team3 from 'assets/images/team-2.jpg'
+import appleLogo from 'assets/images/logos/gray-logos/logo-apple.svg'
+import facebookLogo from 'assets/images/logos/gray-logos/logo-facebook.svg'
+import behanceLogo from 'assets/images/logos/gray-logos/logo-behance.svg'
+import spotifyLogo from 'assets/images/logos/gray-logos/logo-spotify.svg'
+import coinbaseLogo from 'assets/images/logos/gray-logos/logo-coinbase.svg'
+import pinterestLogo from 'assets/images/logos/gray-logos/logo-pinterest.svg'
 
-function TestimonialsOne() {
+function TestimonialsOne () {
   return (
     <MKBox component="section" py={6}>
       <Container>
@@ -46,7 +46,7 @@ function TestimonialsOne() {
           </MKTypography>
           <MKTypography variant="body2" color="text" mb={2}>
             That&apos;s the main thing people are controlled by! Thoughts - their perception of
-            themselves!{" "}
+            themselves!{' '}
           </MKTypography>
         </Grid>
         <Grid container spacing={3} mt={8}>
@@ -102,7 +102,7 @@ function TestimonialsOne() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default TestimonialsOne;
+export default TestimonialsOne

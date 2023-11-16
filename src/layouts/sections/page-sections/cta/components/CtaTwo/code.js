@@ -52,6 +52,6 @@ function CtaTwo() {
   );
 }
 
-export default CtaTwo;`;
+export default CtaTwo;`
 
-export default ctaTwoCode;
+export default ctaTwoCode

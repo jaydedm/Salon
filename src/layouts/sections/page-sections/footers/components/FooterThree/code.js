@@ -47,6 +47,6 @@ function FooterThress() {
   return <CenteredFooter company={company} links={links} socials={socials} />;
 }
 
-export default FooterThress;`;
+export default FooterThress;`
 
-export default footerThreeCode;
+export default footerThreeCode

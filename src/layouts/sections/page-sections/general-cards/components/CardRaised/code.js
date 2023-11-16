@@ -30,6 +30,6 @@ function CardRaised() {
   );
 }
 
-export default CardRaised;`;
+export default CardRaised;`
 
-export default cardRaisedCode;
+export default cardRaisedCode

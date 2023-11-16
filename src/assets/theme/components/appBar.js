@@ -15,12 +15,12 @@ Coded by www.creative-tim.com
 
 export default {
   defaultProps: {
-    color: "transparent",
+    color: 'transparent'
   },
 
   styleOverrides: {
     root: {
-      boxShadow: "none",
-    },
-  },
-};
+      boxShadow: 'none'
+    }
+  }
+}

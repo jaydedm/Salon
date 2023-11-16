@@ -15,18 +15,18 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import InputAdornment from "@mui/material/InputAdornment";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import InputAdornment from '@mui/material/InputAdornment'
 
 // @mui icons
-import SearchIcon from "@mui/icons-material/Search";
+import SearchIcon from '@mui/icons-material/Search'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
+import MKBox from 'components/MKBox'
+import MKInput from 'components/MKInput'
 
-function InputIcon() {
+function InputIcon () {
   return (
     <MKBox component="section" py={12}>
       <Container>
@@ -40,13 +40,13 @@ function InputIcon() {
                 <InputAdornment position="start">
                   <SearchIcon fontSize="small" />
                 </InputAdornment>
-              ),
+              )
             }}
           />
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default InputIcon;
+export default InputIcon

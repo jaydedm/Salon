@@ -21,6 +21,6 @@ function NavbarTransparent() {
   );
 }
 
-export default NavbarTransparent;`;
+export default NavbarTransparent;`
 
-export default navbarTransparentCode;
+export default navbarTransparentCode

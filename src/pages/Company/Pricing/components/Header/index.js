@@ -14,21 +14,21 @@ Coded by www.creative-tim.com
 */
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Card from '@mui/material/Card'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
+import FilledInfoCard from 'examples/Cards/InfoCards/FilledInfoCard'
 
-function Header({ image, label, title, description, cards }) {
+function Header ({ image, label, title, description, cards }) {
   return (
     <>
       <MKBox
@@ -40,10 +40,10 @@ function Header({ image, label, title, description, cards }) {
               rgba(gradients.dark.main, 0.8),
               rgba(gradients.dark.state, 0.8)
             )}, url(${image})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "grid",
-          placeItems: "center",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          display: 'grid',
+          placeItems: 'center'
         }}
       >
         <Container>
@@ -64,9 +64,9 @@ function Header({ image, label, title, description, cards }) {
               color="white"
               mb={1}
               sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
+                [breakpoints.down('md')]: {
+                  fontSize: size['3xl']
+                }
               })}
             >
               {title}
@@ -83,7 +83,7 @@ function Header({ image, label, title, description, cards }) {
           mx: { xs: 2, lg: 3 },
           mt: -8,
           mb: 4,
-          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+          boxShadow: ({ boxShadows: { xxl } }) => xxl
         }}
       >
         <Grid container spacing={2}>
@@ -96,9 +96,9 @@ function Header({ image, label, title, description, cards }) {
                 title={cardTitle}
                 description={cardDescription}
                 action={{
-                  type: "internal",
-                  route: "/pages/company/about-us",
-                  label: "More about us",
+                  type: 'internal',
+                  route: '/pages/company/about-us',
+                  label: 'More about us'
                 }}
               />
             </Grid>
@@ -106,7 +106,7 @@ function Header({ image, label, title, description, cards }) {
         </Grid>
       </Card>
     </>
-  );
+  )
 }
 
 // Typechecking props for the Header
@@ -115,7 +115,7 @@ Header.propTypes = {
   label: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  cards: PropTypes.instanceOf(Array).isRequired,
-};
+  cards: PropTypes.instanceOf(Array).isRequired
+}
 
-export default Header;
+export default Header

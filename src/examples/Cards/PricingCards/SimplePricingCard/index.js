@@ -14,34 +14,34 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Card from "@mui/material/Card";
-import Icon from "@mui/material/Icon";
-import Divider from "@mui/material/Divider";
+import Card from '@mui/material/Card'
+import Icon from '@mui/material/Icon'
+import Divider from '@mui/material/Divider'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKButton from 'components/MKButton'
 
-function SimplePricingCard({ variant, color, title, description, price, specifications, action }) {
-  let titleColor = "white";
-  let priceColor = "white";
-  let buttonColor = "white";
+function SimplePricingCard ({ variant, color, title, description, price, specifications, action }) {
+  let titleColor = 'white'
+  let priceColor = 'white'
+  let buttonColor = 'white'
 
-  if (variant === "contained") {
-    titleColor = color;
-    priceColor = color;
-    buttonColor = color;
-  } else if (variant === "gradient" && color === "light") {
-    titleColor = "dark";
-    priceColor = "dark";
-    buttonColor = "dark";
+  if (variant === 'contained') {
+    titleColor = color
+    priceColor = color
+    buttonColor = color
+  } else if (variant === 'gradient' && color === 'light') {
+    titleColor = 'dark'
+    priceColor = 'dark'
+    buttonColor = 'dark'
   }
 
   const renderSpecifications = specifications.map((specification) => (
@@ -63,20 +63,20 @@ function SimplePricingCard({ variant, color, title, description, price, specific
       <MKTypography
         variant="button"
         color={
-          variant === "contained" || (variant === "gradient" && color === "light")
-            ? "text"
-            : "white"
+          variant === 'contained' || (variant === 'gradient' && color === 'light')
+            ? 'text'
+            : 'white'
         }
         fontWeight="regular"
       >
         {specification}
       </MKTypography>
     </MKBox>
-  ));
+  ))
 
   return (
-    <Card sx={{ width: "100%", height: "100%", overflow: "hidden" }}>
-      <MKBox variant={variant} bgColor={variant === "gradient" ? color : "white"} height="100%">
+    <Card sx={{ width: '100%', height: '100%', overflow: 'hidden' }}>
+      <MKBox variant={variant} bgColor={variant === 'gradient' ? color : 'white'} height="100%">
         <MKBox p={3} lineHeight={1}>
           <MKTypography variant="h5" fontWeight="bold" color={titleColor} mb={0.5}>
             {title}
@@ -84,9 +84,9 @@ function SimplePricingCard({ variant, color, title, description, price, specific
           <MKTypography
             variant="button"
             color={
-              variant === "contained" || (variant === "gradient" && color === "light")
-                ? "text"
-                : "white"
+              variant === 'contained' || (variant === 'gradient' && color === 'light')
+                ? 'text'
+                : 'white'
             }
             mb={2}
           >
@@ -100,24 +100,25 @@ function SimplePricingCard({ variant, color, title, description, price, specific
                 component="small"
                 variant="h6"
                 color={
-                  variant === "contained" || (variant === "gradient" && color === "light")
-                    ? "secondary"
-                    : "white"
+                  variant === 'contained' || (variant === 'gradient' && color === 'light')
+                    ? 'secondary'
+                    : 'white'
                 }
                 sx={{
-                  fontFamily: ({ typography: { h1 } }) => h1.fontFamily,
+                  fontFamily: ({ typography: { h1 } }) => h1.fontFamily
                 }}
               >
                 / {price.type}
               </MKTypography>
             )}
           </MKTypography>
-          {action.type === "internal" ? (
+          {action.type === 'internal'
+            ? (
             <MKBox mt={3}>
               <MKButton
                 component={Link}
                 to={action.route}
-                variant={variant === "gradient" ? "contained" : "gradient"}
+                variant={variant === 'gradient' ? 'contained' : 'gradient'}
                 size="small"
                 color={buttonColor}
                 fullWidth
@@ -125,14 +126,15 @@ function SimplePricingCard({ variant, color, title, description, price, specific
                 {action.label}
               </MKButton>
             </MKBox>
-          ) : (
+              )
+            : (
             <MKBox mt={3}>
               <MKButton
                 component="a"
                 href={action.route}
                 target="_blank"
                 rel="noreferrer"
-                variant={variant === "gradient" ? "contained" : "gradient"}
+                variant={variant === 'gradient' ? 'contained' : 'gradient'}
                 size="small"
                 color={buttonColor}
                 fullWidth
@@ -140,49 +142,49 @@ function SimplePricingCard({ variant, color, title, description, price, specific
                 {action.label}
               </MKButton>
             </MKBox>
-          )}
+              )}
         </MKBox>
         <Divider
-          light={variant === "gradient" || (variant === "gradient" && color === "light")}
-          sx={{ my: 0, opacity: variant === "gradient" ? 0.5 : 0.25 }}
+          light={variant === 'gradient' || (variant === 'gradient' && color === 'light')}
+          sx={{ my: 0, opacity: variant === 'gradient' ? 0.5 : 0.25 }}
         />
         <MKBox p={3}>{renderSpecifications}</MKBox>
       </MKBox>
     </Card>
-  );
+  )
 }
 
 // Setting default props for the SimplePricingCard
 SimplePricingCard.defaultProps = {
-  color: "dark",
-  variant: "contained",
-};
+  color: 'dark',
+  variant: 'contained'
+}
 
 // Typechecking props for the SimplePricingCard
 SimplePricingCard.propTypes = {
-  variant: PropTypes.oneOf(["contained", "gradient"]),
+  variant: PropTypes.oneOf(['contained', 'gradient']),
   color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "warning",
-    "error",
-    "light",
-    "dark",
+    'primary',
+    'secondary',
+    'info',
+    'success',
+    'warning',
+    'error',
+    'light',
+    'dark'
   ]),
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   price: PropTypes.shape({
     value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-    type: PropTypes.string,
+    type: PropTypes.string
   }).isRequired,
   specifications: PropTypes.instanceOf(Array).isRequired,
   action: PropTypes.shape({
-    type: PropTypes.oneOf(["external", "internal"]).isRequired,
+    type: PropTypes.oneOf(['external', 'internal']).isRequired,
     route: PropTypes.string.isRequired,
-    label: PropTypes.string.isRequired,
-  }).isRequired,
-};
+    label: PropTypes.string.isRequired
+  }).isRequired
+}
 
-export default SimplePricingCard;
+export default SimplePricingCard

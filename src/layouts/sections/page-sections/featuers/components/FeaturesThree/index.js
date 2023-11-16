@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import SimpleInfoCard from "examples/Cards/InfoCards/SimpleInfoCard";
+import SimpleInfoCard from 'examples/Cards/InfoCards/SimpleInfoCard'
 
-function FeaturesThree() {
+function FeaturesThree () {
   return (
     <MKBox component="section" py={12}>
       <Container>
@@ -43,7 +43,7 @@ function FeaturesThree() {
           </MKTypography>
           <MKTypography variant="body1" color="text">
             We&apos;re constantly trying to express ourselves and actualize our dreams. If you have
-            the opportunity to play{" "}
+            the opportunity to play{' '}
           </MKTypography>
         </Grid>
         <Grid container spacing={3}>
@@ -76,7 +76,7 @@ function FeaturesThree() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default FeaturesThree;
+export default FeaturesThree

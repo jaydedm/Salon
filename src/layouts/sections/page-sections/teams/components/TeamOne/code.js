@@ -116,6 +116,6 @@ function Team1() {
   );
 }
 
-export default Team1;`;
+export default Team1;`
 
-export default teamOneCode;
+export default teamOneCode

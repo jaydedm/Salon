@@ -104,6 +104,6 @@ function BlogPostOne() {
   );
 }
 
-export default BlogPostOne;`;
+export default BlogPostOne;`
 
-export default BlogPostOneCode;
+export default BlogPostOneCode

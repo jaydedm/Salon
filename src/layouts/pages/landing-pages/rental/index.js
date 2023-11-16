@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import Rental from "pages/LandingPages/Rental";
+import Rental from 'pages/LandingPages/Rental'
 
-export default function RentalPage() {
-  return <Rental />;
+export default function RentalPage () {
+  return <Rental />
 }

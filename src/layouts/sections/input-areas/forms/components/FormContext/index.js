@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Switch from "@mui/material/Switch";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Switch from '@mui/material/Switch'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKInput from 'components/MKInput'
+import MKButton from 'components/MKButton'
 
-function FormContext() {
+function FormContext () {
   return (
     <MKBox
       component="section"
@@ -34,21 +34,21 @@ function FormContext() {
       borderRadius="xl"
       mr={{ xs: 0, lg: -2 }}
       mb={{ xs: 0, lg: -2 }}
-      sx={{ overflow: { xs: "hidden", lg: "visible" }, placeItems: "center" }}
+      sx={{ overflow: { xs: 'hidden', lg: 'visible' }, placeItems: 'center' }}
     >
       <MKBox
         component="img"
         src="https://images.unsplash.com/photo-1539803442075-48618f39bb3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=963&amp;q=80"
         alt="lake house"
-        width={{ xs: "100%", lg: "50%" }}
-        height={{ xs: "100%", lg: "100%" }}
+        width={{ xs: '100%', lg: '50%' }}
+        height={{ xs: '100%', lg: '100%' }}
         position="absolute"
         right={0}
-        bottom={{ xs: "-25%", lg: "unset" }}
-        top={{ xs: 0, lg: "unset" }}
+        bottom={{ xs: '-25%', lg: 'unset' }}
+        top={{ xs: 0, lg: 'unset' }}
         sx={{
-          objectFit: "cover",
-          borderTopLeftRadius: ({ borders: { borderRadius } }) => ({ xs: 0, lg: borderRadius.lg }),
+          objectFit: 'cover',
+          borderTopLeftRadius: ({ borders: { borderRadius } }) => ({ xs: 0, lg: borderRadius.lg })
         }}
       />
       <Container>
@@ -64,11 +64,11 @@ function FormContext() {
               sx={{
                 backgroundColor: ({ functions: { rgba }, palette: { white } }) =>
                   rgba(white.main, 0.8),
-                backdropFilter: "saturate(200%) blur(30px)",
+                backdropFilter: 'saturate(200%) blur(30px)',
                 px: { xs: 3, sm: 6 },
                 py: { xs: 3, sm: 8 },
                 mb: { xs: 0, lg: 8 },
-                mt: { xs: 0, lg: -6 },
+                mt: { xs: 0, lg: -6 }
               }}
             >
               <MKTypography variant="h3" textAlign="center" mb={2}>
@@ -125,9 +125,9 @@ function FormContext() {
                         color="text"
                         fontWeight="regular"
                         htmlFor="flexSwitchCheckDefault"
-                        sx={{ userSelect: "none", cursor: "pointer" }}
+                        sx={{ userSelect: 'none', cursor: 'pointer' }}
                       >
-                        I agree to the{" "}
+                        I agree to the{' '}
                         <MKTypography component="a" href="#" variant="button" fontWeight="regular">
                           <u>Terms and Conditions</u>
                         </MKTypography>
@@ -147,7 +147,7 @@ function FormContext() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default FormContext;
+export default FormContext

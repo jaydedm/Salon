@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKAlert from "components/MKAlert";
+import MKBox from 'components/MKBox'
+import MKAlert from 'components/MKAlert'
 
-function SimpleAlerts() {
+function SimpleAlerts () {
   return (
     <MKBox component="section" py={6}>
       <Container>
@@ -53,7 +53,7 @@ function SimpleAlerts() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default SimpleAlerts;
+export default SimpleAlerts

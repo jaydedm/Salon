@@ -14,77 +14,79 @@ Coded by www.creative-tim.com
 */
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Icon from "@mui/material/Icon";
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function DefaultInfoCard({ color, icon, title, description, direction, small }) {
+function DefaultInfoCard ({ color, icon, title, description, direction, small }) {
   return (
-    <MKBox lineHeight={1} p={direction === "center" ? 2 : 0} textAlign={direction}>
-      {typeof icon === "string" ? (
+    <MKBox lineHeight={1} p={direction === 'center' ? 2 : 0} textAlign={direction}>
+      {typeof icon === 'string'
+        ? (
         <MKTypography
           display="block"
-          variant={direction === "center" ? "h2" : "h3"}
+          variant={direction === 'center' ? 'h2' : 'h3'}
           color={color}
           textGradient
         >
-          {" "}
-          <Icon>{icon}</Icon>{" "}
+          {' '}
+          <Icon>{icon}</Icon>{' '}
         </MKTypography>
-      ) : (
-        icon
-      )}
+          )
+        : (
+            icon
+          )}
       <MKTypography
         display="block"
         variant="5"
         fontWeight="bold"
-        mt={direction === "center" ? 1 : 2}
+        mt={direction === 'center' ? 1 : 2}
         mb={1.5}
       >
         {title}
       </MKTypography>
       <MKTypography
         display="block"
-        variant={small ? "button" : "body2"}
+        variant={small ? 'button' : 'body2'}
         color="text"
-        pr={direction === "left" ? 6 : 0}
-        pl={direction === "right" ? 6 : 0}
+        pr={direction === 'left' ? 6 : 0}
+        pl={direction === 'right' ? 6 : 0}
       >
         {description}
       </MKTypography>
     </MKBox>
-  );
+  )
 }
 
 // Setting default props for the DefaultInfoCard
 DefaultInfoCard.defaultProps = {
-  color: "info",
-  direction: "left",
-  small: false,
-};
+  color: 'info',
+  direction: 'left',
+  small: false
+}
 
 // Typechecking props for the DefaultInfoCard
 DefaultInfoCard.propTypes = {
   color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "warning",
-    "error",
-    "light",
-    "dark",
+    'primary',
+    'secondary',
+    'info',
+    'success',
+    'warning',
+    'error',
+    'light',
+    'dark'
   ]),
   icon: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  direction: PropTypes.oneOf(["left", "right", "center"]),
-  small: PropTypes.bool,
-};
+  description: PropTypes.isRequired,
+  direction: PropTypes.oneOf(['left', 'right', 'center']),
+  small: PropTypes.bool
+}
 
-export default DefaultInfoCard;
+export default DefaultInfoCard

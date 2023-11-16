@@ -126,6 +126,6 @@ function Faq() {
   );
 }
 
-export default Faq;`;
+export default Faq;`
 
-export default faqCode;
+export default faqCode

@@ -14,25 +14,25 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // @mui material components
-import Card from "@mui/material/Card";
-import Checkbox from "@mui/material/Checkbox";
+import Card from '@mui/material/Card'
+import Checkbox from '@mui/material/Checkbox'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKInput from 'components/MKInput'
+import MKButton from 'components/MKButton'
 
 // Authentication layout components
-import CoverLayout from "pages/Authentication/components/CoverLayout";
+import CoverLayout from 'pages/Authentication/components/CoverLayout'
 
 // Images
-import bgImage from "assets/images/bg-sign-up-cover.jpeg";
+import bgImage from 'assets/images/bg-sign-up-cover.jpeg'
 
-function Cover() {
+function Cover () {
   return (
     <CoverLayout image={bgImage}>
       <Card>
@@ -71,7 +71,7 @@ function Cover() {
                 variant="button"
                 fontWeight="regular"
                 color="text"
-                sx={{ cursor: "pointer", userSelect: "none", ml: -1 }}
+                sx={{ cursor: 'pointer', userSelect: 'none', ml: -1 }}
               >
                 &nbsp;&nbsp;I agree the&nbsp;
               </MKTypography>
@@ -93,7 +93,7 @@ function Cover() {
             </MKBox>
             <MKBox mt={3} mb={1} textAlign="center">
               <MKTypography variant="button" color="text">
-                Already have an account?{" "}
+                Already have an account?{' '}
                 <MKTypography
                   component={Link}
                   to="/authentication/sign-in/cover"
@@ -110,7 +110,7 @@ function Cover() {
         </MKBox>
       </Card>
     </CoverLayout>
-  );
+  )
 }
 
-export default Cover;
+export default Cover

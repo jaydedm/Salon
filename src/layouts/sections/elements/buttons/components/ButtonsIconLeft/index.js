@@ -14,16 +14,16 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
 
-function ButtonsIconLeft() {
+function ButtonsIconLeft () {
   return (
     <MKBox component="section" py={12}>
       <Container>
@@ -45,7 +45,7 @@ function ButtonsIconLeft() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default ButtonsIconLeft;
+export default ButtonsIconLeft

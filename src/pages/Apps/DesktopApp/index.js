@@ -19,34 +19,34 @@ Coded by www.creative-tim.com
 // import Card from "@mui/material/Card";
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 // import MKTypography from "components/MKTypography";
 
 // Otis Kit PRO examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
+import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // DesktopApp page sections
-import Banner from "pages/Apps/DesktopApp/sections/Banner";
-import Information from "pages/Apps/DesktopApp/sections/Information";
-import Features from "pages/Apps/DesktopApp/sections/Features";
-import Testimonials from "pages/Apps/DesktopApp/sections/Testimonials";
-import Pricing from "pages/Apps/DesktopApp/sections/Pricing";
+import Banner from 'pages/Apps/DesktopApp/sections/Banner'
+import Information from 'pages/Apps/DesktopApp/sections/Information'
+import Features from 'pages/Apps/DesktopApp/sections/Features'
+import Testimonials from 'pages/Apps/DesktopApp/sections/Testimonials'
+import Pricing from 'pages/Apps/DesktopApp/sections/Pricing'
 
 // Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
+import routes from 'routes'
+import footerRoutes from 'footer.routes'
 
-function DesktopApp() {
+function DesktopApp () {
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "https://material-ui.com/store/items/otis-kit-pro-material-kit-react/",
-          label: "buy now",
-          color: "warning",
+          type: 'external',
+          route: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/',
+          label: 'buy now',
+          color: 'warning'
         }}
         transparent
         light
@@ -57,7 +57,7 @@ function DesktopApp() {
           width="100%"
           sx={{
             backgroundImage: ({ functions: { linearGradient }, palette: { gradients } }) =>
-              linearGradient(gradients.dark.main, gradients.dark.state),
+              linearGradient(gradients.dark.main, gradients.dark.state)
           }}
         />
         <Banner />
@@ -70,7 +70,7 @@ function DesktopApp() {
         </MKBox>
       </MKBox>
     </>
-  );
+  )
 }
 
-export default DesktopApp;
+export default DesktopApp

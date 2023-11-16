@@ -73,6 +73,6 @@ function FeaturesTwo() {
   );
 }
 
-export default FeaturesTwo;`;
+export default FeaturesTwo;`
 
-export default featuresTwoCode;
+export default featuresTwoCode

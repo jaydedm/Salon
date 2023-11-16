@@ -14,32 +14,32 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Card from "@mui/material/Card";
-import Tooltip from "@mui/material/Tooltip";
+import Card from '@mui/material/Card'
+import Tooltip from '@mui/material/Tooltip'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKAvatar from "components/MKAvatar";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKAvatar from 'components/MKAvatar'
 
 // Images
-import team1 from "assets/images/team-1.jpg";
-import team2 from "assets/images/team-2.jpg";
-import team3 from "assets/images/team-3.jpg";
-import team4 from "assets/images/team-4.jpg";
+import team1 from 'assets/images/team-1.jpg'
+import team2 from 'assets/images/team-2.jpg'
+import team3 from 'assets/images/team-3.jpg'
+import team4 from 'assets/images/team-4.jpg'
 
-function Messages() {
+function Messages () {
   const messagesAvatarStyles = {
     border: ({ borders: { borderWidth }, palette: { white } }) =>
       `${borderWidth[2]} solid ${white.main}`,
-    cursor: "pointer",
-    position: "relative",
+    cursor: 'pointer',
+    position: 'relative',
     ml: -1.5,
 
-    "&:hover, &:focus": {
-      zIndex: "10",
-    },
-  };
+    '&:hover, &:focus': {
+      zIndex: '10'
+    }
+  }
 
   return (
     <Card>
@@ -63,7 +63,7 @@ function Messages() {
         </MKBox>
       </MKBox>
     </Card>
-  );
+  )
 }
 
-export default Messages;
+export default Messages

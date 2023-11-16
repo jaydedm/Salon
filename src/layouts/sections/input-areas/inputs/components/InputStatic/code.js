@@ -24,6 +24,6 @@ function InputStatic() {
   );
 }
 
-export default InputStatic;`;
+export default InputStatic;`
 
-export default inputStaticCode;
+export default inputStaticCode

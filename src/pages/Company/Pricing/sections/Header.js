@@ -15,26 +15,26 @@ Coded by www.creative-tim.com
 */
 
 // SwiperJS
-import SwiperCore, { Autoplay, Navigation } from "swiper";
+import SwiperCore, { Autoplay, Navigation } from 'swiper'
 
 // SwiperJS react components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 // SwiperJS styles
-import "swiper/css";
-import "swiper/css/navigation";
+import 'swiper/css'
+import 'swiper/css/navigation'
 
 // Pricing page components
-import SliderHeader from "pages/Company/Pricing/components/Header";
+import SliderHeader from 'pages/Company/Pricing/components/Header'
 
 // Images
-import bg1 from "assets/images/bg2.jpg";
-import bg2 from "assets/images/bg.jpg";
-import bg3 from "assets/images/dg1.jpg";
+import bg1 from 'assets/images/bg2.jpg'
+import bg2 from 'assets/images/bg.jpg'
+import bg3 from 'assets/images/dg1.jpg'
 
-function Header() {
+function Header () {
   // install SwiperJS modules
-  SwiperCore.use([Autoplay, Navigation]);
+  SwiperCore.use([Autoplay, Navigation])
 
   return (
     <Swiper
@@ -53,29 +53,29 @@ function Header() {
           description="Wealth creation is an evolutionarily recent positive-sum game. Status is an old zero-sum game. Those attacking wealth creation are often just seeking status."
           cards={[
             {
-              variant: "gradient",
-              color: "info",
-              icon: "shuffle",
+              variant: 'gradient',
+              color: 'info',
+              icon: 'shuffle',
               title: "Netflix's 'Shuffle Play' feature",
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
             },
             {
-              variant: "contained",
-              color: "info",
-              icon: "redeem",
-              title: "Landbot closes $8M Series",
+              variant: 'contained',
+              color: 'info',
+              icon: 'redeem',
+              title: 'Landbot closes $8M Series',
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
             },
             {
-              variant: "contained",
-              color: "info",
-              icon: "bookmarks",
-              title: "Brave web browser",
+              variant: 'contained',
+              color: 'info',
+              icon: 'bookmarks',
+              title: 'Brave web browser',
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
-            },
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
+            }
           ]}
         />
       </SwiperSlide>
@@ -87,29 +87,29 @@ function Header() {
           description="Free people make free choices. Free choices mean you get unequal outcomes. You can have freedom, or you can have equal outcomes. You can’t have both."
           cards={[
             {
-              variant: "contained",
-              color: "primary",
-              icon: "shuffle_on",
+              variant: 'contained',
+              color: 'primary',
+              icon: 'shuffle_on',
               title: "Netflix's 'Shuffle Play' feature",
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
             },
             {
-              variant: "gradient",
-              color: "primary",
-              icon: "beenhere",
-              title: "Landbot closes $8M Series",
+              variant: 'gradient',
+              color: 'primary',
+              icon: 'beenhere',
+              title: 'Landbot closes $8M Series',
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
             },
             {
-              variant: "contained",
-              color: "primary",
-              icon: "ballot",
-              title: "Brave web browser",
+              variant: 'contained',
+              color: 'primary',
+              icon: 'ballot',
+              title: 'Brave web browser',
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
-            },
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
+            }
           ]}
         />
       </SwiperSlide>
@@ -121,34 +121,34 @@ function Header() {
           description="You’re spending time to save money when you should be spending money to save time."
           cards={[
             {
-              variant: "contained",
-              color: "error",
-              icon: "tune",
+              variant: 'contained',
+              color: 'error',
+              icon: 'tune',
               title: "Netflix's 'Shuffle Play' feature",
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
             },
             {
-              variant: "contained",
-              color: "error",
-              icon: "settings_suggest",
-              title: "Landbot closes $8M Series",
+              variant: 'contained',
+              color: 'error',
+              icon: 'settings_suggest',
+              title: 'Landbot closes $8M Series',
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
             },
             {
-              variant: "gradient",
-              color: "error",
-              icon: "compare",
-              title: "Brave web browser",
+              variant: 'gradient',
+              color: 'error',
+              icon: 'compare',
+              title: 'Brave web browser',
               description:
-                "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.",
-            },
+                'The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.'
+            }
           ]}
         />
       </SwiperSlide>
     </Swiper>
-  );
+  )
 }
 
-export default Header;
+export default Header

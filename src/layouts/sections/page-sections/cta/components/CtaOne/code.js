@@ -53,6 +53,6 @@ function StatsOne() {
   );
 }
 
-export default StatsOne;`;
+export default StatsOne;`
 
-export default ctaOneCode;
+export default ctaOneCode

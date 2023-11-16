@@ -14,22 +14,22 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKBadge from "components/MKBadge";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKBadge from 'components/MKBadge'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import SimplePricingCard from "examples/Cards/PricingCards/SimplePricingCard";
+import SimplePricingCard from 'examples/Cards/PricingCards/SimplePricingCard'
 
 // Images
-import bgPattern from "assets/images/shapes/pattern-lines.svg";
+import bgPattern from 'assets/images/shapes/pattern-lines.svg'
 
-function Pricing() {
+function Pricing () {
   return (
     <>
       <MKBox position="relative" variant="gradient" bgColor="info" mt={{ xs: 0, lg: 12 }} mx={-2}>
@@ -40,13 +40,13 @@ function Pricing() {
           position="absolute"
           top={0}
           left={0}
-          width={{ xs: "auto", lg: "100%" }}
-          height={{ xs: "100%", lg: "auto" }}
+          width={{ xs: 'auto', lg: '100%' }}
+          height={{ xs: '100%', lg: 'auto' }}
           opacity={0.6}
         />
         <Container>
           <Grid container justifyContent="center" sx={{ pt: 6, pb: 18 }}>
-            <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
+            <Grid item xs={12} md={7} sx={{ textAlign: 'center' }}>
               <MKBadge badgeContent="pricing" color="dark" size="sm" container sx={{ mb: 1 }} />
               <MKTypography variant="h3" color="white" mb={1}>
                 Ready to get Material Kit?
@@ -67,15 +67,15 @@ function Pricing() {
                 color="dark"
                 title="Freelancer"
                 description="Good for a personal or client web/mobile app."
-                price={{ value: "$79" }}
-                action={{ type: "internal", route: "/", label: "buy now" }}
+                price={{ value: '$79' }}
+                action={{ type: 'internal', route: '/', label: 'buy now' }}
                 specifications={[
-                  "Complete documentation",
-                  "Full code",
-                  "Projects - 1",
-                  "Team Size - 1",
-                  "Support",
-                  "Free Updates - 6 months",
+                  'Complete documentation',
+                  'Full code',
+                  'Projects - 1',
+                  'Team Size - 1',
+                  'Support',
+                  'Free Updates - 6 months'
                 ]}
               />
             </Grid>
@@ -84,15 +84,15 @@ function Pricing() {
                 color="dark"
                 title="Startup"
                 description="Build your startup or client web/mobile app."
-                price={{ value: "$149" }}
-                action={{ type: "internal", route: "/", label: "buy now" }}
+                price={{ value: '$149' }}
+                action={{ type: 'internal', route: '/', label: 'buy now' }}
                 specifications={[
-                  "Complete documentation",
-                  "Full code",
-                  "Projects - 1",
-                  "Team Size - up to 5",
-                  "Support",
-                  "Free Updates - 12 months",
+                  'Complete documentation',
+                  'Full code',
+                  'Projects - 1',
+                  'Team Size - up to 5',
+                  'Support',
+                  'Free Updates - 12 months'
                 ]}
               />
             </Grid>
@@ -102,16 +102,16 @@ function Pricing() {
                 color="dark"
                 title="Company"
                 description="Perfect for web/mobile apps or SaaS projects."
-                price={{ value: "$249" }}
-                action={{ type: "internal", route: "/", label: "buy now" }}
+                price={{ value: '$249' }}
+                action={{ type: 'internal', route: '/', label: 'buy now' }}
                 specifications={[
-                  "Complete documentation",
-                  "Full code",
-                  "Use in SaaS",
-                  "Projects - unlimited",
-                  "Team Size - up to 20",
-                  "Priority support",
-                  "Free Updates - 12 months",
+                  'Complete documentation',
+                  'Full code',
+                  'Use in SaaS',
+                  'Projects - unlimited',
+                  'Team Size - up to 20',
+                  'Priority support',
+                  'Free Updates - 12 months'
                 ]}
               />
             </Grid>
@@ -120,21 +120,21 @@ function Pricing() {
                 color="dark"
                 title="Enterprise"
                 description="Deploy large-scale projects which include redistribution rights."
-                price={{ value: "$599" }}
-                action={{ type: "internal", route: "/", label: "buy now" }}
+                price={{ value: '$599' }}
+                action={{ type: 'internal', route: '/', label: 'buy now' }}
                 specifications={[
-                  "Complete documentation",
-                  "Full code",
-                  "Use in SaaS",
-                  "Projects - unlimited",
-                  "Team Size - more than 20",
-                  "Priority support",
-                  "Free Updates - 24 months",
+                  'Complete documentation',
+                  'Full code',
+                  'Use in SaaS',
+                  'Projects - unlimited',
+                  'Team Size - more than 20',
+                  'Priority support',
+                  'Free Updates - 24 months'
                 ]}
               />
             </Grid>
           </Grid>
-          <Grid container item xs={12} flexDirection="column" sx={{ textAlign: "center" }}>
+          <Grid container item xs={12} flexDirection="column" sx={{ textAlign: 'center' }}>
             <MKTypography variant="body2" color="text" mt={6} mb={3} mx="auto">
               <Icon>lock</Icon> Secured Payment by <b>2Checkout</b> with:
             </MKTypography>
@@ -147,7 +147,7 @@ function Pricing() {
               &nbsp;
               <i className="fa fa-cc-amex fa-2x" />
             </MKTypography>
-            <MKTypography variant="body2" color="text" mx="auto" sx={{ maxWidth: "500px" }}>
+            <MKTypography variant="body2" color="text" mx="auto" sx={{ maxWidth: '500px' }}>
               <b>Info:</b> If you are a Registered Company inside the European Union you will be
               able to add your VAT ID after your Press &quot;Buy Now&quot;
             </MKTypography>
@@ -155,7 +155,7 @@ function Pricing() {
         </Container>
       </MKBox>
     </>
-  );
+  )
 }
 
-export default Pricing;
+export default Pricing

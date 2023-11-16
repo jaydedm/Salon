@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import SignInBasic from "pages/Authentication/SignIn/Basic";
+import SignInBasic from 'pages/Authentication/SignIn/Basic'
 
-export default function SignInBasicPage() {
-  return <SignInBasic />;
+export default function SignInBasicPage () {
+  return <SignInBasic />
 }

@@ -14,42 +14,42 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Card from '@mui/material/Card'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
+import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // HelpCenter page sections
-import SocialAnalytics from "pages/Support/HelpCenter/sections/SocialAnalytics";
-import Faq from "pages/Support/HelpCenter/sections/Faq";
-import Features from "pages/Support/HelpCenter/sections/Features";
-import Contact from "pages/Support/HelpCenter/sections/Contact";
+import SocialAnalytics from 'pages/Support/HelpCenter/sections/SocialAnalytics'
+import Faq from 'pages/Support/HelpCenter/sections/Faq'
+import Features from 'pages/Support/HelpCenter/sections/Features'
+import Contact from 'pages/Support/HelpCenter/sections/Contact'
 
 // Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
+import routes from 'routes'
+import footerRoutes from 'footer.routes'
 
 // Images
-import bgImage from "assets/images/bg3.jpg";
+import bgImage from 'assets/images/bg3.jpg'
 
-function HelpCenter() {
+function HelpCenter () {
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "https://material-ui.com/store/items/otis-kit-pro-material-kit-react/",
-          label: "buy now",
-          color: "info",
+          type: 'external',
+          route: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/',
+          label: 'buy now',
+          color: 'info'
         }}
         transparent
         light
@@ -63,10 +63,10 @@ function HelpCenter() {
               rgba(gradients.dark.main, 0.6),
               rgba(gradients.dark.state, 0.6)
             )}, url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "grid",
-          placeItems: "center",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          display: 'grid',
+          placeItems: 'center'
         }}
       >
         <Container>
@@ -78,16 +78,16 @@ function HelpCenter() {
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            sx={{ mx: "auto", textAlign: "center" }}
+            sx={{ mx: 'auto', textAlign: 'center' }}
           >
             <MKTypography
               variant="h2"
               color="white"
               mb={2}
               sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
+                [breakpoints.down('md')]: {
+                  fontSize: size['3xl']
+                }
               })}
             >
               How can we help you?
@@ -105,9 +105,9 @@ function HelpCenter() {
           mt: -8,
           mb: 4,
           backgroundColor: ({ palette: { white }, functions: { rgba } }) => rgba(white.main, 0.8),
-          backdropFilter: "saturate(200%) blur(30px)",
+          backdropFilter: 'saturate(200%) blur(30px)',
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
-          overflow: "hidden",
+          overflow: 'hidden'
         }}
       >
         <SocialAnalytics />
@@ -119,7 +119,7 @@ function HelpCenter() {
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
-  );
+  )
 }
 
-export default HelpCenter;
+export default HelpCenter

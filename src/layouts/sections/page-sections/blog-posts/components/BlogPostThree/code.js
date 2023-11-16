@@ -73,6 +73,6 @@ function BlogPostThree() {
   );
 }
 
-export default BlogPostThree;`;
+export default BlogPostThree;`
 
-export default BlogPostThreeCode;
+export default BlogPostThreeCode

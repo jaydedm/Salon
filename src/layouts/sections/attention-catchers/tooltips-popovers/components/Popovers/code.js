@@ -127,6 +127,6 @@ function Popovers() {
   );
 }
 
-export default Popovers;`;
+export default Popovers;`
 
-export default popoversCode;
+export default popoversCode

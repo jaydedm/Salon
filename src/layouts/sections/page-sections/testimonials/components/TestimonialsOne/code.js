@@ -90,6 +90,6 @@ function TestimonialsOne() {
   );
 }
 
-export default TestimonialsOne;`;
+export default TestimonialsOne;`
 
-export default testimonialOneCode;
+export default testimonialOneCode

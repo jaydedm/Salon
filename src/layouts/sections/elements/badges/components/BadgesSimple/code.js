@@ -28,6 +28,6 @@ function BadgesSimple() {
   );
 }
 
-export default BadgesSimple;`;
+export default BadgesSimple;`
 
-export default badgesSimpleCode;
+export default badgesSimpleCode

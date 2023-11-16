@@ -15,20 +15,20 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
-import Stack from "@mui/material/Stack";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Link from '@mui/material/Link'
+import Stack from '@mui/material/Stack'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from 'assets/images/bg-presentation.jpg'
 
-function HeaderThree() {
+function HeaderThree () {
   return (
     <MKBox component="header" position="relative" height="100%">
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
@@ -48,17 +48,17 @@ function HeaderThree() {
             <MKButton
               variant="outlined"
               color="white"
-              sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
+              sx={{ display: { xs: 'block', lg: 'none' }, ml: 'auto' }}
             >
               <MKBox component="i" color="white" className="fas fa-bars" />
             </MKButton>
             <MKBox
               component="ul"
-              display={{ xs: "none", lg: "flex" }}
+              display={{ xs: 'none', lg: 'flex' }}
               p={0}
               my={0}
               mx="auto"
-              sx={{ listStyle: "none" }}
+              sx={{ listStyle: 'none' }}
             >
               <MKBox component="li">
                 <MKTypography
@@ -114,8 +114,8 @@ function HeaderThree() {
               rgba(gradients.dark.main, 0.4),
               rgba(gradients.dark.state, 0.4)
             )}, url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
         }}
       >
         <Container>
@@ -134,9 +134,9 @@ function HeaderThree() {
               variant="h1"
               color="white"
               sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
+                [breakpoints.down('md')]: {
+                  fontSize: size['3xl']
+                }
               })}
               mb={3}
             >
@@ -187,7 +187,7 @@ function HeaderThree() {
         </Container>
       </MKBox>
     </MKBox>
-  );
+  )
 }
 
-export default HeaderThree;
+export default HeaderThree

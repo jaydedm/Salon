@@ -14,40 +14,40 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from 'react'
 
 // typed-js
-import * as Typed from "typed.js";
+import * as Typed from 'typed.js'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Link from '@mui/material/Link'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgImage from 'assets/images/bg-about-us.jpg'
 
-function HeaderTwo() {
-  const typedJSRef = useRef(null);
+function HeaderTwo () {
+  const typedJSRef = useRef(null)
 
   // Setting up typedJS
   useEffect(() => {
     const typedJS = new Typed(typedJSRef.current, {
-      strings: ["web design", "web development", "mobile development"],
+      strings: ['web design', 'web development', 'mobile development'],
       typeSpeed: 70,
       backSpeed: 70,
       backDelay: 200,
       startDelay: 500,
-      loop: true,
-    });
+      loop: true
+    })
 
-    return () => typedJS.destroy();
-  }, []);
+    return () => typedJS.destroy()
+  }, [])
 
   return (
     <MKBox component="header" position="relative" height="100%">
@@ -68,17 +68,17 @@ function HeaderTwo() {
             <MKButton
               variant="outlined"
               color="white"
-              sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
+              sx={{ display: { xs: 'block', lg: 'none' }, ml: 'auto' }}
             >
               <MKBox component="i" color="white" className="fas fa-bars" />
             </MKButton>
             <MKBox
               component="ul"
-              display={{ xs: "none", lg: "flex" }}
+              display={{ xs: 'none', lg: 'flex' }}
               p={0}
               my={0}
               mx="auto"
-              sx={{ listStyle: "none" }}
+              sx={{ listStyle: 'none' }}
             >
               <MKBox component="li">
                 <MKTypography
@@ -122,10 +122,10 @@ function HeaderTwo() {
             </MKBox>
             <MKBox
               component="ul"
-              display={{ xs: "none", lg: "flex" }}
+              display={{ xs: 'none', lg: 'flex' }}
               p={0}
               m={0}
-              sx={{ listStyle: "none" }}
+              sx={{ listStyle: 'none' }}
             >
               <MKBox component="li">
                 <MKTypography
@@ -174,8 +174,8 @@ function HeaderTwo() {
               rgba(gradients.info.main, 0.4),
               rgba(gradients.info.state, 0.4)
             )}, url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
         }}
       >
         <Container>
@@ -194,9 +194,9 @@ function HeaderTwo() {
               variant="h1"
               color="white"
               sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
+                [breakpoints.down('md')]: {
+                  fontSize: size['3xl']
+                }
               })}
             >
               Our company mission is to lead the <span ref={typedJSRef} />
@@ -210,7 +210,7 @@ function HeaderTwo() {
         </Container>
       </MKBox>
     </MKBox>
-  );
+  )
 }
 
-export default HeaderTwo;
+export default HeaderTwo

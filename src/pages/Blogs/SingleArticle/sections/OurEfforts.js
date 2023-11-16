@@ -14,16 +14,16 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function OurEfforts() {
+function OurEfforts () {
   const bgImage =
-    "https://images.unsplash.com/photo-1585975438803-350463f9c9b6?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1867&amp;q=80";
+    'https://images.unsplash.com/photo-1585975438803-350463f9c9b6?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1867&amp;q=80'
 
   return (
     <MKBox component="section">
@@ -36,7 +36,7 @@ function OurEfforts() {
               rgba(gradients.dark.main, 0.6),
               rgba(gradients.dark.state, 0.6)
             )}, url(${bgImage})`,
-          backgroundSize: "cover",
+          backgroundSize: 'cover'
         }}
       />
       <Container>
@@ -61,7 +61,7 @@ function OurEfforts() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default OurEfforts;
+export default OurEfforts

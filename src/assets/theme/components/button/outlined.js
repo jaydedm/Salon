@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO Base Styles
-import colors from "assets/theme/base/colors";
-import typography from "assets/theme/base/typography";
+import colors from 'assets/theme/base/colors'
+import typography from 'assets/theme/base/typography'
 
 // Otis Kit PRO Helper Functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from 'assets/theme/functions/pxToRem'
 
-const { transparent, light, info, secondary } = colors;
-const { size } = typography;
+const { transparent, light, info, secondary } = colors
+const { size } = typography
 
 export default {
   base: {
@@ -30,14 +30,14 @@ export default {
     borderColor: light.main,
     padding: `${pxToRem(10)} ${pxToRem(24)}`,
 
-    "&:hover": {
+    '&:hover': {
       opacity: 0.75,
-      backgroundColor: transparent.main,
+      backgroundColor: transparent.main
     },
 
-    "& .material-icon, .material-icons-round, svg": {
-      fontSize: `${pxToRem(16)} !important`,
-    },
+    '& .material-icon, .material-icons-round, svg': {
+      fontSize: `${pxToRem(16)} !important`
+    }
   },
 
   small: {
@@ -45,9 +45,9 @@ export default {
     padding: `${pxToRem(6)} ${pxToRem(16)}`,
     fontSize: size.xs,
 
-    "& .material-icon, .material-icons-round, svg": {
-      fontSize: `${pxToRem(12)} !important`,
-    },
+    '& .material-icon, .material-icons-round, svg': {
+      fontSize: `${pxToRem(12)} !important`
+    }
   },
 
   large: {
@@ -55,26 +55,26 @@ export default {
     padding: `${pxToRem(12)} ${pxToRem(28)}`,
     fontSize: size.sm,
 
-    "& .material-icon, .material-icons-round, svg": {
-      fontSize: `${pxToRem(22)} !important`,
-    },
+    '& .material-icon, .material-icons-round, svg': {
+      fontSize: `${pxToRem(22)} !important`
+    }
   },
 
   primary: {
     backgroundColor: transparent.main,
     borderColor: info.main,
 
-    "&:hover": {
-      backgroundColor: transparent.main,
-    },
+    '&:hover': {
+      backgroundColor: transparent.main
+    }
   },
 
   secondary: {
     backgroundColor: transparent.main,
     borderColor: secondary.main,
 
-    "&:hover": {
-      backgroundColor: transparent.main,
-    },
-  },
-};
+    '&:hover': {
+      backgroundColor: transparent.main
+    }
+  }
+}

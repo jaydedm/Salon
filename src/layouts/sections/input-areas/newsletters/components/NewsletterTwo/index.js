@@ -15,17 +15,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKInput from 'components/MKInput'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
-function NewsletterTwo() {
+function NewsletterTwo () {
   return (
     <MKBox component="section" py={20}>
       <Container>
@@ -78,7 +78,7 @@ function NewsletterTwo() {
                 <MKInput label="Your Email..." fullWidth />
               </Grid>
               <Grid item xs={12} sm={4}>
-                <MKButton variant="gradient" color="warning" fullWidth sx={{ height: "100%" }}>
+                <MKButton variant="gradient" color="warning" fullWidth sx={{ height: '100%' }}>
                   Subscribe
                 </MKButton>
               </Grid>
@@ -87,7 +87,7 @@ function NewsletterTwo() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default NewsletterTwo;
+export default NewsletterTwo

@@ -14,29 +14,29 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Autocomplete from "@mui/material/Autocomplete";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Autocomplete from '@mui/material/Autocomplete'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKInput from "components/MKInput";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKInput from 'components/MKInput'
 // import MKDatePicker from "components/MKDatePicker";
-import MKButton from "components/MKButton";
+import MKButton from 'components/MKButton'
 
-function Search() {
+function Search () {
   return (
     <MKBox component="section">
       <Container>
-        <Grid container spacing={{ xs: 0, lg: 3 }} sx={{ pt: 2, pb: 3, px: 2, mx: "auto" }}>
+        <Grid container spacing={{ xs: 0, lg: 3 }} sx={{ pt: 2, pb: 3, px: 2, mx: 'auto' }}>
           <Grid item xs={12} lg={3} sx={{ mt: 2 }}>
             <MKTypography display="block" variant="button" fontWeight="regular" color="text" mb={1}>
               Leave From
             </MKTypography>
             <Autocomplete
               defaultValue="Bucharest"
-              options={["Brazil", "Bucharest", "London", "USA"]}
+              options={['Brazil', 'Bucharest', 'London', 'USA']}
               renderInput={(params) => <MKInput {...params} variant="standard" />}
             />
           </Grid>
@@ -46,7 +46,7 @@ function Search() {
             </MKTypography>
             <Autocomplete
               defaultValue="Italy"
-              options={["Denmark", "Italy", "Poland", "Spain"]}
+              options={['Denmark', 'Italy', 'Poland', 'Spain']}
               renderInput={(params) => <MKInput {...params} variant="standard" />}
             />
           </Grid>
@@ -64,7 +64,7 @@ function Search() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Search;
+export default Search

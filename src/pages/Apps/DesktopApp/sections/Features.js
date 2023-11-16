@@ -14,26 +14,26 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+import DefaultInfoCard from 'examples/Cards/InfoCards/DefaultInfoCard'
 
 // Images
-import atlassian from "assets/images/logos/small-logos/logo-atlassian.svg";
-import asana from "assets/images/logos/small-logos/logo-asana.svg";
-import shopify from "assets/images/logos/small-logos/logo-shopify.svg";
-import invision from "assets/images/logos/small-logos/logo-invision.svg";
-import slack from "assets/images/logos/small-logos/logo-slack.svg";
-import webdev from "assets/images/logos/small-logos/logo-webdev.svg";
+import atlassian from 'assets/images/logos/small-logos/logo-atlassian.svg'
+import asana from 'assets/images/logos/small-logos/logo-asana.svg'
+import shopify from 'assets/images/logos/small-logos/logo-shopify.svg'
+import invision from 'assets/images/logos/small-logos/logo-invision.svg'
+import slack from 'assets/images/logos/small-logos/logo-slack.svg'
+import webdev from 'assets/images/logos/small-logos/logo-webdev.svg'
 
-function Features() {
+function Features () {
   return (
     <MKBox component="section" py={{ xs: 6, lg: 12 }}>
       <Container>
@@ -105,7 +105,7 @@ function Features() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Features;
+export default Features

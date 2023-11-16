@@ -14,20 +14,20 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
-import Stack from "@mui/material/Stack";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Link from '@mui/material/Link'
+import Stack from '@mui/material/Stack'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Images
-import bgImage from "assets/images/bg-coworking.jpeg";
+import bgImage from 'assets/images/bg-coworking.jpeg'
 
-function HeaderOne() {
+function HeaderOne () {
   return (
     <MKBox component="header" position="relative" height="100%">
       <MKBox component="nav" position="absolute" top="0.5rem" width="100%">
@@ -47,17 +47,17 @@ function HeaderOne() {
             <MKButton
               variant="outlined"
               color="white"
-              sx={{ display: { xs: "block", lg: "none" }, ml: "auto" }}
+              sx={{ display: { xs: 'block', lg: 'none' }, ml: 'auto' }}
             >
               <MKBox component="i" color="white" className="fas fa-bars" />
             </MKButton>
             <MKBox
               component="ul"
-              display={{ xs: "none", lg: "flex" }}
+              display={{ xs: 'none', lg: 'flex' }}
               p={0}
               my={0}
               mx="auto"
-              sx={{ listStyle: "none" }}
+              sx={{ listStyle: 'none' }}
             >
               <MKBox component="li">
                 <MKTypography
@@ -101,10 +101,10 @@ function HeaderOne() {
             </MKBox>
             <MKBox
               component="ul"
-              display={{ xs: "none", lg: "flex" }}
+              display={{ xs: 'none', lg: 'flex' }}
               p={0}
               m={0}
-              sx={{ listStyle: "none" }}
+              sx={{ listStyle: 'none' }}
             >
               <MKBox component="li">
                 <MKTypography
@@ -153,8 +153,8 @@ function HeaderOne() {
               rgba(gradients.dark.main, 0.5),
               rgba(gradients.dark.state, 0.5)
             )}, url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
         }}
       >
         <Container>
@@ -164,9 +164,9 @@ function HeaderOne() {
               color="white"
               mb={3}
               sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
+                [breakpoints.down('md')]: {
+                  fontSize: size['3xl']
+                }
               })}
             >
               Material Kit
@@ -185,7 +185,7 @@ function HeaderOne() {
         </Container>
       </MKBox>
     </MKBox>
-  );
+  )
 }
 
-export default HeaderOne;
+export default HeaderOne

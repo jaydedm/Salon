@@ -14,30 +14,30 @@ Coded by www.creative-tim.com
 */
 
 // Sections components
-import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+import BaseLayout from 'layouts/sections/components/BaseLayout'
+import View from 'layouts/sections/components/View'
 
 // GeneralCards page components
-import CardRaised from "layouts/sections/page-sections/general-cards/components/CardRaised";
-import CardImageInside from "layouts/sections/page-sections/general-cards/components/CardImageInside";
-import CardWithColoredShadow from "layouts/sections/page-sections/general-cards/components/CardWithColoredShadow";
-import CardRotate from "layouts/sections/page-sections/general-cards/components/CardRotate";
-import CardPricing from "layouts/sections/page-sections/general-cards/components/CardPricing";
+import CardRaised from 'layouts/sections/page-sections/general-cards/components/CardRaised'
+import CardImageInside from 'layouts/sections/page-sections/general-cards/components/CardImageInside'
+import CardWithColoredShadow from 'layouts/sections/page-sections/general-cards/components/CardWithColoredShadow'
+import CardRotate from 'layouts/sections/page-sections/general-cards/components/CardRotate'
+import CardPricing from 'layouts/sections/page-sections/general-cards/components/CardPricing'
 
 // GeneralCards page components code
-import cardRaisedCode from "layouts/sections/page-sections/general-cards/components/CardRaised/code";
-import cardImageInsideCode from "layouts/sections/page-sections/general-cards/components/CardImageInside/code";
-import cardWithColoredShadowCode from "layouts/sections/page-sections/general-cards/components/CardWithColoredShadow/code";
-import cardRotateCode from "layouts/sections/page-sections/general-cards/components/CardRotate/code";
-import cardPricingCode from "layouts/sections/page-sections/general-cards/components/CardPricing/code";
+import cardRaisedCode from 'layouts/sections/page-sections/general-cards/components/CardRaised/code'
+import cardImageInsideCode from 'layouts/sections/page-sections/general-cards/components/CardImageInside/code'
+import cardWithColoredShadowCode from 'layouts/sections/page-sections/general-cards/components/CardWithColoredShadow/code'
+import cardRotateCode from 'layouts/sections/page-sections/general-cards/components/CardRotate/code'
+import cardPricingCode from 'layouts/sections/page-sections/general-cards/components/CardPricing/code'
 
-function GeneralCards() {
+function GeneralCards () {
   return (
     <BaseLayout
       title="General Cards"
       breadcrumb={[
-        { label: "Page Sections", route: "/sections/page-sections/general-cards" },
-        { label: "General Cards" },
+        { label: 'Page Sections', route: '/sections/page-sections/general-cards' },
+        { label: 'General Cards' }
       ]}
     >
       <View title="Card Raised" code={cardRaisedCode}>
@@ -56,7 +56,7 @@ function GeneralCards() {
         <CardPricing />
       </View>
     </BaseLayout>
-  );
+  )
 }
 
-export default GeneralCards;
+export default GeneralCards

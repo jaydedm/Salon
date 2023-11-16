@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function Typography() {
+function Typography () {
   return (
     <MKBox component="section" py={8}>
       <Container>
@@ -160,7 +160,7 @@ function Typography() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Typography;
+export default Typography

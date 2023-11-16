@@ -14,18 +14,18 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Card from "@mui/material/Card";
-import Divider from "@mui/material/Divider";
-import Icon from "@mui/material/Icon";
-import Tooltip from "@mui/material/Tooltip";
+import Card from '@mui/material/Card'
+import Divider from '@mui/material/Divider'
+import Icon from '@mui/material/Icon'
+import Tooltip from '@mui/material/Tooltip'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function TodoList() {
+function TodoList () {
   return (
-    <Card sx={{ height: "100%", overflow: "hidden" }}>
+    <Card sx={{ height: '100%', overflow: 'hidden' }}>
       <MKBox p={3}>
         <MKBox display="flex" lineHeight={1}>
           <MKBox mr={2}>
@@ -76,16 +76,16 @@ function TodoList() {
         </MKBox>
       </MKBox>
       <MKBox bgColor="grey-100" mt="auto">
-        <Tooltip title="Show More" placement="top" sx={{ cursor: "pointer" }}>
+        <Tooltip title="Show More" placement="top" sx={{ cursor: 'pointer' }}>
           <MKBox textAlign="center" py={0.5} color="info" lineHeight={0}>
-            <Icon sx={{ fontWeight: "bold" }} color="inherit" fontSize="default">
+            <Icon sx={{ fontWeight: 'bold' }} color="inherit" fontSize="default">
               keyboard_arrow_down
             </Icon>
           </MKBox>
         </Tooltip>
       </MKBox>
     </Card>
-  );
+  )
 }
 
-export default TodoList;
+export default TodoList

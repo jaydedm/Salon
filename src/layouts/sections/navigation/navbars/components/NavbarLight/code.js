@@ -26,6 +26,6 @@ function NavbarLight() {
   );
 }
 
-export default NavbarLight;`;
+export default NavbarLight;`
 
-export default navbarLightCode;
+export default navbarLightCode

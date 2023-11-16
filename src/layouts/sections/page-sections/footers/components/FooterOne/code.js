@@ -93,6 +93,6 @@ function FooterOne() {
   return <DetailedFooter content={footerContent} />;
 }
 
-export default FooterOne;`;
+export default FooterOne;`
 
-export default footerOneCode;
+export default footerOneCode

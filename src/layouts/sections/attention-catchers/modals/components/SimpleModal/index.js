@@ -13,26 +13,26 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Modal from "@mui/material/Modal";
-import Divider from "@mui/material/Divider";
-import Slide from "@mui/material/Slide";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Modal from '@mui/material/Modal'
+import Divider from '@mui/material/Divider'
+import Slide from '@mui/material/Slide'
 
 // @mui icons
-import CloseIcon from "@mui/icons-material/Close";
+import CloseIcon from '@mui/icons-material/Close'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
-function SimpleModal() {
-  const [show, setShow] = useState(false);
-  const toggleModal = () => setShow(!show);
+function SimpleModal () {
+  const [show, setShow] = useState(false)
+  const toggleModal = () => setShow(!show)
 
   return (
     <MKBox component="section" py={6}>
@@ -42,7 +42,7 @@ function SimpleModal() {
             Launch Demo Modal
           </MKButton>
         </Grid>
-        <Modal open={show} onClose={toggleModal} sx={{ display: "grid", placeItems: "center" }}>
+        <Modal open={show} onClose={toggleModal} sx={{ display: 'grid', placeItems: 'center' }}>
           <Slide direction="down" in={show} timeout={500}>
             <MKBox
               position="relative"
@@ -55,7 +55,7 @@ function SimpleModal() {
             >
               <MKBox display="flex" alginItems="center" justifyContent="space-between" p={2}>
                 <MKTypography variant="h5">Your modal title</MKTypography>
-                <CloseIcon fontSize="medium" sx={{ cursor: "pointer" }} onClick={toggleModal} />
+                <CloseIcon fontSize="medium" sx={{ cursor: 'pointer' }} onClick={toggleModal} />
               </MKBox>
               <Divider sx={{ my: 0 }} />
               <MKBox p={2}>
@@ -83,7 +83,7 @@ function SimpleModal() {
         </Modal>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default SimpleModal;
+export default SimpleModal

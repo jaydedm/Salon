@@ -14,21 +14,21 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Card from "@mui/material/Card";
+import Card from '@mui/material/Card'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKInput from 'components/MKInput'
+import MKButton from 'components/MKButton'
 
 // Authentication layout components
-import CoverLayout from "pages/Authentication/components/CoverLayout";
+import CoverLayout from 'pages/Authentication/components/CoverLayout'
 
 // Images
-import bgImage from "assets/images/bg-reset-cover.jpeg";
+import bgImage from 'assets/images/bg-reset-cover.jpeg'
 
-function Cover() {
+function Cover () {
   return (
     <CoverLayout coverHeight="50vh" image={bgImage}>
       <Card>
@@ -71,7 +71,7 @@ function Cover() {
         </MKBox>
       </Card>
     </CoverLayout>
-  );
+  )
 }
 
-export default Cover;
+export default Cover

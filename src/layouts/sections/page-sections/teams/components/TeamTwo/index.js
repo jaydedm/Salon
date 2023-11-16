@@ -14,25 +14,25 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
+import HorizontalTeamCard from 'examples/Cards/TeamCards/HorizontalTeamCard'
 
 // Images
-import bgImage from "assets/images/examples/city.jpg";
-import team1 from "assets/images/team-5.jpg";
-import team2 from "assets/images/bruce-mars.jpg";
-import team3 from "assets/images/ivana-squares.jpg";
-import team4 from "assets/images/ivana-square.jpg";
+import bgImage from 'assets/images/examples/city.jpg'
+import team1 from 'assets/images/team-5.jpg'
+import team2 from 'assets/images/bruce-mars.jpg'
+import team3 from 'assets/images/ivana-squares.jpg'
+import team4 from 'assets/images/ivana-square.jpg'
 
-function TeamTwo() {
+function TeamTwo () {
   return (
     <MKBox
       component="section"
@@ -43,7 +43,7 @@ function TeamTwo() {
           `${linearGradient(
             rgba(gradients.dark.main, 0.8),
             rgba(gradients.dark.state, 0.8)
-          )}, url(${bgImage})`,
+          )}, url(${bgImage})`
       }}
     >
       <Container>
@@ -79,7 +79,7 @@ function TeamTwo() {
               <HorizontalTeamCard
                 image={team1}
                 name="Emma Roberts"
-                position={{ color: "info", label: "UI Designer" }}
+                position={{ color: 'info', label: 'UI Designer' }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
@@ -89,7 +89,7 @@ function TeamTwo() {
               <HorizontalTeamCard
                 image={team2}
                 name="William Pearce"
-                position={{ color: "info", label: "Boss" }}
+                position={{ color: 'info', label: 'Boss' }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
@@ -99,7 +99,7 @@ function TeamTwo() {
               <HorizontalTeamCard
                 image={team3}
                 name="Ivana Flow"
-                position={{ color: "info", label: "Athlete" }}
+                position={{ color: 'info', label: 'Athlete' }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
@@ -109,7 +109,7 @@ function TeamTwo() {
               <HorizontalTeamCard
                 image={team4}
                 name="Marquez Garcia"
-                position={{ color: "info", label: "JS Developer" }}
+                position={{ color: 'info', label: 'JS Developer' }}
                 description="Artist is a term applied to a person who engages in an activity deemed to be an art."
               />
             </MKBox>
@@ -117,7 +117,7 @@ function TeamTwo() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default TeamTwo;
+export default TeamTwo

@@ -14,18 +14,18 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Grid from "@mui/material/Grid";
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKInput from 'components/MKInput'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Images
-import image from "assets/images/examples/blog2.jpg";
+import image from 'assets/images/examples/blog2.jpg'
 
-function StatsOne() {
+function StatsOne () {
   return (
     <MKBox component="section" py={12}>
       <MKBox bgColor="grey-100" py={12} px={{ xs: 3, lg: 0 }}>
@@ -43,7 +43,7 @@ function StatsOne() {
                 <MKInput label="Email Here" fullWidth />
               </Grid>
               <Grid item xs={12} sm={4}>
-                <MKButton variant="gradient" color="warning" sx={{ height: "100%" }}>
+                <MKButton variant="gradient" color="warning" sx={{ height: '100%' }}>
                   Subscribe
                 </MKButton>
               </Grid>
@@ -59,13 +59,13 @@ function StatsOne() {
               borderRadius="lg"
               shadow="xl"
               mt={-24}
-              display={{ xs: "none", lg: "block" }}
+              display={{ xs: 'none', lg: 'block' }}
             />
           </Grid>
         </Grid>
       </MKBox>
     </MKBox>
-  );
+  )
 }
 
-export default StatsOne;
+export default StatsOne

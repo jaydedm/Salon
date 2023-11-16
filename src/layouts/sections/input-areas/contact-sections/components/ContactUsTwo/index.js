@@ -14,19 +14,19 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKInput from 'components/MKInput'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Images
-import bgImage from "assets/images/examples/blog2.jpg";
+import bgImage from 'assets/images/examples/blog2.jpg'
 
-function ContactUsTwo() {
+function ContactUsTwo () {
   return (
     <MKBox component="section" py={{ xs: 0, lg: 6 }}>
       <Container>
@@ -37,7 +37,7 @@ function ContactUsTwo() {
             borderRadius="xl"
             shadow="xl"
             mb={6}
-            sx={{ overflow: "hidden" }}
+            sx={{ overflow: 'hidden' }}
           >
             <Grid container spacing={3}>
               <Grid item xs={12} lg={7}>
@@ -107,13 +107,13 @@ function ContactUsTwo() {
                 sx={{
                   backgroundImage: ({
                     palette: { gradients },
-                    functions: { rgba, linearGradient },
+                    functions: { rgba, linearGradient }
                   }) =>
                     `${linearGradient(
                       rgba(gradients.info.main, 0.8),
                       rgba(gradients.info.state, 0.8)
                     )}, url(${bgImage})`,
-                  backgroundSize: "cover",
+                  backgroundSize: 'cover'
                 }}
               >
                 <MKBox
@@ -177,16 +177,16 @@ function ContactUsTwo() {
                     </MKBox>
                     <MKBox mt={3}>
                       <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-facebook" style={{ fontSize: "1.25rem" }} />
+                        <i className="fab fa-facebook" style={{ fontSize: '1.25rem' }} />
                       </MKButton>
                       <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-twitter" style={{ fontSize: "1.25rem" }} />
+                        <i className="fab fa-twitter" style={{ fontSize: '1.25rem' }} />
                       </MKButton>
                       <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-dribbble" style={{ fontSize: "1.25rem" }} />
+                        <i className="fab fa-dribbble" style={{ fontSize: '1.25rem' }} />
                       </MKButton>
                       <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-instagram" style={{ fontSize: "1.25rem" }} />
+                        <i className="fab fa-instagram" style={{ fontSize: '1.25rem' }} />
                       </MKButton>
                     </MKBox>
                   </MKBox>
@@ -197,7 +197,7 @@ function ContactUsTwo() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default ContactUsTwo;
+export default ContactUsTwo

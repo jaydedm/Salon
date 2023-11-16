@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import VirtualReality from "pages/Extra/VirtualReality";
+import VirtualReality from 'pages/Extra/VirtualReality'
 
-export default function VirtualRealityPage() {
-  return <VirtualReality />;
+export default function VirtualRealityPage () {
+  return <VirtualReality />
 }

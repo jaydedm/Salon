@@ -14,24 +14,24 @@ Coded by www.creative-tim.com
 */
 
 // Sections components
-import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+import BaseLayout from 'layouts/sections/components/BaseLayout'
+import View from 'layouts/sections/components/View'
 
 // Avatars page components
-import AvatarGroup from "layouts/sections/elements/avatars/components/AvatarGroup";
-import AvatarSize from "layouts/sections/elements/avatars/components/AvatarSize";
+import AvatarGroup from 'layouts/sections/elements/avatars/components/AvatarGroup'
+import AvatarSize from 'layouts/sections/elements/avatars/components/AvatarSize'
 
 // Avatars page components code
-import avatarGroupCode from "layouts/sections/elements/avatars/components/AvatarGroup/code";
-import avatarSizeCode from "layouts/sections/elements/avatars/components/AvatarSize/code";
+import avatarGroupCode from 'layouts/sections/elements/avatars/components/AvatarGroup/code'
+import avatarSizeCode from 'layouts/sections/elements/avatars/components/AvatarSize/code'
 
-function Avatars() {
+function Avatars () {
   return (
     <BaseLayout
       title="Avatars"
       breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/avatars" },
-        { label: "Avatars" },
+        { label: 'Page Sections', route: '/sections/elements/avatars' },
+        { label: 'Avatars' }
       ]}
     >
       <View title="Avatar Group" code={avatarGroupCode}>
@@ -41,7 +41,7 @@ function Avatars() {
         <AvatarSize />
       </View>
     </BaseLayout>
-  );
+  )
 }
 
-export default Avatars;
+export default Avatars

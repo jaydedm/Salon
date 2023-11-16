@@ -14,26 +14,26 @@ Coded by www.creative-tim.com
 */
 
 // Sections components
-import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+import BaseLayout from 'layouts/sections/components/BaseLayout'
+import View from 'layouts/sections/components/View'
 
 // ProgressBars page components
-import ProgressSimple from "layouts/sections/elements/progress-bars/components/ProgressSimple";
-import ProgressGradient from "layouts/sections/elements/progress-bars/components/ProgressGradient";
-import Sliders from "layouts/sections/elements/progress-bars/components/Sliders";
+import ProgressSimple from 'layouts/sections/elements/progress-bars/components/ProgressSimple'
+import ProgressGradient from 'layouts/sections/elements/progress-bars/components/ProgressGradient'
+import Sliders from 'layouts/sections/elements/progress-bars/components/Sliders'
 
 // ProgressBars page components code
-import progressSimpleCode from "layouts/sections/elements/progress-bars/components/ProgressSimple/code";
-import progressGradientCode from "layouts/sections/elements/progress-bars/components/ProgressGradient/code";
-import slidersCode from "layouts/sections/elements/progress-bars/components/Sliders/code";
+import progressSimpleCode from 'layouts/sections/elements/progress-bars/components/ProgressSimple/code'
+import progressGradientCode from 'layouts/sections/elements/progress-bars/components/ProgressGradient/code'
+import slidersCode from 'layouts/sections/elements/progress-bars/components/Sliders/code'
 
-function ProgressBars() {
+function ProgressBars () {
   return (
     <BaseLayout
       title="Progress Bars"
       breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/progress-bars" },
-        { label: "Progress Bars" },
+        { label: 'Page Sections', route: '/sections/elements/progress-bars' },
+        { label: 'Progress Bars' }
       ]}
     >
       <View title="Progress bar simple" code={progressSimpleCode}>
@@ -46,7 +46,7 @@ function ProgressBars() {
         <Sliders />
       </View>
     </BaseLayout>
-  );
+  )
 }
 
-export default ProgressBars;
+export default ProgressBars

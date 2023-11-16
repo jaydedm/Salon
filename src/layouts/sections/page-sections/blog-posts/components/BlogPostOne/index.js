@@ -14,19 +14,19 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO components
-import ColoredBackgroundCard from "examples/Cards/BackgroundCards/ColoredBackgroundCard";
-import InfoBackgroundCard from "examples/Cards/BackgroundCards/InfoBackgroundCard";
+import ColoredBackgroundCard from 'examples/Cards/BackgroundCards/ColoredBackgroundCard'
+import InfoBackgroundCard from 'examples/Cards/BackgroundCards/InfoBackgroundCard'
 
-function BlogPostOne() {
+function BlogPostOne () {
   return (
     <MKBox component="section" py={2}>
       <Container>
@@ -73,9 +73,9 @@ function BlogPostOne() {
               title="Nature's Light"
               description="It really matters and then like it really doesn’t matter. What matters is the people who are sparked by it."
               action={{
-                type: "internal",
-                route: "/sections/page-sections/blog-posts",
-                label: "read more",
+                type: 'internal',
+                route: '/sections/page-sections/blog-posts',
+                label: 'read more'
               }}
             />
           </Grid>
@@ -116,7 +116,7 @@ function BlogPostOne() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default BlogPostOne;
+export default BlogPostOne

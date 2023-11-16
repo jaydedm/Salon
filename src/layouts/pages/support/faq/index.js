@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import Faq from "pages/Support/Faq";
+import Faq from 'pages/Support/Faq'
 
-export default function FaqPage() {
-  return <Faq />;
+export default function FaqPage () {
+  return <Faq />
 }

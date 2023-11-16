@@ -17,34 +17,34 @@ Coded by www.creative-tim.com
 // import Card from "@mui/material/Card";
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Otis Kit PRO examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
+import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // Pricing page sections
-import Header from "pages/Company/Pricing/sections/Header";
-import AboutUs from "pages/Company/Pricing/sections/AboutUs";
-import PricingSection from "pages/Company/Pricing/sections/Pricing";
-import LifetimeMembership from "pages/Company/Pricing/sections/LifetimeMembership";
-import Testimonials from "pages/Company/Pricing/sections/Testimonials";
-import Trust from "pages/Company/Pricing/sections/Trust";
-import Faq from "pages/Company/Pricing/sections/Faq";
+import Header from 'pages/Company/Pricing/sections/Header'
+import AboutUs from 'pages/Company/Pricing/sections/AboutUs'
+import PricingSection from 'pages/Company/Pricing/sections/Pricing'
+import LifetimeMembership from 'pages/Company/Pricing/sections/LifetimeMembership'
+import Testimonials from 'pages/Company/Pricing/sections/Testimonials'
+import Trust from 'pages/Company/Pricing/sections/Trust'
+import Faq from 'pages/Company/Pricing/sections/Faq'
 
 // Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
+import routes from 'routes'
+import footerRoutes from 'footer.routes'
 
-function Pricing() {
+function Pricing () {
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "https://material-ui.com/store/items/otis-kit-pro-material-kit-react/",
-          label: "buy now",
+          type: 'external',
+          route: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/',
+          label: 'buy now'
         }}
         transparent
         light
@@ -62,7 +62,7 @@ function Pricing() {
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
-  );
+  )
 }
 
-export default Pricing;
+export default Pricing

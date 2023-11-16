@@ -14,20 +14,20 @@ Coded by www.creative-tim.com
 */
 
 // prop-types is library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Grid from "@mui/material/Grid";
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKAvatar from "components/MKAvatar";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKAvatar from 'components/MKAvatar'
+import MKTypography from 'components/MKTypography'
 
-function ComplexReviewCard({ image, color, title, review, author }) {
+function ComplexReviewCard ({ image, color, title, review, author }) {
   return (
     <Grid container alignItems="center" spacing={3}>
-      <Grid item xs={12} md={5} sx={{ ml: { xs: 0, lg: "auto" } }}>
+      <Grid item xs={12} md={5} sx={{ ml: { xs: 0, lg: 'auto' } }}>
         <MKBox p={{ xs: 0, lg: 6 }}>
           <MKBox
             component="img"
@@ -39,7 +39,7 @@ function ComplexReviewCard({ image, color, title, review, author }) {
           />
         </MKBox>
       </Grid>
-      <Grid item xs={12} md={7} lg={5} sx={{ mr: { xs: 0, lg: "auto" } }}>
+      <Grid item xs={12} md={7} lg={5} sx={{ mr: { xs: 0, lg: 'auto' } }}>
         <MKTypography variant="button" color="text" fontWeight="bold" mb={0.5}>
           - Customer Story
         </MKTypography>
@@ -89,34 +89,34 @@ function ComplexReviewCard({ image, color, title, review, author }) {
         </MKBox>
       </Grid>
     </Grid>
-  );
+  )
 }
 
 // Setting default props for the ComplexReviewCard
 ComplexReviewCard.defaultProps = {
-  color: "dark",
-};
+  color: 'dark'
+}
 
 // Typechecking props for the ComplexReviewCard
 ComplexReviewCard.propTypes = {
   image: PropTypes.string.isRequired,
   color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "error",
-    "warning",
-    "dark",
-    "light",
+    'primary',
+    'secondary',
+    'info',
+    'success',
+    'error',
+    'warning',
+    'dark',
+    'light'
   ]),
   title: PropTypes.string.isRequired,
   review: PropTypes.string.isRequired,
   author: PropTypes.shape({
     logo: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    role: PropTypes.string.isRequired,
-  }).isRequired,
-};
+    role: PropTypes.string.isRequired
+  }).isRequired
+}
 
-export default ComplexReviewCard;
+export default ComplexReviewCard

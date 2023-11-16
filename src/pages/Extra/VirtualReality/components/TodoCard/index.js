@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Icon from "@mui/material/Icon";
-import Tooltip from "@mui/material/Tooltip";
+import Icon from '@mui/material/Icon'
+import Tooltip from '@mui/material/Tooltip'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function TodoCard() {
+function TodoCard () {
   return (
     <MKBox bgColor="dark" variant="gradient" borderRadius="xl" shadow="lg">
       <MKBox p={3}>
@@ -45,15 +45,15 @@ function TodoCard() {
           Meeting
         </MKTypography>
       </MKBox>
-      <Tooltip title="Show More" placement="top" sx={{ cursor: "pointer" }}>
+      <Tooltip title="Show More" placement="top" sx={{ cursor: 'pointer' }}>
         <MKBox textAlign="center" color="white" py={0.5} lineHeight={0}>
-          <Icon sx={{ fontWeight: "bold" }} color="inherit" fontSize="default">
+          <Icon sx={{ fontWeight: 'bold' }} color="inherit" fontSize="default">
             keyboard_arrow_down
           </Icon>
         </MKBox>
       </Tooltip>
     </MKBox>
-  );
+  )
 }
 
-export default TodoCard;
+export default TodoCard

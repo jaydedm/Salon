@@ -29,6 +29,6 @@ function AvatarSize() {
   );
 }
 
-export default AvatarSize;`;
+export default AvatarSize;`
 
-export default avatarSizeCode;
+export default avatarSizeCode

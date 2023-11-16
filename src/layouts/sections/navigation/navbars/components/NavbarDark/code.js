@@ -27,6 +27,6 @@ function NavbarDark() {
   );
 }
 
-export default NavbarDark;`;
+export default NavbarDark;`
 
-export default navbarDarkCode;
+export default navbarDarkCode

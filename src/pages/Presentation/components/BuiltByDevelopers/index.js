@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function BuiltByDevelopers() {
+function BuiltByDevelopers () {
   const bgImage =
-    "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg";
+    'https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg'
 
   return (
     <MKBox
@@ -39,8 +39,8 @@ function BuiltByDevelopers() {
             rgba(gradients.dark.main, 0.8),
             rgba(gradients.dark.state, 0.8)
           )}, url(${bgImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
       }}
     >
       <Container>
@@ -65,26 +65,26 @@ function BuiltByDevelopers() {
             color="white"
             fontWeight="regular"
             sx={{
-              display: "flex",
-              alignItems: "center",
+              display: 'flex',
+              alignItems: 'center',
 
-              "& .material-icons-round": {
-                fontSize: "1.125rem",
-                transform: `translateX(3px)`,
-                transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
+              '& .material-icons-round': {
+                fontSize: '1.125rem',
+                transform: 'translateX(3px)',
+                transition: 'transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)'
               },
 
-              "&:hover .material-icons-round, &:focus .material-icons-round": {
-                transform: `translateX(6px)`,
-              },
+              '&:hover .material-icons-round, &:focus .material-icons-round': {
+                transform: 'translateX(6px)'
+              }
             }}
           >
-            Read docs <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            Read docs <Icon sx={{ fontWeight: 'bold' }}>arrow_forward</Icon>
           </MKTypography>
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default BuiltByDevelopers;
+export default BuiltByDevelopers

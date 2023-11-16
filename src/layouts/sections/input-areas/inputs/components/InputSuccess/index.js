@@ -15,14 +15,14 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
+import MKBox from 'components/MKBox'
+import MKInput from 'components/MKInput'
 
-function InputSuccess() {
+function InputSuccess () {
   return (
     <MKBox component="section" py={12}>
       <Container>
@@ -31,7 +31,7 @@ function InputSuccess() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default InputSuccess;
+export default InputSuccess

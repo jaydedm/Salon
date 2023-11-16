@@ -29,6 +29,6 @@ function ButtonsContained() {
   );
 }
 
-export default ButtonsContained;`;
+export default ButtonsContained;`
 
-export default buttonsContainedCode;
+export default buttonsContainedCode

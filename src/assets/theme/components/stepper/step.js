@@ -14,12 +14,12 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from 'assets/theme/functions/pxToRem'
 
 export default {
   styleOverrides: {
     root: {
-      padding: `0 ${pxToRem(6)}`,
-    },
-  },
-};
+      padding: `0 ${pxToRem(6)}`
+    }
+  }
+}

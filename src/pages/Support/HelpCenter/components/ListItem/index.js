@@ -14,13 +14,13 @@ Coded by www.creative-tim.com
 */
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function ListItem({ title, children }) {
+function ListItem ({ title, children }) {
   return (
     <MKBox p={2}>
       <MKTypography variant="h5" mb={1}>
@@ -30,13 +30,13 @@ function ListItem({ title, children }) {
         {children}
       </MKTypography>
     </MKBox>
-  );
+  )
 }
 
 // Typechecking props for the ListItem
 ListItem.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
-};
+  children: PropTypes.node.isRequired
+}
 
-export default ListItem;
+export default ListItem

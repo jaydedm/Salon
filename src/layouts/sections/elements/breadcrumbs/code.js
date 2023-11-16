@@ -41,6 +41,6 @@ function BreadcrumbsEL() {
   );
 }
 
-export default BreadcrumbsEL;`;
+export default BreadcrumbsEL;`
 
-export default badgesSimpleCode;
+export default badgesSimpleCode

@@ -13,20 +13,20 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKSnackbar from "components/MKSnackbar";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKSnackbar from 'components/MKSnackbar'
 
-function ToastBasic() {
-  const [show, setShow] = useState(false);
-  const toggleSnackbar = () => setShow(!show);
+function ToastBasic () {
+  const [show, setShow] = useState(false)
+  const toggleSnackbar = () => setShow(!show)
 
   return (
     <MKBox component="section" py={6}>
@@ -37,7 +37,7 @@ function ToastBasic() {
           </MKButton>
         </Grid>
         <MKSnackbar
-          anchorOrigin={{ vertical: "top", horizontal: "center" }}
+          anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
           color="dark"
           icon="notifications"
           title="Material Design"
@@ -48,7 +48,7 @@ function ToastBasic() {
         />
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default ToastBasic;
+export default ToastBasic

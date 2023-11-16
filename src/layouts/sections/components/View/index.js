@@ -13,45 +13,45 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react'
 
 // prop-types is a library for type checking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // react-copy-to-clipboard components
-import { CopyToClipboard } from "react-copy-to-clipboard";
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 
 // react-syntax-highlighter components
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { prism } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { prism } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 // @mui material components
-import Grid from "@mui/material/Grid";
-import AppBar from "@mui/material/AppBar";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-import Slide from "@mui/material/Slide";
+import Grid from '@mui/material/Grid'
+import AppBar from '@mui/material/AppBar'
+import Tabs from '@mui/material/Tabs'
+import Tab from '@mui/material/Tab'
+import Slide from '@mui/material/Slide'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKAlert from "components/MKAlert";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKAlert from 'components/MKAlert'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO base styles
-import colors from "assets/theme/base/colors";
+import colors from 'assets/theme/base/colors'
 
-function View({ children, code, title, height, ...rest }) {
-  const { grey } = colors;
+function View ({ children, code, title, height, ...rest }) {
+  const { grey } = colors
 
-  const [activeTab, setActiveTab] = useState(0);
-  const [success, setSuccess] = useState(false);
+  const [activeTab, setActiveTab] = useState(0)
+  const [success, setSuccess] = useState(false)
 
-  const handleTabType = (event, newValue) => setActiveTab(newValue);
+  const handleTabType = (event, newValue) => setActiveTab(newValue)
 
   useEffect(() => {
-    setTimeout(() => setSuccess(false), 3000);
-  }, [success]);
+    setTimeout(() => setSuccess(false), 3000)
+  }, [success])
 
   return (
     <MKBox
@@ -60,14 +60,14 @@ function View({ children, code, title, height, ...rest }) {
       borderRadius="xl"
       shadow="lg"
       mb={12}
-      sx={{ overflow: "hidden" }}
+      sx={{ overflow: 'hidden' }}
       {...rest}
     >
       <MKBox
         px={3}
         sx={{
           borderBottom: ({ borders: { borderWidth, borderColor } }) =>
-            `${borderWidth[1]} solid ${borderColor}`,
+            `${borderWidth[1]} solid ${borderColor}`
         }}
       >
         <Grid container spacing={2} justifyContent="space-between" py={1}>
@@ -108,7 +108,7 @@ function View({ children, code, title, height, ...rest }) {
           </Grid>
         </Grid>
       </MKBox>
-      <MKBox display={activeTab === 0 ? "block" : "none"}>
+      <MKBox display={activeTab === 0 ? 'block' : 'none'}>
         <MKBox width="100%" p={3}>
           <MKBox
             bgColor="grey-100"
@@ -116,26 +116,26 @@ function View({ children, code, title, height, ...rest }) {
             height={height}
             maxHeight="40rem"
             borderRadius="xl"
-            sx={{ overflowX: "hidden", overflowY: "scroll" }}
+            sx={{ overflowX: 'hidden', overflowY: 'scroll' }}
           >
             {children}
           </MKBox>
         </MKBox>
       </MKBox>
-      <MKBox display={activeTab === 1 ? "block" : "none"} p={3}>
+      <MKBox display={activeTab === 1 ? 'block' : 'none'} p={3}>
         <MKBox
           bgColor="grey-100"
           position="relative"
           width="100%"
           borderRadius="xl"
-          sx={{ overflow: "hidden" }}
+          sx={{ overflow: 'hidden' }}
         >
           <CopyToClipboard text={code}>
             <MKButton
               variant="gradient"
               color="dark"
               size="small"
-              sx={{ position: "absolute", top: "0.5rem", right: "0.5rem" }}
+              sx={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }}
               onClick={() => setSuccess(true)}
             >
               <MKBox color="white" mr={0.5} className="fas fa-copy" /> Copy
@@ -147,7 +147,7 @@ function View({ children, code, title, height, ...rest }) {
                 width="25%"
                 mx="auto"
                 color="success"
-                sx={{ minHeight: "2.5rem !important", py: 1, justifyContent: "center" }}
+                sx={{ minHeight: '2.5rem !important', py: 1, justifyContent: 'center' }}
               >
                 <MKTypography variant="body2" color="white" fontWeight="regular">
                   Code successfully copied!
@@ -161,12 +161,12 @@ function View({ children, code, title, height, ...rest }) {
             showLineNumbers
             customStyle={{
               height,
-              maxHeight: "40rem",
-              fontSize: "1rem",
+              maxHeight: '40rem',
+              fontSize: '1rem',
               backgroundColor: grey[100],
-              padding: "1rem 1rem 1rem 0.25rem",
-              overflowY: "scroll",
-              margin: 0,
+              padding: '1rem 1rem 1rem 0.25rem',
+              overflowY: 'scroll',
+              margin: 0
             }}
           >
             {code}
@@ -174,20 +174,20 @@ function View({ children, code, title, height, ...rest }) {
         </MKBox>
       </MKBox>
     </MKBox>
-  );
+  )
 }
 
 // Setting default props for the View
 View.defaultProps = {
-  height: "auto",
-};
+  height: 'auto'
+}
 
 // Typechecking props for the View
 View.propTypes = {
   children: PropTypes.node.isRequired,
   code: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
-  height: PropTypes.string,
-};
+  height: PropTypes.string
+}
 
-export default View;
+export default View

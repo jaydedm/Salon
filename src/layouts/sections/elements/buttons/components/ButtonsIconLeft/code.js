@@ -33,6 +33,6 @@ function ButtonsIconLeft() {
   );
 }
 
-export default ButtonsIconLeft;`;
+export default ButtonsIconLeft;`
 
-export default buttonsIconLeftCode;
+export default buttonsIconLeftCode

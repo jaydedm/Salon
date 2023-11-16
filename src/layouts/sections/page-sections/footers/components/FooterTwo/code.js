@@ -8,6 +8,6 @@ function FooterTwo() {
   return <DefaultFooter content={footerRoutes} />;
 }
 
-export default FooterTwo;`;
+export default FooterTwo;`
 
-export default footerTwoCode;
+export default footerTwoCode

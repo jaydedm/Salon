@@ -54,6 +54,6 @@ function LogoAreaThree() {
   );
 }
 
-export default LogoAreaThree;`;
+export default LogoAreaThree;`
 
-export default logoAreaThreeCode;
+export default logoAreaThreeCode

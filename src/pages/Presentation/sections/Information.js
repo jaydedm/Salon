@@ -14,28 +14,28 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Otis Kit PRO examples
-import RotatingCard from "examples/Cards/RotatingCard";
-import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
-import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+import RotatingCard from 'examples/Cards/RotatingCard'
+import RotatingCardFront from 'examples/Cards/RotatingCard/RotatingCardFront'
+import RotatingCardBack from 'examples/Cards/RotatingCard/RotatingCardBack'
+import DefaultInfoCard from 'examples/Cards/InfoCards/DefaultInfoCard'
 
 // Images
-import bgFront from "assets/images/rotating-card-bg-front.jpeg";
-import bgBack from "assets/images/rotating-card-bg-back.jpeg";
+import bgFront from 'assets/images/rotating-card-bg-front.jpeg'
+import bgBack from 'assets/images/rotating-card-bg-back.jpeg'
 
-function Information() {
+function Information () {
   return (
     <MKBox component="section" py={6} my={6}>
       <Container>
-        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
-          <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
+        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: 'auto' }}>
+          <Grid item xs={12} lg={4} sx={{ mx: 'auto' }}>
             <RotatingCard>
               <RotatingCardFront
                 image={bgFront}
@@ -54,14 +54,14 @@ function Information() {
                 title="Discover More"
                 description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
                 action={{
-                  type: "internal",
-                  route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  type: 'internal',
+                  route: '/sections/page-sections/page-headers',
+                  label: 'start with header'
                 }}
               />
             </RotatingCard>
           </Grid>
-          <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
+          <Grid item xs={12} lg={7} sx={{ ml: 'auto' }}>
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
@@ -99,7 +99,7 @@ function Information() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Information;
+export default Information

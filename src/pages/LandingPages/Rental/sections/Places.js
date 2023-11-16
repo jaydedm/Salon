@@ -14,32 +14,32 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKPagination from "components/MKPagination";
+import MKBox from 'components/MKBox'
+import MKPagination from 'components/MKPagination'
 
 // Otis Kit PRO components
-import SimpleBookingCard from "examples/Cards/BookingCards/SimpleBookingCard";
+import SimpleBookingCard from 'examples/Cards/BookingCards/SimpleBookingCard'
 
 // Images
-import product1 from "assets/images/products/product-1-min.jpg";
-import product2 from "assets/images/products/product-2-min.jpg";
-import product3 from "assets/images/products/product-3-min.jpg";
-import product4 from "assets/images/products/product-5-min.jpg";
-import product5 from "assets/images/products/product-6-min.jpg";
-import product6 from "assets/images/products/product-7-min.jpg";
+import product1 from 'assets/images/products/product-1-min.jpg'
+import product2 from 'assets/images/products/product-2-min.jpg'
+import product3 from 'assets/images/products/product-3-min.jpg'
+import product4 from 'assets/images/products/product-5-min.jpg'
+import product5 from 'assets/images/products/product-6-min.jpg'
+import product6 from 'assets/images/products/product-7-min.jpg'
 
-function Places() {
+function Places () {
   const actionProps = {
-    type: "internal",
-    route: "/pages/landing-pages/rental",
-    color: "info",
-    label: "from / night",
-  };
+    type: 'internal',
+    route: '/pages/landing-pages/rental',
+    color: 'info',
+    label: 'from / night'
+  }
 
   return (
     <MKBox component="section" py={3}>
@@ -51,7 +51,7 @@ function Places() {
                 image={product2}
                 title="Lovely and cosy apartment"
                 description="Siri's latest trick is offering a hands-free TV viewing experience, that will allow consumers to turn on or off their television, change inputs, fast forward."
-                categories={["Entire Apartment", "3 Guests", "2 Beds"]}
+                categories={['Entire Apartment', '3 Guests', '2 Beds']}
                 action={actionProps}
               />
             </MKBox>
@@ -62,7 +62,7 @@ function Places() {
                 image={product1}
                 title="Single room in the center of the city"
                 description="As Uber works through a huge amount of internal management turmoil, the company is also consolidating more of its international business."
-                categories={["Private Room", "1 Guest", "1 Sofa"]}
+                categories={['Private Room', '1 Guest', '1 Sofa']}
                 action={actionProps}
               />
             </MKBox>
@@ -73,7 +73,7 @@ function Places() {
                 image={product3}
                 title="Independent house bedroom kitchen"
                 description="Music is something that every person has his or her own specific opinion about. Different people have different taste, and various types of music."
-                categories={["Entire Apartment", "4 Guests", "2 Beds"]}
+                categories={['Entire Apartment', '4 Guests', '2 Beds']}
                 action={actionProps}
               />
             </MKBox>
@@ -84,7 +84,7 @@ function Places() {
                 image={product4}
                 title="Zen Gateway with pool and garden"
                 description="Fast forward, rewind and more, without having to first invoke a specific skill, or even press a button on their remote."
-                categories={["Entire Apartment", "2 Guests", "1 Bed"]}
+                categories={['Entire Apartment', '2 Guests', '1 Bed']}
                 action={actionProps}
               />
             </MKBox>
@@ -95,7 +95,7 @@ function Places() {
                 image={product5}
                 title="Cheapest hotels for a luxury vacation"
                 description="Today, the company announced it will be combining its rides-on-demand business, specific skill and UberEATS."
-                categories={["Entire Flat", "8 Guests", "3 Rooms"]}
+                categories={['Entire Flat', '8 Guests', '3 Rooms']}
                 action={actionProps}
               />
             </MKBox>
@@ -106,7 +106,7 @@ function Places() {
                 image={product6}
                 title="Cozy Double Room Near Station"
                 description="Different people have different taste, and various types of music have many ways of leaving an impact on someone."
-                categories={["Entire Apartment", "2 Guests", "1 Bed"]}
+                categories={['Entire Apartment', '2 Guests', '1 Bed']}
                 action={actionProps}
               />
             </MKBox>
@@ -131,7 +131,7 @@ function Places() {
         </MKBox>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Places;
+export default Places

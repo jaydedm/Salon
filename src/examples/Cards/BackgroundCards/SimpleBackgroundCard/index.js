@@ -14,33 +14,33 @@ Coded by www.creative-tim.com
 */
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Card from "@mui/material/Card";
+import Card from '@mui/material/Card'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function SimpleBackgroundCard({ image, title, description }) {
+function SimpleBackgroundCard ({ image, title, description }) {
   return (
     <Card
       sx={({
         functions: { rgba, linearGradient },
         palette: { black },
-        borders: { borderRadius },
+        borders: { borderRadius }
       }) => ({
         backgroundImage: `${linearGradient(
           rgba(black.main, 0.5),
           rgba(black.main, 0.5)
         )}, url(${image})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
         borderRadius: borderRadius.xl,
-        height: "100%",
-        display: "grid",
-        justifyContent: "end",
+        height: '100%',
+        display: 'grid',
+        justifyContent: 'end'
       })}
     >
       <MKBox pt={32} pb={3} px={3}>
@@ -52,14 +52,14 @@ function SimpleBackgroundCard({ image, title, description }) {
         </MKTypography>
       </MKBox>
     </Card>
-  );
+  )
 }
 
 // Typechecking props for the SimpleBackgroundCard
 SimpleBackgroundCard.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  description: PropTypes.node.isRequired,
-};
+  description: PropTypes.node.isRequired
+}
 
-export default SimpleBackgroundCard;
+export default SimpleBackgroundCard

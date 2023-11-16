@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // prop-types is library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Card from "@mui/material/Card";
+import Card from '@mui/material/Card'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKAvatar from "components/MKAvatar";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKAvatar from 'components/MKAvatar'
 
-function SimpleReviewCard({ image, name, username, review }) {
+function SimpleReviewCard ({ image, name, username, review }) {
   return (
     <Card>
       <MKBox display="grid" justifyContent="center" position="relative" mt={-7}>
@@ -33,7 +33,7 @@ function SimpleReviewCard({ image, name, username, review }) {
           alt={name}
           size="xxl"
           shadow="lg"
-          sx={{ position: "relative", zIndex: 2 }}
+          sx={{ position: 'relative', zIndex: 2 }}
         />
         <MKBox
           width="6.875rem"
@@ -45,9 +45,9 @@ function SimpleReviewCard({ image, name, username, review }) {
           zIndex={1}
           sx={{
             backgroundImage: `url(${image})`,
-            backgroundSize: "cover",
-            transform: "translateX(-50%) scale(0.87)",
-            filter: "blur(12px)",
+            backgroundSize: 'cover',
+            transform: 'translateX(-50%) scale(0.87)',
+            filter: 'blur(12px)'
           }}
         />
       </MKBox>
@@ -87,20 +87,20 @@ function SimpleReviewCard({ image, name, username, review }) {
         </MKBox>
       </MKBox>
     </Card>
-  );
+  )
 }
 
 // Setting default values for the props of SimpleReviewCard
 SimpleReviewCard.defaultProps = {
-  username: "",
-};
+  username: ''
+}
 
 // Typechecking props for the SimpleReviewCard
 SimpleReviewCard.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   username: PropTypes.string,
-  review: PropTypes.string.isRequired,
-};
+  review: PropTypes.string.isRequired
+}
 
-export default SimpleReviewCard;
+export default SimpleReviewCard

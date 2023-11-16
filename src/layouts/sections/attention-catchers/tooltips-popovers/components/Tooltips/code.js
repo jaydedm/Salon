@@ -41,6 +41,6 @@ function Tooltips() {
   );
 }
 
-export default Tooltips;`;
+export default Tooltips;`
 
-export default tooltipsCode;
+export default tooltipsCode

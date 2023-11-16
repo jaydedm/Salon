@@ -20,6 +20,6 @@ function NavbarBlur() {
   );
 }
 
-export default NavbarBlur;`;
+export default NavbarBlur;`
 
-export default navbarBlurCode;
+export default navbarBlurCode

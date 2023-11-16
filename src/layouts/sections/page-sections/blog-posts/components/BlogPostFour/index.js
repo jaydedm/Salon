@@ -14,25 +14,25 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import SimpleBackgroundCard from "examples/Cards/BackgroundCards/SimpleBackgroundCard";
+import SimpleBackgroundCard from 'examples/Cards/BackgroundCards/SimpleBackgroundCard'
 
 // Images
-import post1 from "assets/images/examples/blog1.jpg";
-import post2 from "assets/images/examples/blog2.jpg";
-import post3 from "assets/images/examples/blog3.jpg";
+import post1 from 'assets/images/examples/blog1.jpg'
+import post2 from 'assets/images/examples/blog2.jpg'
+import post3 from 'assets/images/examples/blog3.jpg'
 
-function BlogPostFour() {
+function BlogPostFour () {
   return (
     <MKBox component="section" py={6}>
       <Container>
@@ -79,7 +79,7 @@ function BlogPostFour() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default BlogPostFour;
+export default BlogPostFour

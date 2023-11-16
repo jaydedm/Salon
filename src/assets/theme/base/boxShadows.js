@@ -20,12 +20,12 @@ Coded by www.creative-tim.com
  */
 
 // Otis Kit PRO Base Styles
-import colors from "assets/theme/base/colors";
+import colors from 'assets/theme/base/colors'
 
 // Otis Kit PRO Helper Functions
-import boxShadow from "assets/theme/functions/boxShadow";
+import boxShadow from 'assets/theme/functions/boxShadow'
 
-const { black, white, tabs, coloredShadows } = colors;
+const { black, white, tabs, coloredShadows } = colors
 
 export default {
   xs: boxShadow([0, 2], [9, -5], black.main, 0.15),
@@ -49,7 +49,7 @@ export default {
     0.04
   )}`,
   xxl: boxShadow([0, 20], [27, 0], black.main, 0.05),
-  inset: boxShadow([0, 1], [2, 0], black.main, 0.075, "inset"),
+  inset: boxShadow([0, 1], [2, 0], black.main, 0.075, 'inset'),
   colored: {
     primary: `${boxShadow([0, 4], [20, 0], black.main, 0.14)}, ${boxShadow(
       [0, 7],
@@ -104,13 +104,13 @@ export default {
       [10, -5],
       white.main,
       0.4
-    )}`,
+    )}`
   },
 
   sliderBoxShadow: {
-    thumb: boxShadow([0, 1], [13, 0], black.main, 0.2),
+    thumb: boxShadow([0, 1], [13, 0], black.main, 0.2)
   },
   tabsBoxShadow: {
-    indicator: boxShadow([0, 1], [5, 1], tabs.indicator.boxShadow, 1),
-  },
-};
+    indicator: boxShadow([0, 1], [5, 1], tabs.indicator.boxShadow, 1)
+  }
+}

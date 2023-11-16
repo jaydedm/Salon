@@ -33,6 +33,6 @@ function InputIcon() {
   );
 }
 
-export default InputIcon;`;
+export default InputIcon;`
 
-export default inputIconCode;
+export default inputIconCode

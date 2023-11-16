@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import SignUpCover from "pages/Authentication/SignUp/Cover";
+import SignUpCover from 'pages/Authentication/SignUp/Cover'
 
-export default function SignUpCoverPage() {
-  return <SignUpCover />;
+export default function SignUpCoverPage () {
+  return <SignUpCover />
 }

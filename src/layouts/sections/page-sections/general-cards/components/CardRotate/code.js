@@ -42,6 +42,6 @@ function CardRotate() {
   );
 }
 
-export default CardRotate;`;
+export default CardRotate;`
 
-export default cardRotateCode;
+export default cardRotateCode

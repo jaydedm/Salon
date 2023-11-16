@@ -15,24 +15,24 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Otis Kit PRO examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
 
 // Routes
-import routes from "routes";
+import routes from 'routes'
 
-function NavbarDark() {
+function NavbarDark () {
   return (
     <MKBox variant="gradient" bgColor="dark" shadow="sm" py={0.25}>
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "https://material-ui.com/store/items/otis-kit-pro-material-kit-react/",
-          label: "buy now",
-          color: "info",
+          type: 'external',
+          route: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/',
+          label: 'buy now',
+          color: 'info'
         }}
         transparent
         relative
@@ -40,7 +40,7 @@ function NavbarDark() {
         center
       />
     </MKBox>
-  );
+  )
 }
 
-export default NavbarDark;
+export default NavbarDark

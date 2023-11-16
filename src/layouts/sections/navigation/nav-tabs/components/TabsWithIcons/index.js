@@ -14,20 +14,20 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import AppBar from "@mui/material/AppBar";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import AppBar from '@mui/material/AppBar'
+import Tabs from '@mui/material/Tabs'
+import Tab from '@mui/material/Tab'
+import Icon from '@mui/material/Icon'
 
-function TabsWithIcons() {
-  const [activeTab, setActiveTab] = useState(0);
+function TabsWithIcons () {
+  const [activeTab, setActiveTab] = useState(0)
 
-  const handleTabType = (event, newValue) => setActiveTab(newValue);
+  const handleTabType = (event, newValue) => setActiveTab(newValue)
 
   return (
     <Container>
@@ -40,7 +40,7 @@ function TabsWithIcons() {
         </AppBar>
       </Grid>
     </Container>
-  );
+  )
 }
 
-export default TabsWithIcons;
+export default TabsWithIcons

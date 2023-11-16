@@ -52,6 +52,6 @@ function BadgesSimpleRounded() {
   );
 }
 
-export default BadgesSimpleRounded;`;
+export default BadgesSimpleRounded;`
 
-export default badgesSimpleRoundedCode;
+export default badgesSimpleRoundedCode

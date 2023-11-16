@@ -20,12 +20,12 @@ Coded by www.creative-tim.com
  */
 
 // Otis Kit PRO Base Styles
-import colors from "assets/theme/base/colors";
+import colors from 'assets/theme/base/colors'
 
 // Otis Kit PRO Helper Functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from 'assets/theme/functions/pxToRem'
 
-const { dark } = colors;
+const { dark } = colors
 
 const baseProperties = {
   fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
@@ -42,20 +42,20 @@ const baseProperties = {
   fontSizeLG: pxToRem(18),
   fontSizeXL: pxToRem(20),
   fontSize2XL: pxToRem(24),
-  fontSize3XL: pxToRem(30),
-};
+  fontSize3XL: pxToRem(30)
+}
 
 const baseHeadingProperties = {
   color: dark.main,
-  fontWeight: baseProperties.fontWeightBold,
-};
+  fontWeight: baseProperties.fontWeightBold
+}
 
 const baseDisplayProperties = {
   fontFamily: baseProperties.fontFamily,
   color: dark.main,
   fontWeight: baseProperties.fontWeightLight,
-  lineHeight: 1.2,
-};
+  lineHeight: 1.2
+}
 
 const typography = {
   fontFamily: baseProperties.fontFamily,
@@ -69,70 +69,70 @@ const typography = {
     fontFamily: baseProperties.fontFamily2,
     fontSize: pxToRem(48),
     lineHeight: 1.25,
-    ...baseHeadingProperties,
+    ...baseHeadingProperties
   },
 
   h2: {
     fontFamily: baseProperties.fontFamily2,
     fontSize: pxToRem(36),
     lineHeight: 1.3,
-    ...baseHeadingProperties,
+    ...baseHeadingProperties
   },
 
   h3: {
     fontFamily: baseProperties.fontFamily2,
     fontSize: pxToRem(30),
     lineHeight: 1.375,
-    ...baseHeadingProperties,
+    ...baseHeadingProperties
   },
 
   h4: {
     fontFamily: baseProperties.fontFamily,
     fontSize: pxToRem(24),
     lineHeight: 1.375,
-    ...baseHeadingProperties,
+    ...baseHeadingProperties
   },
 
   h5: {
     fontFamily: baseProperties.fontFamily,
     fontSize: pxToRem(20),
     lineHeight: 1.375,
-    ...baseHeadingProperties,
+    ...baseHeadingProperties
   },
 
   h6: {
     fontFamily: baseProperties.fontFamily,
     fontSize: pxToRem(16),
     lineHeight: 1.625,
-    ...baseHeadingProperties,
+    ...baseHeadingProperties
   },
 
   subtitle1: {
     fontFamily: baseProperties.fontFamily,
     fontSize: baseProperties.fontSizeXL,
     fontWeight: baseProperties.fontWeightLight,
-    lineHeight: 1.625,
+    lineHeight: 1.625
   },
 
   subtitle2: {
     fontFamily: baseProperties.fontFamily,
     fontSize: baseProperties.fontSizeMD,
     fontWeight: baseProperties.fontWeightLight,
-    lineHeight: 1.6,
+    lineHeight: 1.6
   },
 
   body1: {
     fontFamily: baseProperties.fontFamily,
     fontSize: baseProperties.fontSizeXL,
     fontWeight: baseProperties.fontWeightRegular,
-    lineHeight: 1.625,
+    lineHeight: 1.625
   },
 
   body2: {
     fontFamily: baseProperties.fontFamily,
     fontSize: baseProperties.fontSizeMD,
     fontWeight: baseProperties.fontWeightLight,
-    lineHeight: 1.6,
+    lineHeight: 1.6
   },
 
   button: {
@@ -140,48 +140,48 @@ const typography = {
     fontSize: baseProperties.fontSizeSM,
     fontWeight: baseProperties.fontWeightLight,
     lineHeight: 1.5,
-    textTransform: "uppercase",
+    textTransform: 'uppercase'
   },
 
   caption: {
     fontFamily: baseProperties.fontFamily,
     fontSize: baseProperties.fontSizeXS,
     fontWeight: baseProperties.fontWeightLight,
-    lineHeight: 1.25,
+    lineHeight: 1.25
   },
 
   overline: {
-    fontFamily: baseProperties.fontFamily,
+    fontFamily: baseProperties.fontFamily
   },
 
   d1: {
     fontSize: pxToRem(80),
-    ...baseDisplayProperties,
+    ...baseDisplayProperties
   },
 
   d2: {
     fontSize: pxToRem(72),
-    ...baseDisplayProperties,
+    ...baseDisplayProperties
   },
 
   d3: {
     fontSize: pxToRem(64),
-    ...baseDisplayProperties,
+    ...baseDisplayProperties
   },
 
   d4: {
     fontSize: pxToRem(56),
-    ...baseDisplayProperties,
+    ...baseDisplayProperties
   },
 
   d5: {
     fontSize: pxToRem(48),
-    ...baseDisplayProperties,
+    ...baseDisplayProperties
   },
 
   d6: {
     fontSize: pxToRem(40),
-    ...baseDisplayProperties,
+    ...baseDisplayProperties
   },
 
   size: {
@@ -191,15 +191,15 @@ const typography = {
     md: baseProperties.fontSizeMD,
     lg: baseProperties.fontSizeLG,
     xl: baseProperties.fontSizeXL,
-    "2xl": baseProperties.fontSize2XL,
-    "3xl": baseProperties.fontSize3XL,
+    '2xl': baseProperties.fontSize2XL,
+    '3xl': baseProperties.fontSize3XL
   },
 
   lineHeight: {
     sm: 1.25,
     md: 1.5,
-    lg: 2,
-  },
-};
+    lg: 2
+  }
+}
 
-export default typography;
+export default typography

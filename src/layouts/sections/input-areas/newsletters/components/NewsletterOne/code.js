@@ -41,6 +41,6 @@ function NewsletterOne() {
   );
 }
 
-export default NewsletterOne;`;
+export default NewsletterOne;`
 
-export default newsletterOneCode;
+export default newsletterOneCode

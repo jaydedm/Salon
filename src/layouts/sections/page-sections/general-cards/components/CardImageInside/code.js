@@ -36,6 +36,6 @@ function CardImageInside() {
   );
 }
 
-export default CardImageInside;`;
+export default CardImageInside;`
 
-export default cardImageInsideCode;
+export default cardImageInsideCode

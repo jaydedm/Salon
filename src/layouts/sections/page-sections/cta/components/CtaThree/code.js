@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 const bgImage =
-  "`${linearGradient(rgba(gradients.dark.main, 0.8), rgba(gradients.dark.state, 0.8))}, url(${bgImage})`";
+  '`${linearGradient(rgba(gradients.dark.main, 0.8), rgba(gradients.dark.state, 0.8))}, url(${bgImage})`'
 
 const statsTwoCode = `// @mui material components
 import Container from "@mui/material/Container";
@@ -45,6 +45,6 @@ function CtaThree() {
   );
 }
 
-export default CtaThree;`;
+export default CtaThree;`
 
-export default statsTwoCode;
+export default statsTwoCode

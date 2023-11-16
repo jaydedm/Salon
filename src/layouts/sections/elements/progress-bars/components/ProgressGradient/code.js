@@ -27,6 +27,6 @@ function ProgressGradient() {
   );
 }
 
-export default ProgressGradient;`;
+export default ProgressGradient;`
 
-export default progressGradientCode;
+export default progressGradientCode

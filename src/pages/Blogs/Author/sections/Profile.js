@@ -14,20 +14,20 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKAvatar from "components/MKAvatar";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKAvatar from 'components/MKAvatar'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Images
-import profilePicture from "assets/images/bruce-mars.jpg";
+import profilePicture from 'assets/images/bruce-mars.jpg'
 
-function Profile() {
+function Profile () {
   return (
     <MKBox component="section" py={{ xs: 6, sm: 12 }}>
       <Container>
@@ -36,7 +36,7 @@ function Profile() {
             <MKAvatar src={profilePicture} alt="Burce Mars" size="xxl" shadow="xl" />
           </MKBox>
           <Grid container justifyContent="center" py={6}>
-            <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
+            <Grid item xs={12} md={7} mx={{ xs: 'auto', sm: 6, md: 1 }}>
               <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
                 <MKTypography variant="h3">Michael Roven</MKTypography>
                 <MKButton variant="outlined" color="info" size="small">
@@ -81,21 +81,21 @@ function Profile() {
                   color="info"
                   mt={3}
                   sx={{
-                    width: "max-content",
-                    display: "flex",
-                    alignItems: "center",
+                    width: 'max-content',
+                    display: 'flex',
+                    alignItems: 'center',
 
-                    "& .material-icons-round": {
-                      transform: `translateX(3px)`,
-                      transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
+                    '& .material-icons-round': {
+                      transform: 'translateX(3px)',
+                      transition: 'transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)'
                     },
 
-                    "&:hover .material-icons-round, &:focus .material-icons-round": {
-                      transform: `translateX(6px)`,
-                    },
+                    '&:hover .material-icons-round, &:focus .material-icons-round': {
+                      transform: 'translateX(6px)'
+                    }
                   }}
                 >
-                  More about me <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                  More about me <Icon sx={{ fontWeight: 'bold' }}>arrow_forward</Icon>
                 </MKTypography>
               </MKTypography>
             </Grid>
@@ -103,7 +103,7 @@ function Profile() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Profile;
+export default Profile

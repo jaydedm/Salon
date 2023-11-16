@@ -14,21 +14,21 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Card from "@mui/material/Card";
-import Icon from "@mui/material/Icon";
+import Card from '@mui/material/Card'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKButton from 'components/MKButton'
 
-function DefaultPricingCard({ color, badge, price, specifications, action, shadow }) {
+function DefaultPricingCard ({ color, badge, price, specifications, action, shadow }) {
   const renderSpecifications = specifications.map(({ label, includes }) => (
     <MKBox key={label} display="flex" alignItems="center" p={1}>
       <MKBox
@@ -42,27 +42,27 @@ function DefaultPricingCard({ color, badge, price, specifications, action, shado
       >
         <MKTypography
           variant="body1"
-          color={color === "white" ? "text" : "white"}
+          color={color === 'white' ? 'text' : 'white'}
           sx={{ lineHeight: 0 }}
         >
-          <Icon>{includes ? "done" : "remove"}</Icon>
+          <Icon>{includes ? 'done' : 'remove'}</Icon>
         </MKTypography>
       </MKBox>
       <MKTypography
         variant="body2"
-        color={color === "white" ? "text" : "white"}
+        color={color === 'white' ? 'text' : 'white'}
         fontWeight="regular"
       >
         {label}
       </MKTypography>
     </MKBox>
-  ));
+  ))
 
   return (
-    <Card sx={{ boxShadow: ({ boxShadows: { lg } }) => (shadow ? lg : "none") }}>
+    <Card sx={{ boxShadow: ({ boxShadows: { lg } }) => (shadow ? lg : 'none') }}>
       <MKBox
         bgColor={color}
-        variant={color === "white" ? "contained" : "gradient"}
+        variant={color === 'white' ? 'contained' : 'gradient'}
         borderRadius="xl"
       >
         <MKBox
@@ -80,14 +80,14 @@ function DefaultPricingCard({ color, badge, price, specifications, action, shado
             variant="caption"
             textTransform="uppercase"
             fontWeight="medium"
-            color={badge.color === "light" ? "dark" : "white"}
+            color={badge.color === 'light' ? 'dark' : 'white'}
           >
             {badge.label}
           </MKTypography>
         </MKBox>
         <MKBox pt={3} pb={2} px={2} textAlign="center">
           <MKBox my={1}>
-            <MKTypography variant="h1" color={color === "white" ? "dark" : "white"}>
+            <MKTypography variant="h1" color={color === 'white' ? 'dark' : 'white'}>
               <MKTypography
                 display="inline"
                 component="small"
@@ -106,7 +106,8 @@ function DefaultPricingCard({ color, badge, price, specifications, action, shado
         </MKBox>
         <MKBox pb={3} px={3}>
           {renderSpecifications}
-          {action.type === "internal" ? (
+          {action.type === 'internal'
+            ? (
             <MKBox mt={3}>
               <MKButton
                 component={Link}
@@ -116,10 +117,11 @@ function DefaultPricingCard({ color, badge, price, specifications, action, shado
                 fullWidth
               >
                 {action.label}&nbsp;
-                <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                <Icon sx={{ fontWeight: 'bold' }}>arrow_forward</Icon>
               </MKButton>
             </MKBox>
-          ) : (
+              )
+            : (
             <MKBox mt={3}>
               <MKButton
                 component="a"
@@ -131,70 +133,70 @@ function DefaultPricingCard({ color, badge, price, specifications, action, shado
                 fullWidth
               >
                 {action.label}&nbsp;
-                <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                <Icon sx={{ fontWeight: 'bold' }}>arrow_forward</Icon>
               </MKButton>
             </MKBox>
-          )}
+              )}
         </MKBox>
       </MKBox>
     </Card>
-  );
+  )
 }
 
 // Setting default props for the DefaultPricingCard
 DefaultPricingCard.defaultProps = {
-  color: "white",
-  shadow: true,
-};
+  color: 'white',
+  shadow: true
+}
 
 // Typechecking props for the DefaultPricingCard
 DefaultPricingCard.propTypes = {
   color: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "info",
-    "success",
-    "warning",
-    "error",
-    "light",
-    "dark",
-    "white",
+    'primary',
+    'secondary',
+    'info',
+    'success',
+    'warning',
+    'error',
+    'light',
+    'dark',
+    'white'
   ]),
   badge: PropTypes.shape({
     color: PropTypes.oneOf([
-      "primary",
-      "secondary",
-      "info",
-      "success",
-      "warning",
-      "error",
-      "light",
-      "dark",
+      'primary',
+      'secondary',
+      'info',
+      'success',
+      'warning',
+      'error',
+      'light',
+      'dark'
     ]).isRequired,
-    label: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired
   }).isRequired,
   price: PropTypes.shape({
     currency: PropTypes.string.isRequired,
     value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-    type: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired
   }).isRequired,
   specifications: PropTypes.instanceOf(Array).isRequired,
   action: PropTypes.shape({
-    type: PropTypes.oneOf(["external", "internal"]).isRequired,
+    type: PropTypes.oneOf(['external', 'internal']).isRequired,
     route: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
     color: PropTypes.oneOf([
-      "primary",
-      "secondary",
-      "info",
-      "success",
-      "warning",
-      "error",
-      "light",
-      "dark",
-    ]).isRequired,
+      'primary',
+      'secondary',
+      'info',
+      'success',
+      'warning',
+      'error',
+      'light',
+      'dark'
+    ]).isRequired
   }).isRequired,
-  shadow: PropTypes.bool,
-};
+  shadow: PropTypes.bool
+}
 
-export default DefaultPricingCard;
+export default DefaultPricingCard

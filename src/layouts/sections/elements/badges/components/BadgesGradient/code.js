@@ -29,6 +29,6 @@ function BadgesGradient() {
   );
 }
 
-export default BadgesGradient;`;
+export default BadgesGradient;`
 
-export default badgesGradientCode;
+export default badgesGradientCode

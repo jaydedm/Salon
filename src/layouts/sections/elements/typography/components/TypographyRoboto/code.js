@@ -148,6 +148,6 @@ function Typography() {
   );
 }
 
-export default Typography;`;
+export default Typography;`
 
-export default typographyCode;
+export default typographyCode

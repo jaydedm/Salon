@@ -54,6 +54,6 @@ function LogoAreaOne() {
   );
 }
 
-export default LogoAreaOne;`;
+export default LogoAreaOne;`
 
-export default logoAreaOneCode;
+export default logoAreaOneCode

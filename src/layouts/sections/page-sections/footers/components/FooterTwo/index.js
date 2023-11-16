@@ -14,13 +14,13 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO examples
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // routes
-import footerRoutes from "footer.routes";
+import footerRoutes from 'footer.routes'
 
-function FooterTwo() {
-  return <DefaultFooter content={footerRoutes} />;
+function FooterTwo () {
+  return <DefaultFooter content={footerRoutes} />
 }
 
-export default FooterTwo;
+export default FooterTwo

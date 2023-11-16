@@ -119,6 +119,6 @@ function BlogPostTwo() {
   );
 }
 
-export default BlogPostTwo;`;
+export default BlogPostTwo;`
 
-export default BlogPostTwoCode;
+export default BlogPostTwoCode

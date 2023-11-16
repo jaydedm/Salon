@@ -14,18 +14,18 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Images
-import bgImage from "assets/images/bg3.jpg";
+import bgImage from 'assets/images/bg3.jpg'
 
-function CtaThree() {
+function CtaThree () {
   return (
     <MKBox
       display="flex"
@@ -36,7 +36,7 @@ function CtaThree() {
           `${linearGradient(
             rgba(gradients.dark.main, 0.8),
             rgba(gradients.dark.state, 0.8)
-          )}, url(${bgImage})`,
+          )}, url(${bgImage})`
       }}
     >
       <Container>
@@ -47,9 +47,9 @@ function CtaThree() {
               greatest you.
             </MKTypography>
           </Grid>
-          <Grid item xs={12} lg={6} sx={{ ml: "auto" }}>
+          <Grid item xs={12} lg={6} sx={{ ml: 'auto' }}>
             <MKBox width="12rem" ml="auto">
-              <MKButton variant="gradient" color="warning" fullWidth sx={{ boxShadow: "none" }}>
+              <MKButton variant="gradient" color="warning" fullWidth sx={{ boxShadow: 'none' }}>
                 start now
               </MKButton>
             </MKBox>
@@ -57,7 +57,7 @@ function CtaThree() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default CtaThree;
+export default CtaThree

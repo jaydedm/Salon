@@ -36,6 +36,6 @@ function ToastBasic() {
   );
 }
 
-export default ToastBasic;`;
+export default ToastBasic;`
 
-export default toastBasicCode;
+export default toastBasicCode

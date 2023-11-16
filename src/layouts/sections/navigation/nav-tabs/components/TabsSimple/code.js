@@ -26,6 +26,6 @@ function TabsSimple() {
   );
 }
 
-export default TabsSimple;`;
+export default TabsSimple;`
 
-export default tabsSimpleCode;
+export default tabsSimpleCode

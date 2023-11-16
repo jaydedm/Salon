@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 const bgImage =
-  "`${linearGradient(rgba(gradients.info.main, 0.8), rgba(gradients.info.state, 0.8))}, url(${bgImage})`";
+  '`${linearGradient(rgba(gradients.info.main, 0.8), rgba(gradients.info.state, 0.8))}, url(${bgImage})`'
 
 const contactUsTwoCode = `// @mui material components
 import Container from "@mui/material/Container";
@@ -185,6 +185,6 @@ function ContactUsTwo() {
   );
 }
 
-export default ContactUsTwo;`;
+export default ContactUsTwo;`
 
-export default contactUsTwoCode;
+export default contactUsTwoCode

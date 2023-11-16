@@ -14,19 +14,19 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO base styles
-import borders from "assets/theme/base/borders";
+import borders from 'assets/theme/base/borders'
 
 // Otis Kit PRO helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from 'assets/theme/functions/pxToRem'
 
-const { borderRadius } = borders;
+const { borderRadius } = borders
 
 export default {
   styleOverrides: {
     root: {
-      display: "block",
+      display: 'block',
       padding: `${pxToRem(16)} ${pxToRem(16)} 0  ${pxToRem(16)}`,
-      borderRadius: `${borderRadius.xl} ${borderRadius.xl} 0 0`,
-    },
-  },
-};
+      borderRadius: `${borderRadius.xl} ${borderRadius.xl} 0 0`
+    }
+  }
+}

@@ -15,13 +15,13 @@ Coded by www.creative-tim.com
 
 export default {
   defaultProps: {
-    disableGutters: true,
+    disableGutters: true
   },
 
   styleOverrides: {
     root: {
       paddingTop: 0,
-      paddingBottom: 0,
-    },
-  },
-};
+      paddingBottom: 0
+    }
+  }
+}

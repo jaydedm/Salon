@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Otis Kit PRO examples
-import SimpleInfoCard from "examples/Cards/InfoCards/SimpleInfoCard";
+import SimpleInfoCard from 'examples/Cards/InfoCards/SimpleInfoCard'
 
-function Information() {
+function Information () {
   return (
     <MKBox component="section" py={{ xs: 6, md: 12 }}>
       <Container>
@@ -33,7 +33,7 @@ function Information() {
             item
             xs={12}
             md={4}
-            sx={{ ml: { xs: 0, md: "auto" }, mr: { xs: 0, md: 6 }, mb: { xs: 4, md: 0 } }}
+            sx={{ ml: { xs: 0, md: 'auto' }, mr: { xs: 0, md: 6 }, mb: { xs: 4, md: 0 } }}
           >
             <Stack spacing={{ xs: 4, md: 8 }}>
               <SimpleInfoCard
@@ -52,7 +52,7 @@ function Information() {
             item
             xs={12}
             md={4}
-            sx={{ mr: { xs: 0, md: "auto" }, ml: { xs: 0, md: 6 }, mb: { xs: 4, md: 0 } }}
+            sx={{ mr: { xs: 0, md: 'auto' }, ml: { xs: 0, md: 6 }, mb: { xs: 4, md: 0 } }}
           >
             <Stack spacing={{ xs: 4, md: 8 }}>
               <SimpleInfoCard
@@ -70,7 +70,7 @@ function Information() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Information;
+export default Information

@@ -55,6 +55,6 @@ function SocialButtonsIcon() {
   );
 }
 
-export default SocialButtonsIcon;`;
+export default SocialButtonsIcon;`
 
-export default socialButtonsIconCode;
+export default socialButtonsIconCode

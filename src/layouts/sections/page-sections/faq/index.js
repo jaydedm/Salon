@@ -13,35 +13,35 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Sections components
-import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+import BaseLayout from 'layouts/sections/components/BaseLayout'
+import View from 'layouts/sections/components/View'
 
 // HelpCenter page components
-import FaqCollapse from "pages/Support/HelpCenter/components/FaqCollapse";
+import FaqCollapse from 'pages/Support/HelpCenter/components/FaqCollapse'
 
 // Faq page code
-import faqCode from "layouts/sections/page-sections/faq/code";
+import faqCode from 'layouts/sections/page-sections/faq/code'
 
-function Faq() {
-  const [collapse, setCollapse] = useState(false);
+function Faq () {
+  const [collapse, setCollapse] = useState(false)
 
   return (
     <BaseLayout
       title="FAQ"
       breadcrumb={[
-        { label: "Page Sections", route: "/sections/page-sections/faq" },
-        { label: "Faq" },
+        { label: 'Page Sections', route: '/sections/page-sections/faq' },
+        { label: 'Faq' }
       ]}
     >
       <View title="Faq" code={faqCode}>
@@ -138,7 +138,7 @@ function Faq() {
         </MKBox>
       </View>
     </BaseLayout>
-  );
+  )
 }
 
-export default Faq;
+export default Faq

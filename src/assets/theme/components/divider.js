@@ -14,13 +14,13 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO base styles
-import colors from "assets/theme/base/colors";
+import colors from 'assets/theme/base/colors'
 
 // Otis Kit PRO helper functions
-import rgba from "assets/theme/functions/rgba";
-import pxToRem from "assets/theme/functions/pxToRem";
+import rgba from 'assets/theme/functions/rgba'
+import pxToRem from 'assets/theme/functions/pxToRem'
 
-const { dark, white } = colors;
+const { dark, white } = colors
 
 export default {
   styleOverrides: {
@@ -28,24 +28,24 @@ export default {
       background: rgba(dark.main, 0.2),
       height: pxToRem(1),
       margin: `${pxToRem(16)} 0`,
-      borderBottom: "none",
-      opacity: 0.25,
+      borderBottom: 'none',
+      opacity: 0.25
     },
 
     vertical: {
       background: rgba(dark.main, 0.2),
       width: pxToRem(1),
-      height: "100%",
+      height: '100%',
       margin: `0 ${pxToRem(16)}`,
-      borderRight: "none",
+      borderRight: 'none'
     },
 
     light: {
       background: rgba(white.main, 0.2),
 
-      "&.MuiDivider-vertical": {
-        background: rgba(white.main, 0.2),
-      },
-    },
-  },
-};
+      '&.MuiDivider-vertical': {
+        background: rgba(white.main, 0.2)
+      }
+    }
+  }
+}

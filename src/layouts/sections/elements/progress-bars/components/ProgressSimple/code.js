@@ -27,6 +27,6 @@ function ProgressSimple() {
   );
 }
 
-export default ProgressSimple;`;
+export default ProgressSimple;`
 
-export default progressSimpleCode;
+export default progressSimpleCode

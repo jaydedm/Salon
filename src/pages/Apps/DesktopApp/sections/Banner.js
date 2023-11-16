@@ -14,19 +14,19 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
 // Images
-import bgPattern from "assets/images/shapes/pattern-lines.svg";
-import laptop from "assets/images/macbook-2.png";
+import bgPattern from 'assets/images/shapes/pattern-lines.svg'
+import laptop from 'assets/images/macbook-2.png'
 
-function Banner() {
+function Banner () {
   return (
     <MKBox
       variant="gradient"
@@ -37,7 +37,7 @@ function Banner() {
       mt={-32}
       py={13}
       px={3}
-      sx={{ overflow: "hidden" }}
+      sx={{ overflow: 'hidden' }}
     >
       <MKBox
         component="img"
@@ -49,7 +49,7 @@ function Banner() {
         width="100%"
         opacity={0.6}
       />
-      <Container sx={{ position: "relative" }}>
+      <Container sx={{ position: 'relative' }}>
         <Grid container justifyContent="center" alignItems="center">
           <Grid item xs={12} md={7} lg={5} py={{ xs: 0, sm: 6 }} mr="auto" position="relative">
             <MKTypography variant="h2" color="white" mb={1}>
@@ -73,13 +73,13 @@ function Banner() {
               src={laptop}
               alt="macbook"
               width="100%"
-              display={{ xs: "none", md: "block" }}
+              display={{ xs: 'none', md: 'block' }}
             />
           </Grid>
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Banner;
+export default Banner

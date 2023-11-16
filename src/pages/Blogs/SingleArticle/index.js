@@ -13,50 +13,50 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from 'react'
 
 // rellax
-import Rellax from "rellax";
+import Rellax from 'rellax'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Card from '@mui/material/Card'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
+import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // About Us page sections
-import Information from "pages/Blogs/SingleArticle/sections/Information";
-import Steps from "pages/Blogs/SingleArticle/sections/Steps";
-import OurEfforts from "pages/Blogs/SingleArticle/sections/OurEfforts";
-import Features from "pages/Blogs/SingleArticle/sections/Features";
-import Posts from "pages/Blogs/SingleArticle/sections/Posts";
-import Support from "pages/Blogs/SingleArticle/sections/Support";
+import Information from 'pages/Blogs/SingleArticle/sections/Information'
+import Steps from 'pages/Blogs/SingleArticle/sections/Steps'
+import OurEfforts from 'pages/Blogs/SingleArticle/sections/OurEfforts'
+import Features from 'pages/Blogs/SingleArticle/sections/Features'
+import Posts from 'pages/Blogs/SingleArticle/sections/Posts'
+import Support from 'pages/Blogs/SingleArticle/sections/Support'
 
 // Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
+import routes from 'routes'
+import footerRoutes from 'footer.routes'
 
 // Images
-import bgImage from "assets/images/bg5.jpg";
+import bgImage from 'assets/images/bg5.jpg'
 
-function SingleArticle() {
-  const headerRef = useRef(null);
+function SingleArticle () {
+  const headerRef = useRef(null)
 
   // Setting up rellax
   useEffect(() => {
     const parallax = new Rellax(headerRef.current, {
-      speed: -6,
-    });
+      speed: -6
+    })
 
-    return () => parallax.destroy();
-  }, []);
+    return () => parallax.destroy()
+  }, [])
 
   return (
     <>
@@ -64,10 +64,10 @@ function SingleArticle() {
         <DefaultNavbar
           routes={routes}
           action={{
-            type: "external",
-            route: "https://material-ui.com/store/items/otis-kit-pro-material-kit-react/",
-            label: "buy now",
-            color: "success",
+            type: 'external',
+            route: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/',
+            label: 'buy now',
+            color: 'success'
           }}
           transparent
           relative
@@ -83,10 +83,10 @@ function SingleArticle() {
               rgba(gradients.dark.main, 0.8),
               rgba(gradients.dark.state, 0.8)
             )}, url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "grid",
-          placeItems: "center",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          display: 'grid',
+          placeItems: 'center'
         }}
       >
         <Container>
@@ -95,9 +95,9 @@ function SingleArticle() {
               variant="h1"
               color="white"
               sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
+                [breakpoints.down('md')]: {
+                  fontSize: size['3xl']
+                }
               })}
             >
               Material Design - News
@@ -139,7 +139,7 @@ function SingleArticle() {
           mx: { xs: 2, lg: 3 },
           mt: -8,
           mb: 4,
-          boxShadow: ({ boxShadows: { xxl } }) => xxl,
+          boxShadow: ({ boxShadows: { xxl } }) => xxl
         }}
       >
         <Information />
@@ -153,7 +153,7 @@ function SingleArticle() {
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
-  );
+  )
 }
 
-export default SingleArticle;
+export default SingleArticle

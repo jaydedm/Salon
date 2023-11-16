@@ -74,6 +74,6 @@ function NewsletterTwo() {
   );
 }
 
-export default NewsletterTwo;`;
+export default NewsletterTwo;`
 
-export default newsletterTwoCode;
+export default newsletterTwoCode

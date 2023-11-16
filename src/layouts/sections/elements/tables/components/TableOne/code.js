@@ -245,6 +245,6 @@ function TableOne() {
   );
 }
 
-export default TableOne;`;
+export default TableOne;`
 
-export default tableOneCode;
+export default tableOneCode

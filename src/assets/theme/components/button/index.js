@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO Button Styles
-import root from "assets/theme/components/button/root";
-import contained from "assets/theme/components/button/contained";
-import outlined from "assets/theme/components/button/outlined";
-import text from "assets/theme/components/button/text";
+import root from 'assets/theme/components/button/root'
+import contained from 'assets/theme/components/button/contained'
+import outlined from 'assets/theme/components/button/outlined'
+import text from 'assets/theme/components/button/text'
 
 export default {
   defaultProps: {
-    disableRipple: false,
+    disableRipple: false
   },
   styleOverrides: {
     root: { ...root },
@@ -39,6 +39,6 @@ export default {
     textSizeSmall: { ...text.small },
     textSizeLarge: { ...text.large },
     textPrimary: { ...text.primary },
-    textSecondary: { ...text.secondary },
-  },
-};
+    textSecondary: { ...text.secondary }
+  }
+}

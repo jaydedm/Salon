@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Icon from "@mui/material/Icon";
-import Collapse from "@mui/material/Collapse";
+import Icon from '@mui/material/Icon'
+import Collapse from '@mui/material/Collapse'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function FaqCollapse({ title, open, children, ...rest }) {
+function FaqCollapse ({ title, open, children, ...rest }) {
   return (
     <MKBox mb={2}>
       <MKBox
@@ -34,17 +34,17 @@ function FaqCollapse({ title, open, children, ...rest }) {
         alignItems="center"
         py={2}
         sx={{
-          cursor: "pointer",
+          cursor: 'pointer',
           borderBottom: ({ borders: { borderWidth, borderColor } }) =>
-            `${borderWidth[1]} solid ${borderColor}`,
+            `${borderWidth[1]} solid ${borderColor}`
         }}
       >
-        <MKTypography variant="h5" color={open ? "dark" : "text"} sx={{ userSelect: "none" }}>
+        <MKTypography variant="h5" color={open ? 'dark' : 'text'} sx={{ userSelect: 'none' }}>
           {title}
         </MKTypography>
-        <MKBox color={open ? "dark" : "text"}>
-          <Icon sx={{ fontWeight: "bold" }} fontSize="small">
-            {open ? "remove" : "add"}
+        <MKBox color={open ? 'dark' : 'text'}>
+          <Icon sx={{ fontWeight: 'bold' }} fontSize="small">
+            {open ? 'remove' : 'add'}
           </Icon>
         </MKBox>
       </MKBox>
@@ -56,14 +56,14 @@ function FaqCollapse({ title, open, children, ...rest }) {
         </MKBox>
       </Collapse>
     </MKBox>
-  );
+  )
 }
 
 // Typechecking props for the FaqCollapse
 FaqCollapse.propTypes = {
   title: PropTypes.string.isRequired,
   open: PropTypes.bool.isRequired,
-  children: PropTypes.node.isRequired,
-};
+  children: PropTypes.node.isRequired
+}
 
-export default FaqCollapse;
+export default FaqCollapse

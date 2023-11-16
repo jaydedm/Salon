@@ -14,26 +14,26 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Card from "@mui/material/Card";
-import Icon from "@mui/material/Icon";
-import Tooltip from "@mui/material/Tooltip";
+import Card from '@mui/material/Card'
+import Icon from '@mui/material/Icon'
+import Tooltip from '@mui/material/Tooltip'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKButton from 'components/MKButton'
 
-function MediaPlayer() {
+function MediaPlayer () {
   const bgImage =
-    "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80";
+    'https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80'
 
   const mediaPlayerButtonStyles = ({ functions: { pxToRem } }) => ({
     width: pxToRem(46),
     height: pxToRem(46),
     minWidth: pxToRem(46),
     minHeight: pxToRem(46),
-    mr: 1,
-  });
+    mr: 1
+  })
 
   return (
     <Card
@@ -42,8 +42,8 @@ function MediaPlayer() {
           rgba(gradients.dark.main, 0.85),
           rgba(gradients.dark.state, 0.85)
         )}, url(${bgImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
       })}
     >
       <MKBox p={3} position="relative" lineHeight={0}>
@@ -92,7 +92,7 @@ function MediaPlayer() {
         </MKBox>
       </MKBox>
     </Card>
-  );
+  )
 }
 
-export default MediaPlayer;
+export default MediaPlayer

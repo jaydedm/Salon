@@ -14,32 +14,32 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Card from '@mui/material/Card'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
+import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
+import routes from 'routes'
+import footerRoutes from 'footer.routes'
 
-function Privacy() {
+function Privacy () {
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "https://material-ui.com/store/items/otis-kit-pro-material-kit-react/",
-          label: "buy now",
-          color: "dark",
+          type: 'external',
+          route: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/',
+          label: 'buy now',
+          color: 'dark'
         }}
         sticky
       />
@@ -69,7 +69,7 @@ function Privacy() {
                     Introduction
                   </MKTypography>
                   <MKTypography variant="body2" color="text">
-                    At Creative Tim, accessible{" "}
+                    At Creative Tim, accessible{' '}
                     <MKTypography
                       variant="body2"
                       color="dark"
@@ -77,7 +77,7 @@ function Privacy() {
                       href="https://www.creative-tim.com"
                       target="_blank"
                       rel="noreferrer"
-                      sx={{ "&:hover": { color: ({ palette: { info } }) => info.main } }}
+                      sx={{ '&:hover': { color: ({ palette: { info } }) => info.main } }}
                     >
                       here
                     </MKTypography>
@@ -92,7 +92,7 @@ function Privacy() {
                     <br />
                     This privacy policy applies only to our online activities and is valid for
                     visitors to our website with regards to the information that they shared and/or
-                    collect in{" "}
+                    collect in{' '}
                     <MKTypography
                       variant="body2"
                       color="dark"
@@ -100,7 +100,7 @@ function Privacy() {
                       href="https://www.creative-tim.com"
                       target="_blank"
                       rel="noreferrer"
-                      sx={{ "&:hover": { color: ({ palette: { info } }) => info.main } }}
+                      sx={{ '&:hover': { color: ({ palette: { info } }) => info.main } }}
                     >
                       Creative Tim
                     </MKTypography>
@@ -143,7 +143,7 @@ function Privacy() {
                   </MKBox>
                   <MKTypography variant="body2" color="text">
                     This Agreement shall begin on the date hereof. Our Terms and Conditions were
-                    created with the help of the{" "}
+                    created with the help of the{' '}
                     <MKTypography
                       variant="body2"
                       color="text"
@@ -153,8 +153,8 @@ function Privacy() {
                       rel="noreferrer"
                     >
                       Terms And Conditions Generator
-                    </MKTypography>{" "}
-                    and the{" "}
+                    </MKTypography>{' '}
+                    and the{' '}
                     <MKTypography
                       variant="body2"
                       color="dark"
@@ -162,7 +162,7 @@ function Privacy() {
                       href="https://www.creative-tim.com"
                       target="_blank"
                       rel="noreferrer"
-                      sx={{ "&:hover": { color: ({ palette: { info } }) => info.main } }}
+                      sx={{ '&:hover': { color: ({ palette: { info } }) => info.main } }}
                     >
                       Privacy Policy Generator
                     </MKTypography>
@@ -204,7 +204,7 @@ function Privacy() {
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
-  );
+  )
 }
 
-export default Privacy;
+export default Privacy

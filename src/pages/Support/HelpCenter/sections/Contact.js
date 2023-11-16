@@ -14,16 +14,16 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKInput from 'components/MKInput'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
-function ContactUs() {
+function ContactUs () {
   return (
     <MKBox component="section" py={12}>
       <Container>
@@ -33,7 +33,7 @@ function ContactUs() {
           justifyContent="center"
           xs={10}
           lg={6}
-          sx={{ mx: "auto", mb: { xs: 0, md: 6 }, textAlign: "center" }}
+          sx={{ mx: 'auto', mb: { xs: 0, md: 6 }, textAlign: 'center' }}
         >
           <MKTypography variant="h3" mb={1}>
             We are here for you
@@ -42,7 +42,7 @@ function ContactUs() {
             For further questions, including partnership opportunities
           </MKTypography>
         </Grid>
-        <Grid container item xs={12} lg={8} sx={{ mx: "auto" }}>
+        <Grid container item xs={12} lg={8} sx={{ mx: 'auto' }}>
           <MKBox width="100%" component="form" method="post" autocomplete="off">
             <MKBox p={3}>
               <Grid container spacing={3}>
@@ -85,7 +85,7 @@ function ContactUs() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default ContactUs;
+export default ContactUs

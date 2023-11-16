@@ -15,7 +15,7 @@ Coded by www.creative-tim.com
 
 export default {
   defaultProps: {
-    underline: "none",
-    color: "inherit",
-  },
-};
+    underline: 'none',
+    color: 'inherit'
+  }
+}

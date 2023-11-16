@@ -14,27 +14,27 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // prop-types is a library for typechecking of props.
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function DefaultFooter({ content }) {
-  const { brand, socials, menus, copyright } = content;
+function DefaultFooter ({ content }) {
+  const { brand, socials, menus, copyright } = content
 
   return (
     <MKBox component="footer">
       <Container>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={3} sx={{ ml: "auto", mb: 3 }}>
+          <Grid item xs={12} md={3} sx={{ ml: 'auto', mb: 3 }}>
             <MKBox>
               <Link to={brand.route}>
                 <MKBox component="img" src={brand.image} alt={brand.name} maxWidth="2rem" mb={2} />
@@ -43,7 +43,7 @@ function DefaultFooter({ content }) {
             </MKBox>
             <MKBox display="flex" alignItems="center" mt={3}>
               {socials.map(({ icon, link }, key) => {
-                const elementKey = `${link}-${key}`;
+                const elementKey = `${link}-${key}`
 
                 return (
                   <MKTypography
@@ -59,7 +59,7 @@ function DefaultFooter({ content }) {
                   >
                     {icon}
                   </MKTypography>
-                );
+                )
               })}
             </MKBox>
           </Grid>
@@ -74,10 +74,11 @@ function DefaultFooter({ content }) {
               >
                 {title}
               </MKTypography>
-              <MKBox component="ul" p={0} m={0} sx={{ listStyle: "none" }}>
+              <MKBox component="ul" p={0} m={0} sx={{ listStyle: 'none' }}>
                 {items.map(({ name, route, href }) => (
                   <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
-                    {href ? (
+                    {href
+                      ? (
                       <MKTypography
                         component="a"
                         href={href}
@@ -89,7 +90,8 @@ function DefaultFooter({ content }) {
                       >
                         {name}
                       </MKTypography>
-                    ) : (
+                        )
+                      : (
                       <MKTypography
                         component={Link}
                         to={route}
@@ -99,24 +101,24 @@ function DefaultFooter({ content }) {
                       >
                         {name}
                       </MKTypography>
-                    )}
+                        )}
                   </MKBox>
                 ))}
               </MKBox>
             </Grid>
           ))}
-          <Grid item xs={12} sx={{ textAlign: "center", my: 3 }}>
+          <Grid item xs={12} sx={{ textAlign: 'center', my: 3 }}>
             {copyright}
           </Grid>
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
 // Typechecking props for the DefaultFooter
 DefaultFooter.propTypes = {
-  content: PropTypes.instanceOf(Object).isRequired,
-};
+  content: PropTypes.instanceOf(Object).isRequired
+}
 
-export default DefaultFooter;
+export default DefaultFooter

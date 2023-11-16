@@ -1,6 +1,6 @@
 /* eslint-disable no-template-curly-in-string */
 const bgImage =
-  "`${linearGradient(rgba(gradients.dark.main, 0.4), rgba(gradients.dark.state, 0.4))}, url(${bgImage})`";
+  '`${linearGradient(rgba(gradients.dark.main, 0.4), rgba(gradients.dark.state, 0.4))}, url(${bgImage})`'
 
 const headerThreeCode = `// @mui material components
 import Container from "@mui/material/Container";
@@ -174,6 +174,6 @@ function HeaderThree() {
   );
 }
 
-export default HeaderThree;`;
+export default HeaderThree;`
 
-export default headerThreeCode;
+export default headerThreeCode

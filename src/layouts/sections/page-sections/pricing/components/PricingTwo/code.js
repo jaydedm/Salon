@@ -139,6 +139,6 @@ function PricingTwo() {
   );
 }
 
-export default PricingTwo;`;
+export default PricingTwo;`
 
-export default featuresTwoCode;
+export default featuresTwoCode

@@ -80,6 +80,6 @@ function DropdownAndDropup() {
   );
 }
 
-export default DropdownAndDropup;`;
+export default DropdownAndDropup;`
 
-export default dropdownAndDropupCode;
+export default dropdownAndDropupCode

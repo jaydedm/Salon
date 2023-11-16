@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import Pricing from "pages/Company/Pricing";
+import Pricing from 'pages/Company/Pricing'
 
-export default function PricingPage() {
-  return <Pricing />;
+export default function PricingPage () {
+  return <Pricing />
 }

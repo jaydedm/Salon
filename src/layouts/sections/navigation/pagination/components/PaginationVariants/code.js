@@ -100,6 +100,6 @@ function PaginationVariants() {
   );
 }
 
-export default PaginationVariants;`;
+export default PaginationVariants;`
 
-export default paginationVariantsCode;
+export default paginationVariantsCode

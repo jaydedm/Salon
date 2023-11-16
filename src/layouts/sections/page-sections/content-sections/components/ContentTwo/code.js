@@ -75,6 +75,6 @@ function ContentTwo() {
   );
 }
 
-export default ContentTwo;`;
+export default ContentTwo;`
 
-export default contentTwoCode;
+export default contentTwoCode

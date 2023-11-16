@@ -57,6 +57,6 @@ function ContactUsOne() {
   );
 }
 
-export default ContactUsOne;`;
+export default ContactUsOne;`
 
-export default contactUsOneCode;
+export default contactUsOneCode

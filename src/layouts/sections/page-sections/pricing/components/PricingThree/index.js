@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Card from "@mui/material/Card";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Card from '@mui/material/Card'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKTypography from 'components/MKTypography'
 
-function PricingThree() {
+function PricingThree () {
   return (
     <MKBox component="section" py={{ xs: 12, lg: 18 }}>
       <Container>
@@ -34,7 +34,7 @@ function PricingThree() {
           xs={12}
           md={6}
           justifyContent="center"
-          sx={{ mx: "auto", mb: 8, textAlign: "center" }}
+          sx={{ mx: 'auto', mb: 8, textAlign: 'center' }}
         >
           <MKTypography variant="h2" mb={1}>
             Best no-tricks pricing
@@ -45,7 +45,7 @@ function PricingThree() {
           </MKTypography>
         </Grid>
         <Grid container item xs={12}>
-          <Card sx={{ width: "100%" }}>
+          <Card sx={{ width: '100%' }}>
             <Grid container alignItems="center">
               <Grid item xs={12} lg={8}>
                 <MKBox py={3} px={4}>
@@ -63,7 +63,7 @@ function PricingThree() {
                     <Grid item xs={12} md={6}>
                       <MKBox display="flex" py={1} pr={1} lineHeight={0}>
                         <MKTypography variant="body1" color="dark">
-                          <Icon sx={{ fontWeight: "bold" }}>done</Icon>
+                          <Icon sx={{ fontWeight: 'bold' }}>done</Icon>
                         </MKTypography>
                         <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
                           Private code access
@@ -71,7 +71,7 @@ function PricingThree() {
                       </MKBox>
                       <MKBox display="flex" py={1} pr={1} lineHeight={0}>
                         <MKTypography variant="body1" color="dark">
-                          <Icon sx={{ fontWeight: "bold" }}>done</Icon>
+                          <Icon sx={{ fontWeight: 'bold' }}>done</Icon>
                         </MKTypography>
                         <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
                           Free entry to all repositories
@@ -81,7 +81,7 @@ function PricingThree() {
                     <Grid item xs={12} md={6}>
                       <MKBox display="flex" py={1} pr={1} lineHeight={0}>
                         <MKTypography variant="body1" color="dark">
-                          <Icon sx={{ fontWeight: "bold" }}>done</Icon>
+                          <Icon sx={{ fontWeight: 'bold' }}>done</Icon>
                         </MKTypography>
                         <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
                           Pro member accounts
@@ -89,7 +89,7 @@ function PricingThree() {
                       </MKBox>
                       <MKBox display="flex" py={1} pr={1} lineHeight={0}>
                         <MKTypography variant="body1" color="dark">
-                          <Icon sx={{ fontWeight: "bold" }}>done</Icon>
+                          <Icon sx={{ fontWeight: 'bold' }}>done</Icon>
                         </MKTypography>
                         <MKTypography variant="body2" color="text" fontWeight="regular" pl={1}>
                           Support team full assist
@@ -120,7 +120,7 @@ function PricingThree() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default PricingThree;
+export default PricingThree

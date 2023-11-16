@@ -41,6 +41,6 @@ function SimpleAlerts() {
   );
 }
 
-export default SimpleAlerts;`;
+export default SimpleAlerts;`
 
-export default simpleAlertsCode;
+export default simpleAlertsCode

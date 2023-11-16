@@ -135,6 +135,6 @@ function FormContext() {
   );
 }
 
-export default FormContext;`;
+export default FormContext;`
 
-export default formContextCode;
+export default formContextCode

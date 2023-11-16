@@ -14,29 +14,29 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Mataerial Kit 2 PRO React components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Mataerial Kit 2 PRO React examples
-import Breadcrumbs from "examples/Breadcrumbs";
+import Breadcrumbs from 'examples/Breadcrumbs'
 
 // Sections components
-import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+import BaseLayout from 'layouts/sections/components/BaseLayout'
+import View from 'layouts/sections/components/View'
 
 // Breadcrumbs page components code
-import breadcrumbsCode from "layouts/sections/elements/breadcrumbs/code";
+import breadcrumbsCode from 'layouts/sections/elements/breadcrumbs/code'
 
-function BreadcrumbsEl() {
+function BreadcrumbsEl () {
   return (
     <BaseLayout
       title="Breadcrumbs"
       breadcrumb={[
-        { label: "Page Sections", route: "/sections/elements/breadcrumbs" },
-        { label: "Breadcrumbs" },
+        { label: 'Page Sections', route: '/sections/elements/breadcrumbs' },
+        { label: 'Breadcrumbs' }
       ]}
     >
       <View title="Breadcrumbs" code={breadcrumbsCode}>
@@ -45,23 +45,23 @@ function BreadcrumbsEl() {
             <Grid container spacing={2} item xs={12} lg={10} mx="auto">
               <Grid item xs={12}>
                 <Breadcrumbs
-                  routes={[{ label: "Home", route: "/sections/elements/breadcrumbs" }]}
+                  routes={[{ label: 'Home', route: '/sections/elements/breadcrumbs' }]}
                 />
               </Grid>
               <Grid item xs={12}>
                 <Breadcrumbs
                   routes={[
-                    { label: "Home", route: "/sections/elements/breadcrumbs" },
-                    { label: "Library" },
+                    { label: 'Home', route: '/sections/elements/breadcrumbs' },
+                    { label: 'Library' }
                   ]}
                 />
               </Grid>
               <Grid item xs={12}>
                 <Breadcrumbs
                   routes={[
-                    { label: "Home", route: "/sections/elements/breadcrumbs" },
-                    { label: "Library", route: "/sections/elements/breadcrumbs" },
-                    { label: "Data" },
+                    { label: 'Home', route: '/sections/elements/breadcrumbs' },
+                    { label: 'Library', route: '/sections/elements/breadcrumbs' },
+                    { label: 'Data' }
                   ]}
                 />
               </Grid>
@@ -70,7 +70,7 @@ function BreadcrumbsEl() {
         </MKBox>
       </View>
     </BaseLayout>
-  );
+  )
 }
 
-export default BreadcrumbsEl;
+export default BreadcrumbsEl

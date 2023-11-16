@@ -14,26 +14,26 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
-import Divider from "@mui/material/Divider";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Icon from '@mui/material/Icon'
+import Divider from '@mui/material/Divider'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultBackgroundCard from "examples/Cards/BackgroundCards/DefaultBackgroundCard";
+import DefaultBackgroundCard from 'examples/Cards/BackgroundCards/DefaultBackgroundCard'
 
 // HelpCenter page components
-import ListItem from "pages/Support/HelpCenter/components/ListItem";
+import ListItem from 'pages/Support/HelpCenter/components/ListItem'
 
 // Images
-import bgImage1 from "assets/images/examples/color1.jpg";
-import bgImage2 from "assets/images/examples/color3.jpg";
+import bgImage1 from 'assets/images/examples/color1.jpg'
+import bgImage2 from 'assets/images/examples/color3.jpg'
 
-function Features() {
+function Features () {
   return (
     <MKBox component="section" py={12}>
       <Container>
@@ -45,7 +45,7 @@ function Features() {
           alignItems="center"
           xs={10}
           lg={5}
-          sx={{ mx: "auto", textAlign: "center" }}
+          sx={{ mx: 'auto', textAlign: 'center' }}
         >
           <MKBox
             width="3rem"
@@ -72,20 +72,20 @@ function Features() {
           </MKTypography>
         </Grid>
         <Grid container spacing={3} alignItems="center" sx={{ mt: 6 }}>
-          <Grid item xs={12} md={4} sx={{ ml: "auto" }}>
+          <Grid item xs={12} md={4} sx={{ ml: 'auto' }}>
             <DefaultBackgroundCard
               image={bgImage1}
               label="website visitors"
               title="The Best Productivity Apps on Market"
               description="As we live, our hearts turn colder. Cause pain is what we go through as we become older. We get insulted by others, lose trust for those others."
               action={{
-                type: "internal",
-                route: "/pages/support/help-center",
-                label: "get started",
+                type: 'internal',
+                route: '/pages/support/help-center',
+                label: 'get started'
               }}
             />
           </Grid>
-          <Grid item xs={12} md={5} sx={{ mr: "auto", ml: { xs: 0, md: 6 } }}>
+          <Grid item xs={12} md={5} sx={{ mr: 'auto', ml: { xs: 0, md: 6 } }}>
             <ListItem title="1. Listen to Social Conversations">
               Gain access to the demographics, psychographics, and location of unique people who are
               interested and talk about your brand.
@@ -102,7 +102,7 @@ function Features() {
         </Grid>
         <Divider sx={{ my: { xs: 2, sm: 8 }, mx: 12 }} />
         <Grid container spacing={3} alignItems="center">
-          <Grid item xs={12} md={5} sx={{ ml: "auto" }}>
+          <Grid item xs={12} md={5} sx={{ ml: 'auto' }}>
             <ListItem title="1. Always In Sync">
               No matter where you are, Trello stays in sync across all of your devices.
             </ListItem>
@@ -113,23 +113,23 @@ function Features() {
               Integrate the apps your team already uses directly into your workflow.
             </ListItem>
           </Grid>
-          <Grid item xs={12} md={4} sx={{ mr: "auto", ml: { xs: 0, md: 6 } }}>
+          <Grid item xs={12} md={4} sx={{ mr: 'auto', ml: { xs: 0, md: 6 } }}>
             <DefaultBackgroundCard
               image={bgImage2}
               label="social activities"
               title="Working on Wallstreet is Not So Easy"
               description="There’s nothing I really wanted to do in life that I wasn’t able to get good at. I’m not really specifically talented at anything except for the ability to learn."
               action={{
-                type: "internal",
-                route: "/pages/support/help-center",
-                label: "get started",
+                type: 'internal',
+                route: '/pages/support/help-center',
+                label: 'get started'
               }}
             />
           </Grid>
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Features;
+export default Features

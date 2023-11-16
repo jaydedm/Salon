@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import SingleArticle from "pages/Blogs/SingleArticle";
+import SingleArticle from 'pages/Blogs/SingleArticle'
 
-export default function SingleArticlePage() {
-  return <SingleArticle />;
+export default function SingleArticlePage () {
+  return <SingleArticle />
 }

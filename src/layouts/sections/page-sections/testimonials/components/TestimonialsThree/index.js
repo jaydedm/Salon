@@ -14,24 +14,24 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKBadge from "components/MKBadge";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKBadge from 'components/MKBadge'
 
 // Otis Kit PRO components
-import SimpleReviewCard from "examples/Cards/ReviewCards/SimpleReviewCard";
+import SimpleReviewCard from 'examples/Cards/ReviewCards/SimpleReviewCard'
 
 // Images
-import bgPattern from "assets/images/shapes/pattern-lines.svg";
-import team2 from "assets/images/team-2.jpg";
-import team3 from "assets/images/team-3.jpg";
-import team4 from "assets/images/team-4.jpg";
+import bgPattern from 'assets/images/shapes/pattern-lines.svg'
+import team2 from 'assets/images/team-2.jpg'
+import team3 from 'assets/images/team-3.jpg'
+import team4 from 'assets/images/team-4.jpg'
 
-function TestimonialsThree() {
+function TestimonialsThree () {
   return (
     <MKBox position="relative" variant="gradient" bgColor="dark" py={2} mx={-2}>
       <MKBox
@@ -43,15 +43,15 @@ function TestimonialsThree() {
         left={0}
         width="100%"
         opacity={0.2}
-        display={{ xs: "none", md: "block" }}
+        display={{ xs: 'none', md: 'block' }}
       />
       <Container>
         <Grid
           container
           justifyContent="center"
-          sx={{ pt: 8, pb: 5, position: "relative", zIndex: 3 }}
+          sx={{ pt: 8, pb: 5, position: 'relative', zIndex: 3 }}
         >
-          <Grid item xs={12} md={6} sx={{ textAlign: "center" }}>
+          <Grid item xs={12} md={6} sx={{ textAlign: 'center' }}>
             <MKBadge
               badgeContent="testimonials"
               variant="contained"
@@ -97,7 +97,7 @@ function TestimonialsThree() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default TestimonialsThree;
+export default TestimonialsThree

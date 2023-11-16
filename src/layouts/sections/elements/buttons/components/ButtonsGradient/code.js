@@ -47,6 +47,6 @@ function ButtonsGradient() {
   );
 }
 
-export default ButtonsGradient;`;
+export default ButtonsGradient;`
 
-export default buttonsGradientCode;
+export default buttonsGradientCode

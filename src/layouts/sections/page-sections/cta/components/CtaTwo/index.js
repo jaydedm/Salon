@@ -14,16 +14,16 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKSocialButton from "components/MKSocialButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKSocialButton from 'components/MKSocialButton'
 
-function CtaTwo() {
+function CtaTwo () {
   return (
     <MKBox component="section" mt={6} py={{ xs: 0, lg: 6 }}>
       <Container>
@@ -38,10 +38,10 @@ function CtaTwo() {
           </Grid>
           <Grid item xs={12} lg={6}>
             <Stack
-              direction={{ xs: "column", md: "row" }}
+              direction={{ xs: 'column', md: 'row' }}
               spacing={1.5}
               flexWrap="wrap"
-              justifyContent={{ xs: "flex-start", lg: "flex-end" }}
+              justifyContent={{ xs: 'flex-start', lg: 'flex-end' }}
             >
               <MKSocialButton color="twitter">
                 <i className="fab fa-twitter" />
@@ -64,7 +64,7 @@ function CtaTwo() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default CtaTwo;
+export default CtaTwo

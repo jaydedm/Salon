@@ -86,6 +86,6 @@ function ApplicationOne() {
   );
 }
 
-export default ApplicationOne;`;
+export default ApplicationOne;`
 
-export default applicationOneCode;
+export default applicationOneCode

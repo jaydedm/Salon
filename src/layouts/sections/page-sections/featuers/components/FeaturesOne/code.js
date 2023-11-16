@@ -91,6 +91,6 @@ function FeaturesOne() {
   );
 }
 
-export default FeaturesOne;`;
+export default FeaturesOne;`
 
-export default featuresOneCode;
+export default featuresOneCode

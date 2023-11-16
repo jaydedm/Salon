@@ -45,6 +45,6 @@ function StatsTwo() {
   );
 }
 
-export default StatsTwo;`;
+export default StatsTwo;`
 
-export default statsTwoCode;
+export default statsTwoCode

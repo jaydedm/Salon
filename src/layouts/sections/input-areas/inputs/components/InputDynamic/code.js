@@ -18,6 +18,6 @@ function InputDynamic() {
   );
 }
 
-export default InputDynamic;`;
+export default InputDynamic;`
 
-export default inputDynamicCode;
+export default inputDynamicCode

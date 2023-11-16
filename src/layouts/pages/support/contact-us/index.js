@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import ContactUs from "pages/Support/ContactUs";
+import ContactUs from 'pages/Support/ContactUs'
 
-export default function ContactUsPage() {
-  return <ContactUs />;
+export default function ContactUsPage () {
+  return <ContactUs />
 }

@@ -12,26 +12,26 @@ Coded by www.creative-tim.com
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-import { useState } from "react";
+import { useState } from 'react'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import AppBar from "@mui/material/AppBar";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import AppBar from '@mui/material/AppBar'
+import Tabs from '@mui/material/Tabs'
+import Tab from '@mui/material/Tab'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import SimplePricingCard from "examples/Cards/PricingCards/SimplePricingCard";
+import SimplePricingCard from 'examples/Cards/PricingCards/SimplePricingCard'
 
-function PricingTwo() {
-  const [activeTab, setActiveTab] = useState(0);
+function PricingTwo () {
+  const [activeTab, setActiveTab] = useState(0)
 
-  const handleTabType = (event, newValue) => setActiveTab(newValue);
+  const handleTabType = (event, newValue) => setActiveTab(newValue)
 
   return (
     <MKBox component="section" py={{ xs: 0, md: 12 }}>
@@ -96,9 +96,9 @@ function PricingTwo() {
               color="dark"
               title="Starter"
               description="Free access for 2 members"
-              price={{ value: "$199", type: "year" }}
-              action={{ type: "internal", route: "/", label: "buy now" }}
-              specifications={["Complete documentation", "Working materials in Sketch"]}
+              price={{ value: '$199', type: 'year' }}
+              action={{ type: 'internal', route: '/', label: 'buy now' }}
+              specifications={['Complete documentation', 'Working materials in Sketch']}
             />
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
@@ -106,12 +106,12 @@ function PricingTwo() {
               color="dark"
               title="Pro"
               description="Free access for 30 members"
-              price={{ value: "$299", type: "year" }}
-              action={{ type: "internal", route: "/", label: "buy now" }}
+              price={{ value: '$299', type: 'year' }}
+              action={{ type: 'internal', route: '/', label: 'buy now' }}
               specifications={[
-                "Complete documentation",
-                "Working materials in Sketch",
-                "2GB cloud storage",
+                'Complete documentation',
+                'Working materials in Sketch',
+                '2GB cloud storage'
               ]}
             />
           </Grid>
@@ -121,13 +121,13 @@ function PricingTwo() {
               color="dark"
               title="Premium"
               description="Free access for 200 members"
-              price={{ value: "$499", type: "year" }}
-              action={{ type: "internal", route: "/", label: "buy now" }}
+              price={{ value: '$499', type: 'year' }}
+              action={{ type: 'internal', route: '/', label: 'buy now' }}
               specifications={[
-                "Complete documentation",
-                "Working materials in Sketch",
-                "20GB cloud storage",
-                "100 team members",
+                'Complete documentation',
+                'Working materials in Sketch',
+                '20GB cloud storage',
+                '100 team members'
               ]}
             />
           </Grid>
@@ -136,21 +136,21 @@ function PricingTwo() {
               color="dark"
               title="Enterprise"
               description="Free access for all members"
-              price={{ value: "$899", type: "year" }}
-              action={{ type: "internal", route: "/", label: "buy now" }}
+              price={{ value: '$899', type: 'year' }}
+              action={{ type: 'internal', route: '/', label: 'buy now' }}
               specifications={[
-                "Complete documentation",
-                "Working materials in Sketch",
-                "100GB cloud storage",
-                "500 team members",
-                "Premium support",
+                'Complete documentation',
+                'Working materials in Sketch',
+                '100GB cloud storage',
+                '500 team members',
+                'Premium support'
               ]}
             />
           </Grid>
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default PricingTwo;
+export default PricingTwo

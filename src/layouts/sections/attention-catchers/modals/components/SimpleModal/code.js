@@ -71,6 +71,6 @@ function SimpleModal() {
   );
 }
 
-export default SimpleModal;`;
+export default SimpleModal;`
 
-export default simpleModalCode;
+export default simpleModalCode

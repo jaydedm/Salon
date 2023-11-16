@@ -127,6 +127,6 @@ function TestimonialsTwo() {
   );
 }
 
-export default TestimonialsTwo;`;
+export default TestimonialsTwo;`
 
-export default testimonialsTwoCode;
+export default testimonialsTwoCode

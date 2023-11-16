@@ -27,6 +27,6 @@ function TabsVertical() {
   );
 }
 
-export default TabsVertical;`;
+export default TabsVertical;`
 
-export default tabsVerticalCode;
+export default tabsVerticalCode

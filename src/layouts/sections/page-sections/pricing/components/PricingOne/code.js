@@ -140,6 +140,6 @@ function PricingOne() {
   );
 }
 
-export default PricingOne;`;
+export default PricingOne;`
 
-export default featuresOneCode;
+export default featuresOneCode

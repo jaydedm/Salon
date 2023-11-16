@@ -66,6 +66,6 @@ function ToastMessage() {
   );
 }
 
-export default ToastMessage;`;
+export default ToastMessage;`
 
-export default toastMessageCode;
+export default toastMessageCode

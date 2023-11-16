@@ -27,6 +27,6 @@ function ButtonsSizes() {
   );
 }
 
-export default ButtonsSizes;`;
+export default ButtonsSizes;`
 
-export default buttonsSizesCode;
+export default buttonsSizesCode

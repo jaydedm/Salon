@@ -18,6 +18,6 @@ function InputOutlined() {
   );
 }
 
-export default InputOutlined;`;
+export default InputOutlined;`
 
-export default inputOutlinedCode;
+export default inputOutlinedCode

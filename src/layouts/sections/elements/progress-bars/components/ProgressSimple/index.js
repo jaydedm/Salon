@@ -14,15 +14,15 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKProgress from "components/MKProgress";
+import MKBox from 'components/MKBox'
+import MKProgress from 'components/MKProgress'
 
-function ProgressSimple() {
+function ProgressSimple () {
   return (
     <MKBox component="section" bgColor="white" py={12}>
       <Container>
@@ -39,7 +39,7 @@ function ProgressSimple() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default ProgressSimple;
+export default ProgressSimple

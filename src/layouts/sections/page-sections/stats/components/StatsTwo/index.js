@@ -14,20 +14,20 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Otis Kit PRO examples
-import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
+import DefaultCounterCard from 'examples/Cards/CounterCards/DefaultCounterCard'
 
-function StatsTwo() {
+function StatsTwo () {
   return (
     <MKBox component="section" py={3}>
       <Container>
-        <Grid container item xs={12} lg={9} sx={{ mx: "auto" }}>
+        <Grid container item xs={12} lg={9} sx={{ mx: 'auto' }}>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
               color="primary"
@@ -57,7 +57,7 @@ function StatsTwo() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default StatsTwo;
+export default StatsTwo

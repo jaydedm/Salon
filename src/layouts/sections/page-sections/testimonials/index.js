@@ -14,29 +14,29 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Sections components
-import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+import BaseLayout from 'layouts/sections/components/BaseLayout'
+import View from 'layouts/sections/components/View'
 
 // Pricing page components
-import TestimonialsOne from "layouts/sections/page-sections/testimonials/components/TestimonialsOne";
-import TestimonialsTwo from "layouts/sections/page-sections/testimonials/components/TestimonialsTwo";
-import TestimonialsThree from "layouts/sections/page-sections/testimonials/components/TestimonialsThree";
+import TestimonialsOne from 'layouts/sections/page-sections/testimonials/components/TestimonialsOne'
+import TestimonialsTwo from 'layouts/sections/page-sections/testimonials/components/TestimonialsTwo'
+import TestimonialsThree from 'layouts/sections/page-sections/testimonials/components/TestimonialsThree'
 
 // Pricing page components code
-import testimonialOneCode from "layouts/sections/page-sections/testimonials/components/TestimonialsOne/code";
-import testimonialTwoCode from "layouts/sections/page-sections/testimonials/components/TestimonialsTwo/code";
-import testimonialThreeCode from "layouts/sections/page-sections/testimonials/components/TestimonialsThree/code";
+import testimonialOneCode from 'layouts/sections/page-sections/testimonials/components/TestimonialsOne/code'
+import testimonialTwoCode from 'layouts/sections/page-sections/testimonials/components/TestimonialsTwo/code'
+import testimonialThreeCode from 'layouts/sections/page-sections/testimonials/components/TestimonialsThree/code'
 
-function Testimonials() {
+function Testimonials () {
   return (
     <BaseLayout
       title="Testimonials"
       breadcrumb={[
-        { label: "Page Sections", route: "/sections/page-sections/testimonials" },
-        { label: "Testimonials" },
+        { label: 'Page Sections', route: '/sections/page-sections/testimonials' },
+        { label: 'Testimonials' }
       ]}
     >
       <View title="Testimonials 1" height="40rem" code={testimonialOneCode}>
@@ -53,7 +53,7 @@ function Testimonials() {
         </MKBox>
       </View>
     </BaseLayout>
-  );
+  )
 }
 
-export default Testimonials;
+export default Testimonials

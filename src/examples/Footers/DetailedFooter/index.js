@@ -14,22 +14,22 @@ Coded by www.creative-tim.com
 */
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // prop-types is a library for typechecking of props.
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Divider from '@mui/material/Divider'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
-function DetailedFooter({ content }) {
-  const { brand, socials, menus, copyright } = content;
+function DetailedFooter ({ content }) {
+  const { brand, socials, menus, copyright } = content
 
   return (
     <MKBox component="footer">
@@ -44,7 +44,7 @@ function DetailedFooter({ content }) {
             </MKTypography>
             <MKBox display="flex" alignItems="center">
               {socials.map(({ icon, link }, key) => {
-                const elementKey = `${link}-${key}`;
+                const elementKey = `${link}-${key}`
 
                 return (
                   <MKTypography
@@ -56,16 +56,16 @@ function DetailedFooter({ content }) {
                     variant="body2"
                     color="secondary"
                     mr={key === socials.length - 1 ? 0 : 3}
-                    sx={{ fontSize: "1.125rem" }}
+                    sx={{ fontSize: '1.125rem' }}
                   >
                     {icon}
                   </MKTypography>
-                );
+                )
               })}
             </MKBox>
           </Grid>
           {menus.map(({ name: title, items }, key) => (
-            <Grid key={title} item xs={6} md={2} ml={key === 0 ? { xs: 0, lg: "auro" } : 0}>
+            <Grid key={title} item xs={6} md={2} ml={key === 0 ? { xs: 0, lg: 'auro' } : 0}>
               <MKTypography
                 component="h6"
                 variant="button"
@@ -75,10 +75,11 @@ function DetailedFooter({ content }) {
               >
                 {title}
               </MKTypography>
-              <MKBox component="ul" p={0} m={0} sx={{ listStyle: "none" }}>
+              <MKBox component="ul" p={0} m={0} sx={{ listStyle: 'none' }}>
                 {items.map(({ name, route, href }) => (
                   <MKBox key={name} component="li" p={0} m={0} lineHeight={1.25}>
-                    {href ? (
+                    {href
+                      ? (
                       <MKTypography
                         component="a"
                         href={href}
@@ -92,7 +93,8 @@ function DetailedFooter({ content }) {
                       >
                         {name}
                       </MKTypography>
-                    ) : (
+                        )
+                      : (
                       <MKTypography
                         component={Link}
                         to={route}
@@ -104,25 +106,25 @@ function DetailedFooter({ content }) {
                       >
                         {name}
                       </MKTypography>
-                    )}
+                        )}
                   </MKBox>
                 ))}
               </MKBox>
             </Grid>
           ))}
-          <Grid item xs={12} pr={3} sx={{ textAlign: "center", mb: 3 }}>
+          <Grid item xs={12} pr={3} sx={{ textAlign: 'center', mb: 3 }}>
             <Divider />
             {copyright}
           </Grid>
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
 // Typechecking props for the DetailedFooter
 DetailedFooter.propTypes = {
-  content: PropTypes.instanceOf(Object).isRequired,
-};
+  content: PropTypes.instanceOf(Object).isRequired
+}
 
-export default DetailedFooter;
+export default DetailedFooter

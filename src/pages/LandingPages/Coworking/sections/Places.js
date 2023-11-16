@@ -14,24 +14,24 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKBadge from "components/MKBadge";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKBadge from 'components/MKBadge'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO components
-import SimpleBlogCard from "examples/Cards/BlogCards/SimpleBlogCard";
+import SimpleBlogCard from 'examples/Cards/BlogCards/SimpleBlogCard'
 
-function Places() {
+function Places () {
   const actionProps = {
-    type: "internal",
-    route: "/pages/landing-pages/coworking",
-    color: "dark",
-    label: "find more",
-  };
+    type: 'internal',
+    route: '/pages/landing-pages/coworking',
+    color: 'dark',
+    label: 'find more'
+  }
 
   return (
     <MKBox component="section" py={3}>
@@ -43,7 +43,7 @@ function Places() {
           alignItems="center"
           xs={12}
           lg={6}
-          sx={{ textAlign: "center", mx: "auto" }}
+          sx={{ textAlign: 'center', mx: 'auto' }}
         >
           <MKBadge
             variant="contained"
@@ -54,7 +54,7 @@ function Places() {
             sx={{ mb: 1 }}
           />
           <MKTypography variant="h2" mb={1}>
-            Explore our places in London{" "}
+            Explore our places in London{' '}
           </MKTypography>
           <MKTypography variant="body2" color="text">
             If you can&apos;t decide, the answer is no. If two equally difficult paths, choose the
@@ -125,7 +125,7 @@ function Places() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Places;
+export default Places

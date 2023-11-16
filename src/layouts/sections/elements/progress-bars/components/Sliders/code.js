@@ -22,6 +22,6 @@ function Sliders() {
   );
 }
 
-export default Sliders;`;
+export default Sliders;`
 
-export default slidersCode;
+export default slidersCode

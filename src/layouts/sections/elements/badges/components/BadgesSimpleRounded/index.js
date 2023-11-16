@@ -14,15 +14,15 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKBadge from "components/MKBadge";
+import MKBox from 'components/MKBox'
+import MKBadge from 'components/MKBadge'
 
-function BadgesSimpleRounded() {
+function BadgesSimpleRounded () {
   return (
     <MKBox component="section" py={12}>
       <Container>
@@ -64,7 +64,7 @@ function BadgesSimpleRounded() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default BadgesSimpleRounded;
+export default BadgesSimpleRounded

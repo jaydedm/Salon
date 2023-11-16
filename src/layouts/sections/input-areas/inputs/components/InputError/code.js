@@ -18,6 +18,6 @@ function InputError() {
   );
 }
 
-export default InputError;`;
+export default InputError;`
 
-export default inputErrorCode;
+export default inputErrorCode

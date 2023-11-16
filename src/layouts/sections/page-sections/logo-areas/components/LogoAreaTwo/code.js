@@ -90,6 +90,6 @@ function LogoAreaTwo() {
   );
 }
 
-export default LogoAreaTwo;`;
+export default LogoAreaTwo;`
 
-export default logoAreaTwoCode;
+export default logoAreaTwoCode

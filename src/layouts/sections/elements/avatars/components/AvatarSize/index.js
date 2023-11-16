@@ -14,18 +14,18 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKAvatar from "components/MKAvatar";
+import MKBox from 'components/MKBox'
+import MKAvatar from 'components/MKAvatar'
 
 // Images
-import team4 from "assets/images/team-4.jpg";
+import team4 from 'assets/images/team-4.jpg'
 
-function AvatarSize() {
+function AvatarSize () {
   return (
     <MKBox component="section" py={12}>
       <Container>
@@ -41,7 +41,7 @@ function AvatarSize() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default AvatarSize;
+export default AvatarSize

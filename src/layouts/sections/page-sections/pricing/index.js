@@ -14,29 +14,29 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Sections components
-import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+import BaseLayout from 'layouts/sections/components/BaseLayout'
+import View from 'layouts/sections/components/View'
 
 // Pricing page components
-import PricingOne from "layouts/sections/page-sections/pricing/components/PricingOne";
-import PricingTwo from "layouts/sections/page-sections/pricing/components/PricingTwo";
-import PricingThree from "layouts/sections/page-sections/pricing/components/PricingThree";
+import PricingOne from 'layouts/sections/page-sections/pricing/components/PricingOne'
+import PricingTwo from 'layouts/sections/page-sections/pricing/components/PricingTwo'
+import PricingThree from 'layouts/sections/page-sections/pricing/components/PricingThree'
 
 // Pricing page components code
-import pricingOneCode from "layouts/sections/page-sections/pricing/components/PricingOne/code";
-import pricingTwoCode from "layouts/sections/page-sections/pricing/components/PricingTwo/code";
-import pricingThreeCode from "layouts/sections/page-sections/pricing/components/PricingThree/code";
+import pricingOneCode from 'layouts/sections/page-sections/pricing/components/PricingOne/code'
+import pricingTwoCode from 'layouts/sections/page-sections/pricing/components/PricingTwo/code'
+import pricingThreeCode from 'layouts/sections/page-sections/pricing/components/PricingThree/code'
 
-function Pricing() {
+function Pricing () {
   return (
     <BaseLayout
       title="Pricing"
       breadcrumb={[
-        { label: "Page Sections", route: "/sections/page-sections/pricing" },
-        { label: "Pricing" },
+        { label: 'Page Sections', route: '/sections/page-sections/pricing' },
+        { label: 'Pricing' }
       ]}
     >
       <View title="Pricing 1" height="40rem" code={pricingOneCode}>
@@ -53,7 +53,7 @@ function Pricing() {
         </MKBox>
       </View>
     </BaseLayout>
-  );
+  )
 }
 
-export default Pricing;
+export default Pricing

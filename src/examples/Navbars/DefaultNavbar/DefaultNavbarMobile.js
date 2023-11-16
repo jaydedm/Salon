@@ -13,29 +13,29 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react'
 
 // react-router components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // prop-types is a library for typechecking of props.
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
 // @mui material components
-import Collapse from "@mui/material/Collapse";
-import MuiLink from "@mui/material/Link";
+import Collapse from '@mui/material/Collapse'
+import MuiLink from '@mui/material/Link'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultNavbarDropdown from "examples/Navbars/DefaultNavbar/DefaultNavbarDropdown";
+import DefaultNavbarDropdown from 'examples/Navbars/DefaultNavbar/DefaultNavbarDropdown'
 
-function DefaultNavbarMobile({ routes, open }) {
-  const [collapse, setCollapse] = useState("");
+function DefaultNavbarMobile ({ routes, open }) {
+  const [collapse, setCollapse] = useState('')
 
-  const handleSetCollapse = (name) => (collapse === name ? setCollapse(false) : setCollapse(name));
+  const handleSetCollapse = (name) => (collapse === name ? setCollapse(false) : setCollapse(name))
 
   const renderNavbarItems = routes.map(
     ({ name, icon, collapse: routeCollapses, href, route, collapse: navCollapse }) => (
@@ -49,11 +49,12 @@ function DefaultNavbarMobile({ routes, open }) {
         route={route}
         collapse={Boolean(navCollapse)}
       >
-        <MKBox sx={{ height: "15rem", maxHeight: "15rem", overflowY: "scroll" }}>
+        <MKBox sx={{ height: '15rem', maxHeight: '15rem', overflowY: 'scroll' }}>
           {routeCollapses &&
             routeCollapses.map((item) => (
               <MKBox key={item.name} px={2}>
-                {item.collapse ? (
+                {item.collapse
+                  ? (
                   <>
                     <MKTypography
                       display="block"
@@ -69,10 +70,10 @@ function DefaultNavbarMobile({ routes, open }) {
                       <MKTypography
                         key={el.name}
                         component={el.route ? Link : MuiLink}
-                        to={el.route ? el.route : ""}
-                        href={el.href ? el.href : ""}
-                        target={el.href ? "_blank" : ""}
-                        rel={el.href ? "noreferrer" : "noreferrer"}
+                        to={el.route ? el.route : ''}
+                        href={el.href ? el.href : ''}
+                        target={el.href ? '_blank' : ''}
+                        rel={el.href ? 'noreferrer' : 'noreferrer'}
                         minWidth="11.25rem"
                         display="block"
                         variant="button"
@@ -83,43 +84,44 @@ function DefaultNavbarMobile({ routes, open }) {
                         px={2}
                         sx={({ palette: { grey, dark }, borders: { borderRadius } }) => ({
                           borderRadius: borderRadius.md,
-                          cursor: "pointer",
-                          transition: "all 300ms linear",
+                          cursor: 'pointer',
+                          transition: 'all 300ms linear',
 
-                          "&:hover": {
+                          '&:hover': {
                             backgroundColor: grey[200],
-                            color: dark.main,
-                          },
+                            color: dark.main
+                          }
                         })}
                       >
                         {el.name}
                       </MKTypography>
                     ))}
                   </>
-                ) : (
+                    )
+                  : (
                   <MKBox
                     key={item.key}
                     display="block"
                     component={item.route ? Link : MuiLink}
-                    to={item.route ? item.route : ""}
-                    href={item.href ? item.href : ""}
-                    target={item.href ? "_blank" : ""}
-                    rel={item.href ? "noreferrer" : "noreferrer"}
+                    to={item.route ? item.route : ''}
+                    href={item.href ? item.href : ''}
+                    target={item.href ? '_blank' : ''}
+                    rel={item.href ? 'noreferrer' : 'noreferrer'}
                     sx={({ palette: { grey, dark }, borders: { borderRadius } }) => ({
                       borderRadius: borderRadius.md,
-                      cursor: "pointer",
-                      transition: "all 300ms linear",
+                      cursor: 'pointer',
+                      transition: 'all 300ms linear',
                       py: 1,
                       px: 1.625,
 
-                      "&:hover": {
+                      '&:hover': {
                         backgroundColor: grey[200],
                         color: dark.main,
 
-                        "& *": {
-                          color: dark.main,
-                        },
-                      },
+                        '& *': {
+                          color: dark.main
+                        }
+                      }
                     })}
                   >
                     <MKTypography
@@ -135,18 +137,18 @@ function DefaultNavbarMobile({ routes, open }) {
                       variant="button"
                       color="text"
                       fontWeight="regular"
-                      sx={{ transition: "all 300ms linear" }}
+                      sx={{ transition: 'all 300ms linear' }}
                     >
                       {item.description}
                     </MKTypography>
                   </MKBox>
-                )}
+                    )}
               </MKBox>
             ))}
         </MKBox>
       </DefaultNavbarDropdown>
     )
-  );
+  )
 
   return (
     <Collapse in={Boolean(open)} timeout="auto" unmountOnExit>
@@ -154,13 +156,13 @@ function DefaultNavbarMobile({ routes, open }) {
         {renderNavbarItems}
       </MKBox>
     </Collapse>
-  );
+  )
 }
 
 // Typechecking props for the DefaultNavbarMobile
 DefaultNavbarMobile.propTypes = {
   routes: PropTypes.instanceOf(Array).isRequired,
-  open: PropTypes.oneOfType([PropTypes.bool, PropTypes.instanceOf(Object)]).isRequired,
-};
+  open: PropTypes.oneOfType([PropTypes.bool, PropTypes.instanceOf(Object)]).isRequired
+}
 
-export default DefaultNavbarMobile;
+export default DefaultNavbarMobile

@@ -14,17 +14,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+import DefaultInfoCard from 'examples/Cards/InfoCards/DefaultInfoCard'
 
-function SocialAnalytics() {
+function SocialAnalytics () {
   return (
     <MKBox component="section" py={6}>
       <Container>
@@ -34,7 +34,7 @@ function SocialAnalytics() {
           justifyContent="center"
           xs={12}
           lg={6}
-          sx={{ mx: "auto", pb: 3, textAlign: "center" }}
+          sx={{ mx: 'auto', pb: 3, textAlign: 'center' }}
         >
           <MKTypography variant="h4" color="info" textGradient>
             Social Analytics
@@ -66,7 +66,7 @@ function SocialAnalytics() {
               direction="center"
             />
           </Grid>
-          <Grid item xs={12} md={6} lg={4} sx={{ mx: "auto" }}>
+          <Grid item xs={12} md={6} lg={4} sx={{ mx: 'auto' }}>
             <DefaultInfoCard
               icon="update"
               title="Unlimited revisions"
@@ -78,7 +78,7 @@ function SocialAnalytics() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default SocialAnalytics;
+export default SocialAnalytics

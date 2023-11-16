@@ -13,21 +13,21 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react'
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
 
 // HelpCenter page components
-import FaqCollapse from "pages/Support/HelpCenter/components/FaqCollapse";
+import FaqCollapse from 'pages/Support/HelpCenter/components/FaqCollapse'
 
-function Faq() {
-  const [collapse, setCollapse] = useState(false);
+function Faq () {
+  const [collapse, setCollapse] = useState(false)
 
   return (
     <MKBox component="section" py={12}>
@@ -120,7 +120,7 @@ function Faq() {
         </Grid>
       </Container>
     </MKBox>
-  );
+  )
 }
 
-export default Faq;
+export default Faq

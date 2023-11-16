@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO pages
-import ResetPassword from "pages/Authentication/ResetPassword/Cover";
+import ResetPassword from 'pages/Authentication/ResetPassword/Cover'
 
-export default function ResetPasswordPage() {
-  return <ResetPassword />;
+export default function ResetPasswordPage () {
+  return <ResetPassword />
 }

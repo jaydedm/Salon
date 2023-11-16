@@ -14,29 +14,29 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
+import MKBox from 'components/MKBox'
 
 // Sections components
-import BaseLayout from "layouts/sections/components/BaseLayout";
-import View from "layouts/sections/components/View";
+import BaseLayout from 'layouts/sections/components/BaseLayout'
+import View from 'layouts/sections/components/View'
 
 // Stats page components
-import FooterOne from "layouts/sections/page-sections/footers/components/FooterOne";
-import FooterTwo from "layouts/sections/page-sections/footers/components/FooterTwo";
-import FooterThree from "layouts/sections/page-sections/footers/components/FooterThree";
+import FooterOne from 'layouts/sections/page-sections/footers/components/FooterOne'
+import FooterTwo from 'layouts/sections/page-sections/footers/components/FooterTwo'
+import FooterThree from 'layouts/sections/page-sections/footers/components/FooterThree'
 
 // Stats page components code
-import footerOneCode from "layouts/sections/page-sections/footers/components/FooterOne/code";
-import footerTwoCode from "layouts/sections/page-sections/footers/components/FooterTwo/code";
-import footerThreeCode from "layouts/sections/page-sections/footers/components/FooterThree/code";
+import footerOneCode from 'layouts/sections/page-sections/footers/components/FooterOne/code'
+import footerTwoCode from 'layouts/sections/page-sections/footers/components/FooterTwo/code'
+import footerThreeCode from 'layouts/sections/page-sections/footers/components/FooterThree/code'
 
-function Footers() {
+function Footers () {
   return (
     <BaseLayout
       title="Footers"
       breadcrumb={[
-        { label: "Page Sections", route: "/sections/page-sections/footers" },
-        { label: "Footers" },
+        { label: 'Page Sections', route: '/sections/page-sections/footers' },
+        { label: 'Footers' }
       ]}
     >
       <View title="Footer 1" code={footerOneCode}>
@@ -53,7 +53,7 @@ function Footers() {
         <FooterThree />
       </View>
     </BaseLayout>
-  );
+  )
 }
 
-export default Footers;
+export default Footers

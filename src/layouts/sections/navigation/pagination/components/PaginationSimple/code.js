@@ -30,6 +30,6 @@ function PaginationSimple() {
   );
 }
 
-export default PaginationSimple;`;
+export default PaginationSimple;`
 
-export default paginationSimpleCode;
+export default paginationSimpleCode

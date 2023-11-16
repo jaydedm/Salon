@@ -24,6 +24,6 @@ function SelectPicker() {
   );
 }
 
-export default SelectPicker;`;
+export default SelectPicker;`
 
-export default selectPickerCode;
+export default selectPickerCode

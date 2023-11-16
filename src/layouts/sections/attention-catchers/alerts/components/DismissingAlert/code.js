@@ -22,6 +22,6 @@ function DismissingAlert() {
   );
 }
 
-export default DismissingAlert;`;
+export default DismissingAlert;`
 
-export default dismissingAlertCode;
+export default dismissingAlertCode

@@ -14,25 +14,25 @@ Coded by www.creative-tim.com
 */
 
 // Otis Kit PRO helper functions
-import pxToRem from "assets/theme/functions/pxToRem";
+import pxToRem from 'assets/theme/functions/pxToRem'
 
 export default {
   defaultProps: {
-    baseClassName: "material-icons-round",
-    fontSize: "inherit",
+    baseClassName: 'material-icons-round',
+    fontSize: 'inherit'
   },
 
   styleOverrides: {
     fontSizeInherit: {
-      fontSize: "inherit !important",
+      fontSize: 'inherit !important'
     },
 
     fontSizeSmall: {
-      fontSize: `${pxToRem(20)} !important`,
+      fontSize: `${pxToRem(20)} !important`
     },
 
     fontSizeLarge: {
-      fontSize: `${pxToRem(36)} !important`,
-    },
-  },
-};
+      fontSize: `${pxToRem(36)} !important`
+    }
+  }
+}

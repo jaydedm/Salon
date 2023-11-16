@@ -66,6 +66,6 @@ function PaginationSizing() {
   );
 }
 
-export default PaginationSizing;`;
+export default PaginationSizing;`
 
-export default paginationSizingCode;
+export default paginationSizingCode

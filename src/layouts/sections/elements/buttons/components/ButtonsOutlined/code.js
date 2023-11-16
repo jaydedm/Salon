@@ -47,6 +47,6 @@ function ButtonsOutlined() {
   );
 }
 
-export default ButtonsOutlined;`;
+export default ButtonsOutlined;`
 
-export default buttonsOutlinedCode;
+export default buttonsOutlinedCode

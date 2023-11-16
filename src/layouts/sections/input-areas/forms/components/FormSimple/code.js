@@ -76,6 +76,6 @@ function FormSimple() {
   );
 }
 
-export default FormSimple;`;
+export default FormSimple;`
 
-export default formSimpleCode;
+export default formSimpleCode

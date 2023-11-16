@@ -14,47 +14,47 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Tooltip from "@mui/material/Tooltip";
-import Icon from "@mui/material/Icon";
+import Container from '@mui/material/Container'
+import Grid from '@mui/material/Grid'
+import Tooltip from '@mui/material/Tooltip'
+import Icon from '@mui/material/Icon'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKAvatar from "components/MKAvatar";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox'
+import MKButton from 'components/MKButton'
+import MKAvatar from 'components/MKAvatar'
+import MKTypography from 'components/MKTypography'
 
 // Otis Kit PRO examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
+import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // VirtualReality page components
-import TodoList from "pages/Extra/VirtualReality/components/TodoList";
-import TodoCard from "pages/Extra/VirtualReality/components/TodoCard";
-import Emails from "pages/Extra/VirtualReality/components/Emails";
-import MediaPlayer from "pages/Extra/VirtualReality/components/MediaPlayer";
-import Messages from "pages/Extra/VirtualReality/components/Messages";
+import TodoList from 'pages/Extra/VirtualReality/components/TodoList'
+import TodoCard from 'pages/Extra/VirtualReality/components/TodoCard'
+import Emails from 'pages/Extra/VirtualReality/components/Emails'
+import MediaPlayer from 'pages/Extra/VirtualReality/components/MediaPlayer'
+import Messages from 'pages/Extra/VirtualReality/components/Messages'
 
 // Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
+import routes from 'routes'
+import footerRoutes from 'footer.routes'
 
 // Images
-import bgImage from "assets/images/vr-bg.jpg";
-import team1 from "assets/images/team-1.jpg";
-import sunCloud from "assets/images/small-logos/icon-sun-cloud.png";
+import bgImage from 'assets/images/vr-bg.jpg'
+import team1 from 'assets/images/team-1.jpg'
+import sunCloud from 'assets/images/small-logos/icon-sun-cloud.png'
 
-function VirtualReality() {
+function VirtualReality () {
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
-          type: "external",
-          route: "https://material-ui.com/store/items/otis-kit-pro-material-kit-react/",
-          label: "buy now",
-          color: "dark",
+          type: 'external',
+          route: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/',
+          label: 'buy now',
+          color: 'dark'
         }}
       />
       <MKBox
@@ -67,10 +67,10 @@ function VirtualReality() {
               rgba(gradients.dark.main, 0.6),
               rgba(gradients.dark.state, 0.6)
             )}, url(${bgImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "grid",
-          placeItems: "center",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          display: 'grid',
+          placeItems: 'center'
         }}
       >
         <Container>
@@ -78,7 +78,7 @@ function VirtualReality() {
             <Grid item xs={12} md={1}>
               <MKBox
                 display="flex"
-                flexDirection={{ xs: "row", md: "column" }}
+                flexDirection={{ xs: 'row', md: 'column' }}
                 justifyContent="center"
                 alignItems="center"
                 px={2}
@@ -90,7 +90,7 @@ function VirtualReality() {
                     alt="Profile Picture"
                     size="lg"
                     variant="rounded"
-                    sx={{ cursor: "pointer" }}
+                    sx={{ cursor: 'pointer' }}
                   />
                 </Tooltip>
 
@@ -101,7 +101,7 @@ function VirtualReality() {
                       size="large"
                       sx={({ palette: { black }, borders: { borderRadius } }) => ({
                         color: black.main,
-                        borderRadius: borderRadius.lg,
+                        borderRadius: borderRadius.lg
                       })}
                     >
                       <Icon color="inherit">home</Icon>
@@ -115,7 +115,7 @@ function VirtualReality() {
                       size="large"
                       sx={({ palette: { black }, borders: { borderRadius } }) => ({
                         color: black.main,
-                        borderRadius: borderRadius.lg,
+                        borderRadius: borderRadius.lg
                       })}
                     >
                       <Icon color="inherit">search</Icon>
@@ -128,7 +128,7 @@ function VirtualReality() {
                     size="large"
                     sx={({ palette: { black }, borders: { borderRadius } }) => ({
                       color: black.main,
-                      borderRadius: borderRadius.lg,
+                      borderRadius: borderRadius.lg
                     })}
                   >
                     <Icon color="inherit">more_horiz</Icon>
@@ -140,7 +140,7 @@ function VirtualReality() {
               <MKBox
                 display="flex"
                 justifyContent="space-between"
-                alignItems={{ xs: "center", md: "flex-start" }}
+                alignItems={{ xs: 'center', md: 'flex-start' }}
                 ml={{ xs: 1, md: 4 }}
                 mt={-1}
               >
@@ -150,8 +150,8 @@ function VirtualReality() {
                     sx={{
                       fontSize: ({ typography: { d1, h2 } }) => ({
                         xs: h2.fontSize,
-                        lg: d1.fontSize,
-                      }),
+                        lg: d1.fontSize
+                      })
                     }}
                     color="white"
                     lineHeight={1}
@@ -196,7 +196,7 @@ function VirtualReality() {
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
-  );
+  )
 }
 
-export default VirtualReality;
+export default VirtualReality

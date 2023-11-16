@@ -117,6 +117,6 @@ function ApplicationTwo() {
   );
 }
 
-export default ApplicationTwo;`;
+export default ApplicationTwo;`
 
-export default applicationTwoCode;
+export default applicationTwoCode

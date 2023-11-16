@@ -40,6 +40,6 @@ function StatsOne() {
   );
 }
 
-export default StatsOne;`;
+export default StatsOne;`
 
-export default statsOneCode;
+export default statsOneCode

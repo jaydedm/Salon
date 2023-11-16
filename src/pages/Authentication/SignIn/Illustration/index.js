@@ -13,30 +13,30 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react'
 
 // react-router-dom components
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 // @mui material components
-import Switch from "@mui/material/Switch";
+import Switch from '@mui/material/Switch'
 
 // Otis Kit PRO components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox'
+import MKTypography from 'components/MKTypography'
+import MKInput from 'components/MKInput'
+import MKButton from 'components/MKButton'
 
 // Authentication layout components
-import IllustrationLayout from "pages/Authentication/components/IllustrationLayout";
+import IllustrationLayout from 'pages/Authentication/components/IllustrationLayout'
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from 'assets/images/illustrations/illustration-reset.jpg'
 
-function Illustration() {
-  const [rememberMe, setRememberMe] = useState(false);
+function Illustration () {
+  const [rememberMe, setRememberMe] = useState(false)
 
-  const handleSetRememberMe = () => setRememberMe(!rememberMe);
+  const handleSetRememberMe = () => setRememberMe(!rememberMe)
 
   return (
     <IllustrationLayout
@@ -58,7 +58,7 @@ function Illustration() {
             fontWeight="regular"
             color="text"
             onClick={handleSetRememberMe}
-            sx={{ cursor: "pointer", userSelect: "none", ml: -1 }}
+            sx={{ cursor: 'pointer', userSelect: 'none', ml: -1 }}
           >
             &nbsp;&nbsp;Remember me
           </MKTypography>
@@ -70,7 +70,7 @@ function Illustration() {
         </MKBox>
         <MKBox mt={3} textAlign="center">
           <MKTypography variant="button" color="text">
-            Don&apos;t have an account?{" "}
+            Don&apos;t have an account?{' '}
             <MKTypography
               component={Link}
               to="/authentication/sign-up/cover"
@@ -85,7 +85,7 @@ function Illustration() {
         </MKBox>
       </MKBox>
     </IllustrationLayout>
-  );
+  )
 }
 
-export default Illustration;
+export default Illustration
