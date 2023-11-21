@@ -56,7 +56,7 @@ export default {
   },
 
   info: {
-    main: '#f5e1ab',
+    main: '#1A73E8',
     focus: '#1662C4'
   },
 
@@ -121,8 +121,8 @@ export default {
     },
 
     info: {
-      main: '#b09c64',
-      state: '#f5e1ab'
+      main: '#686c5c',
+      state: '#9ca387'
     },
 
     success: {

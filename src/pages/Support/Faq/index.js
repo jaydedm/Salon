@@ -65,9 +65,12 @@ function Faq () {
                   >
                     To secure your preferred service, we require a non-refundable deposit and a valid card on file at the time of booking.
                     <br></br>
+                    <br></br>
                     The deposit will be credited toward your total payment during the final transaction.
                     <br></br>
+                    <br></br>
                     This policy ensures efficient accommodation for all clients and upholds our commitment to exceptional experiences.
+                    <br></br>
                     <br></br>
                     Thank you for your understanding and cooperation. We look forward to welcoming you and delivering a memorable and personalized service that exceeds your expectations.
                   </FaqCollapse>
@@ -78,7 +81,9 @@ function Faq () {
                   >
                     Please have accompanying guests wait quietly in our lobby during your appointment.
                     <br></br>
+                    <br></br>
                     To maintain a tranquil atmosphere, we request that no young children accompany you.
+                    <br></br>
                     <br></br>
                     Thank you for understanding and working together to preserve the serenity of our space, ensuring a peaceful environment for all guests.
                   </FaqCollapse>
@@ -92,7 +97,9 @@ function Faq () {
                   >
                     We offer personalized services by appointment only, for a focused experience.
                     <br></br>
+                    <br></br>
                     Walk-in appointments may be available but will vary, as well as pricing.
+                    <br></br>
                     <br></br>
                     For a seamless and tailored experience, we recommend booking in advance.
                   </FaqCollapse>
