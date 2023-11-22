@@ -16,19 +16,19 @@ Coded by www.creative-tim.com
 import { useEffect } from 'react'
 
 // react-router components
-import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom'
 
 // @mui material components
-import { ThemeProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
+import { ThemeProvider } from '@mui/material/styles'
 
 // Otis Kit PRO themes
 import theme from 'assets/theme'
-import Presentation from 'layouts/pages/presentation'
 
 // Otis Kit PRO routes
-import routes from 'routes'
 import AboutUs from 'pages/Company/AboutUs'
+import Services from 'pages/Salon/sections/Services'
+import routes from 'routes'
 
 export default function App () {
   const { pathname } = useLocation()
@@ -57,8 +57,8 @@ export default function App () {
       <CssBaseline />
       <Routes>
         {getRoutes(routes)}
-        <Route path="/presentation" element={<Presentation />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
         <Route path="*" element={<Navigate to="/salon" />} />
       </Routes>
     </ThemeProvider>

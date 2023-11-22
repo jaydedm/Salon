@@ -43,6 +43,7 @@ import Icon from '@mui/material/Icon'
 import CoworkingPage from 'layouts/pages/landing-pages/coworking'
 import Rental from 'layouts/pages/landing-pages/rental'
 import HelpCenter from 'layouts/pages/support/help-center'
+import Salon from 'pages/Salon/Salon'
 
 const routes = [
   {
@@ -55,13 +56,28 @@ const routes = [
         name: 'P&W',
         collapse: [
           {
+            name: 'Home',
+            route: '/',
+            component: <Salon/>
+          },
+          {
+            name: 'About Us',
+            route: '/aboutus',
+            component: <CoworkingPage />
+          }
+        ]
+      },
+      {
+        name: 'P&W Esthetics',
+        collapse: [
+          {
             name: 'About Us',
             route: '/aboutus',
             component: <CoworkingPage />
           },
           {
             name: 'Services',
-            route: '/pages/landing-pages/rental',
+            route: '/services',
             component: <Rental />
           }
         ]
