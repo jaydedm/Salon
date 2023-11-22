@@ -56,6 +56,7 @@ MKButton.propTypes = {
     'white',
     'primary',
     'secondary',
+    'gold',
     'info',
     'success',
     'warning',

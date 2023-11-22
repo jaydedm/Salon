@@ -1,46 +1,17 @@
-/*
-=========================================================
-* Otis Kit PRO - v2.0.1
-=========================================================
-
-* Product Page: https://material-ui.com/store/items/otis-kit-pro-material-kit-react/
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// rellax
-// import Rellax from 'rellax'
-
-// typed-js
-// import * as Typed from 'typed.js'
-
-// @mui material components
 import Card from '@mui/material/Card'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 
-// Otis Kit PRO components
 import MKBox from 'components/MKBox'
 import MKTypography from 'components/MKTypography'
-// import MKButton from 'components/MKButton'
 
-// Otis Kit PRO examples
-import DefaultFooter from 'examples/Footers/DefaultFooter'
-import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
-
-// About Us page sections
-import Information from 'pages/Company/AboutUs/sections/Home'
-
-// Routes
 import footerRoutes from 'footer.routes'
 import routes from 'salonRoutes'
 
 import pnwLogo from 'assets/images/p&wlogo-tight.png'
+import SalonInformation from './sections/SalonInformation'
+import DefaultNavbar from './sections/DefaultNavbar'
+import DefaultFooter from './sections/DefaultFooter'
 
 function Salon () {
   return (
@@ -141,7 +112,7 @@ function Salon () {
           boxShadow: ({ boxShadows: { xxl } }) => xxl
         }}
       >
-        <Information />
+        <SalonInformation />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
