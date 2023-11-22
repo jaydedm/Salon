@@ -29,11 +29,10 @@ function Team () {
         <Grid container>
           <Grid item xs={12} md={8} sx={{ mb: 6 }}>
             <MKTypography variant="h3" color="white">
-              About Us
+              Our Team
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              There&apos;s nothing I really wanted to do in life that I wasn&apos;t able to get good
-              at. That&apos;s my skill.
+              We&apos;re excited to say hello
             </MKTypography>
           </Grid>
         </Grid>
@@ -44,15 +43,27 @@ function Team () {
                 image={team1}
                 name="Ginger Lydic"
                 position={{ color: 'info', label: 'Owner & Esthetician' }}
-                description="Welcome to my world of beauty and wellness! I'm Ginger Lydic, a passionate and trained esthetician dedicated to helping you achieve your skin's optimal health and radiance. In the pursuit of my true passion, I made a bold decision to follow my heart after spending over two decades as a financial analyst. With unwavering enthusiasm for skincare, I decided to embark on a new path and devote myself to this lifelong interest.
-
-                As your skincare specialist, I take pride in customizing each treatment to address your unique concerns and goals. Whether you're seeking rejuvenation, acne management, or simply a moment of relaxation, I am here to create a personalized experience tailored just for you.
-
-                Throughout our time together, my mission is to not only empower others to feel confident in their own skin but also provide you with a soothing sanctuary where you can unwind and feel pampered. I cherish the connections I make with each individual and believe that the power of human touch combined with exceptional skincare can create a transformative experience.
-
-                When I'm not in the treatment room, you can find me attending industry seminars, reading up on the latest skincare research, or spending quality time with my loved ones. I am truly grateful for the opportunity to do what I love, make a positive impact, and am always eager to discover new ways to enhance the wellbeing of my clients.
-
-                I cannot wait to embark on this skincare journey with you. Together, let's achieve your skin's full potential and embrace a future filled with radiance and confidence. Book your appointment today, and I look forward to welcoming you into my oasis of skincare bliss."
+                // eslint-disable-next-line quotes
+                description={
+                  <>Welcome to my world of beauty and wellness! <br></br>
+                  I&apos;m Ginger Lydic, a passionate and trained esthetician dedicated to helping you achieve your skin&apos;s optimal health and radiance.
+                  <br></br>
+                  <br></br>
+                  In the pursuit of my true passion, I made a bold decision to follow my heart after spending over two decades as a financial analyst. With unwavering enthusiasm for skincare,
+                  I decided to embark on a new path and devote myself to this lifelong interest.
+                  <br></br>
+                  <br></br>
+                  As your skincare specialist, I take pride in customizing each treatment to address your unique concerns and goals. Whether you&apos;re seeking rejuvenation, acne management, or simply a moment of relaxation, I am here to create a personalized experience tailored just for you. Throughout our time together, my mission is to not only empower others to feel confident in their own skin but also provide you with a soothing sanctuary where you can unwind and feel pampered.
+                  <br></br>
+                  <br></br>
+                  I cherish the connections I make with each individual and believe that the power of human touch combined with exceptional skincare can create a transformative experience.
+                  <br></br>
+                  <br></br>
+                  When I&apos;m not in the treatment room, you can find me attending industry seminars, reading up on the latest skincare research, or spending quality time with my loved ones. I am truly grateful for the opportunity to do what I love, make a positive impact, and am always eager to discover new ways to enhance the wellbeing of my clients. \n I cannot wait to embark on this skincare journey with you.
+                  <br></br>
+                  <br></br>
+                  Together, let&apos;s achieve your skin&apos;s full potential and embrace a future filled with radiance and confidence. Book your appointment today, and I look forward to welcoming you into my oasis of skincare bliss.
+                  </>}
               />
             </MKBox>
           </Grid>

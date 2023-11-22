@@ -28,6 +28,7 @@ import Presentation from 'layouts/pages/presentation'
 
 // Otis Kit PRO routes
 import routes from 'routes'
+import AboutUs from 'pages/Company/AboutUs'
 
 export default function App () {
   const { pathname } = useLocation()
@@ -57,6 +58,7 @@ export default function App () {
       <Routes>
         {getRoutes(routes)}
         <Route path="/presentation" element={<Presentation />} />
+        <Route path="/aboutus" element={<AboutUs />} />
         <Route path="*" element={<Navigate to="/salon" />} />
       </Routes>
     </ThemeProvider>

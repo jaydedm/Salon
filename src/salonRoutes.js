@@ -56,7 +56,7 @@ const routes = [
         collapse: [
           {
             name: 'About Us',
-            route: '/pages/landing-pages/coworking',
+            route: '/aboutus',
             component: <CoworkingPage />
           },
           {

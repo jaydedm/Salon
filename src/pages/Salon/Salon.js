@@ -20,9 +20,9 @@ Coded by www.creative-tim.com
 // import * as Typed from 'typed.js'
 
 // @mui material components
+import Card from '@mui/material/Card'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
-import Card from '@mui/material/Card'
 
 // Otis Kit PRO components
 import MKBox from 'components/MKBox'
@@ -30,16 +30,15 @@ import MKTypography from 'components/MKTypography'
 // import MKButton from 'components/MKButton'
 
 // Otis Kit PRO examples
-import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
 import DefaultFooter from 'examples/Footers/DefaultFooter'
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
 
 // About Us page sections
 import Information from 'pages/Company/AboutUs/sections/Home'
-import Team from 'pages/Company/AboutUs/sections/Team'
 
 // Routes
-import routes from 'salonRoutes'
 import footerRoutes from 'footer.routes'
+import routes from 'salonRoutes'
 
 import pnwLogo from 'assets/images/p&wlogo-tight.png'
 
@@ -143,7 +142,6 @@ function Salon () {
         }}
       >
         <Information />
-        <Team />
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
