@@ -36,7 +36,7 @@ import DefaultNavbar from 'examples/Navbars/DefaultNavbar'
 import DefaultFooter from 'examples/Footers/DefaultFooter'
 
 // About Us page sections
-import Information from 'pages/Company/AboutUs/sections/Information'
+import Information from 'pages/Company/AboutUs/sections/Home'
 import Team from 'pages/Company/AboutUs/sections/Team'
 import Featuring from 'pages/Company/AboutUs/sections/Featuring'
 import Newsletter from 'pages/Company/AboutUs/sections/Newsletter'

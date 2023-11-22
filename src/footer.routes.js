@@ -14,7 +14,7 @@ const date = new Date().getFullYear()
 
 export default {
   brand: {
-    name: 'Otis Kit PRO',
+    name: 'Musea',
     image: logoCT,
     route: '/'
   },
@@ -42,54 +42,11 @@ export default {
       items: [
         {
           name: 'about us',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
+          href: '/aboutus'
         },
         {
-          name: 'freebies',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-        },
-        {
-          name: 'premium tools',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-        },
-        {
-          name: 'blog',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-        }
-      ]
-    },
-    {
-      name: 'resources',
-      items: [
-        {
-          name: 'illustrations',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-        },
-        {
-          name: 'bits & snippets',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-        },
-        {
-          name: 'affiliate program',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-        }
-      ]
-    },
-    {
-      name: 'help & support',
-      items: [
-        {
-          name: 'contact us',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-        },
-        {
-          name: 'knowledge center',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-        },
-        { name: 'custom development', href: 'https://services.creative-tim.com/' },
-        {
-          name: 'sponsorships',
-          href: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
+          name: 'Services',
+          href: '/services'
         }
       ]
     },
@@ -114,7 +71,7 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Otis Kit by{' '}
+      All rights reserved. Copyright &copy; {date} by{' '}
       <MKTypography
         component="a"
         href="https://material-ui.com/store/items/otis-kit-pro-material-kit-react/"
@@ -123,7 +80,7 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        Jayde
       </MKTypography>
       .
     </MKTypography>
