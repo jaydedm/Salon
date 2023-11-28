@@ -7,25 +7,9 @@ import MKTypography from 'components/MKTypography'
 
 // Images
 import logoCT from 'assets/images/logo-ct-dark.png'
+import { mapsSelector } from 'utils'
 
 const date = new Date().getFullYear()
-
-function getOS () {
-  const uA = navigator.userAgent || navigator.vendor || window.opera
-  if ((/iPad|iPhone|iPod/.test(uA) && !window.MSStream) || (uA.includes('Mac') && 'ontouchend' in document)) return 'iOS'
-
-  let i; const os = ['Windows', 'Android', 'Unix', 'Mac', 'Linux', 'BlackBerry']
-  for (i = 0; i < os.length; i++) if (new RegExp(os[i], 'i').test(uA)) return os[i]
-}
-
-function mapsSelector () {
-  const os = getOS()
-  if (os === 'iOS') {
-    return 'https://maps.apple.com/?address=3832%20E%20Main%20St,%20Farmington,%20NM%2087402,%20United%20States&auid=14434958474571863594&ll=36.754303,-108.158349&lsp=9902&q=Curl%20Up%20and%20Dye&t=m'
-  } else {
-    return 'https://maps.app.goo.gl/EYQtPhvjuGU6fjnr7'
-  }
-}
 
 export default {
   brand: {

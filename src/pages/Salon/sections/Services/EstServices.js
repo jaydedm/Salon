@@ -8,10 +8,10 @@ import MKBox from 'components/MKBox'
 import MKTypography from 'components/MKTypography'
 
 import routes from 'salonRoutes'
-import DefaultNavbar from './DefaultNavbar'
+import DefaultNavbar from '../DefaultNavbar'
 import FaqCollapse from 'components/FaqCollapse'
 
-function Services () {
+function EstServices () {
   const [collapse, setCollapse] = useState(false)
 
   return (
@@ -45,7 +45,7 @@ function Services () {
                   mx={2}
                 >
                   <MKTypography variant="h3" color="white">
-                    Services
+                    Esthetic Services
                   </MKTypography>
                 </MKBox>
                 <MKBox p={6}>
@@ -53,7 +53,7 @@ function Services () {
                     Facials
                   </MKTypography>
                   <FaqCollapse
-                    title="Express Facial"
+                    title="Express Facial - $55.00"
                     open={collapse === 1}
                     onClick={() => (collapse === 1 ? setCollapse(false) : setCollapse(1))}
                   >
@@ -64,11 +64,11 @@ function Services () {
 
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Tranquility Facial"
+                    title="Tranquility Facial - $75.00"
                     open={collapse === 2}
                     onClick={() => (collapse === 2 ? setCollapse(false) : setCollapse(2))}
                   >
-                    Discover the ultimate experience to look and feel your best! Our comprehensive 60-minute treatment begins with a luxurious double cleanse, catering to your face, neck, and décolleté.
+                    Discover the ultimate experience to look and feel your best! This comprehensive 60-minute treatment begins with a luxurious double cleanse, catering to your face, neck, and décolleté.
                     <br></br>
                     <br></br>
                     With expert hands and a soothing touch, you&apos;ll be transported to a realm of serenity with a 10-minute facial massage, releasing tension and promoting relaxation. The rejuvenating journey continues with exfoliation, impurity extractions, and a specially tailored mask, serum, eye and lip treatment, moisturizer, and SPF, all customized to suit your unique skin type.
@@ -77,7 +77,7 @@ function Services () {
                     Experience the revitalizing effects of this well-rounded treatment, leaving your skin nourished, radiant, and glowing with renewed vitality. Indulge in the care and attention you deserve during this personalized skincare experience.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Refresh & Renew"
+                    title="Refresh & Renew - $95.00"
                     open={collapse === 3}
                     onClick={() => (collapse === 3 ? setCollapse(false) : setCollapse(3))}
                   >
@@ -92,90 +92,107 @@ function Services () {
                     <br></br>
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Signature Facial"
+                    title="Signature Facial - $115.00"
                     open={collapse === 4}
                     onClick={() => (collapse === 4 ? setCollapse(false) : setCollapse(4))}
                   >
-                    Experience the ultimate pampering with our Tranquility Facial, the cornerstone of this exceptional 90-minute treatment, with added benefits of essential oils, increased facial massage time as well as a scalp massage.
+                    Experience the ultimate pampering with the Tranquility Facial, the cornerstone of this exceptional 90-minute treatment, with added benefits of essential oils, increased facial massage time as well as a scalp massage.
                     <br></br>
                     <br></br>
                     To conclude this indulgent journey, luxuriate in the relaxation brought by the Esthemax Hydrojelly Mask, ensuring your skin receives the ultimate nourishment and hydration it deserves.
                     <br></br>
                     <br></br>
-                    Unwind, rejuvenate, and bask in the transformative effects of this meticulously crafted experience. Reveal your radiant best as you embrace the revitalizing journey to a more youthful and vibrant complexion
-
+                    Unwind, rejuvenate, and bask in the transformative effects of this meticulously crafted experience. Reveal your radiant best as you embrace the revitalizing journey to a more youthful and vibrant complexion.
                   </FaqCollapse>
                   <MKTypography variant="h5" mt={6} mb={3}>
                     Lashes
                   </MKTypography>
                   <FaqCollapse
-                    title="Lash Lift"
+                    title="Lash Lift - $65.00"
                     open={collapse === 5}
                     onClick={() => (collapse === 5 ? setCollapse(false) : setCollapse(5))}
                   >
+                    60 minutes
+                    <br></br>
+                    <br></br>
                     Experience the wonders of a semi-permanent lash transformation that amplifies your natural beauty.
                     <br></br>
                     <br></br>
                     By meticulously boosting your natural lashes from the root, we create a lifted and lengthened appearance that instantly enhances your gaze and opens up the eyes.
                     <br></br>
                     <br></br>
-                    Unlike traditional eyelash curlers, the lash lift offers semi-permanent magic that can endure for several weeks, gracefully adapting to your natural lash growth cycle. 60 minutes
+                    Unlike traditional eyelash curlers, the lash lift offers semi-permanent magic that can endure for several weeks, gracefully adapting to your natural lash growth cycle.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Lash Tint"
+                    title="Lash Tint - $30.00"
                     open={collapse === 6}
                     onClick={() => (collapse === 6 ? setCollapse(false) : setCollapse(6))}
                   >
-                    Elevate the allure of your natural lashes with a touch of enchantment, as we skillfully darken and accentuate your eyes for an intensified and defined look. 30 minutes
+                    30 minutes
+                    <br></br>
+                    <br></br>
+                    Elevate the allure of your natural lashes with a touch of enchantment, as we skillfully darken and accentuate your eyes for an intensified and defined look.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Lash Lift & Tint"
+                    title="Lash Lift & Tint - $85.00"
                     open={collapse === 7}
                     onClick={() => (collapse === 7 ? setCollapse(false) : setCollapse(7))}
                   >
+                    75 minutes
+                    <br></br>
+                    <br></br>
                     The ultimate enhancement for your lashes with our combined signature lash lift and tint treatment.
                     <br></br>
                     <br></br>
                     This experience is designed to elevate the allure of your natural lashes, creating a captivating and defined look that lasts. The lash lift and tint duo work synergistically to create a mesmerizing effect, leaving you with beautifully enhanced lashes that require minimal upkeep.
                     <br></br>
                     <br></br>
-                    The results are semi-permanent, lasting for several weeks, ensuring you wake up to stunning lashes every day. 75 minutes
+                    The results are semi-permanent, lasting for several weeks, ensuring you wake up to stunning lashes every day.
                   </FaqCollapse>
                   <MKTypography variant="h5" mt={6} mb={3}>
                     Brows
                   </MKTypography>
                   <FaqCollapse
-                    title="Brow Lamination"
+                    title="Brow Lamination - $50.00"
                     open={collapse === 8}
                     onClick={() => (collapse === 8 ? setCollapse(false) : setCollapse(8))}
                   >
+                    45 minutes
+                    <br></br>
+                    <br></br>
                     Discover the transformative allure of a semi-permanent, non-invasive brow procedure that artfully adjusts and refines your natural brow pattern. Your brows are sculpted, allowing them to stay in place with a feathered, brushed-up effect that adds a touch of sophistication to your look.
                     <br></br>
                     <br></br>
-                    Embrace the beauty of perfectly groomed brows that frame your eyes and elevate your entire appearance without the need for daily maintenance. 45 minutes
+                    Embrace the beauty of perfectly groomed brows that frame your eyes and elevate your entire appearance without the need for daily maintenance.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Brow Tint"
+                    title="Brow Tint - $30.00"
                     open={collapse === 9}
                     onClick={() => (collapse === 9 ? setCollapse(false) : setCollapse(9))}
                   >
-                    Experience brow intensification as we choose the shade to complement your hair and skin tone and skillfully darken and define your eyebrows, enhancing their natural beauty. 30 minutes
+                    30 minutes
+                    <br></br>
+                    <br></br>
+                    Experience brow intensification as we choose the shade to complement your hair and skin tone and skillfully darken and define your eyebrows, enhancing their natural beauty.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Brow Lamination & Tint"
+                    title="Brow Lamination & Tint - $65.00"
                     open={collapse === 10}
                     onClick={() => (collapse === 10 ? setCollapse(false) : setCollapse(10))}
                   >
+                    60 minutes
+                    <br></br>
+                    <br></br>
                     The fusion of Brow Lamination and Tint offers a captivating transformation. Creating perfectly groomed and stunningly enhanced eyebrows that frame your eyes like never before along with a customized darkening of the brows which enhances definition, making your brows appear fuller and more alluring.
                     <br></br>
                     <br></br>
-                    The experience is a true testament to the power of well-groomed eyebrows in enhancing your natural beauty. In just one visit, achieve an effortlessly chic and polished look that lasts for weeks, reducing the need for daily brow maintenance. 60 minutes
+                    The experience is a true testament to the power of well-groomed eyebrows in enhancing your natural beauty. In just one visit, achieve an effortlessly chic and polished look that lasts for weeks, reducing the need for daily brow maintenance.
                   </FaqCollapse>
                   <MKTypography variant="h5" mt={6} mb={3}>
                     Waxing
                   </MKTypography>
                   <MKTypography variant="h6" mt={6} mb={3} sx={{ color: '#7b809a' }}>
-                    Hair removal. Options are: Nose, Eyebrow, Upper Lip and Underarms
+                    Hair removal. Options are: Nose ($15.00), Eyebrow ($25.00), Upper Lip ($15.00) and Underarms ($35.00)
                   </MKTypography>
                 </MKBox>
               </Card>
@@ -187,4 +204,4 @@ function Services () {
   )
 }
 
-export default Services
+export default EstServices

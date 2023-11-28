@@ -1,5 +1,6 @@
 import Faq from 'pages/Faq'
 
-export default function FaqPage () {
-  return <Faq />
+// eslint-disable-next-line react/prop-types
+export default function FaqPage ({ color }) {
+  return <Faq color={color} />
 }

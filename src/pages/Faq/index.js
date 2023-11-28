@@ -7,9 +7,13 @@ import Card from '@mui/material/Card'
 import MKBox from 'components/MKBox'
 import MKTypography from 'components/MKTypography'
 import FaqCollapse from 'components/FaqCollapse'
+import { mapsSelector } from 'utils'
 
-function Faq () {
+// eslint-disable-next-line react/prop-types
+function Faq ({ color }) {
   const [collapse, setCollapse] = useState(false)
+
+  console.log(color)
 
   return (
     <>
@@ -22,7 +26,7 @@ function Faq () {
               <Card>
                 <MKBox
                   variant="gradient"
-                  bgColor="info"
+                  bgColor={color || 'info'}
                   borderRadius="lg"
                   coloredShadow="info"
                   p={3}
@@ -61,7 +65,7 @@ function Faq () {
                     Please have accompanying guests wait quietly in our lobby during your appointment.
                     <br></br>
                     <br></br>
-                    To maintain a tranquil atmosphere, we request that no young children accompany you.
+                    To maintain a tranquil atmosphere, we request that no young children accompany you unless they have an appointment.
                     <br></br>
                     <br></br>
                     Thank you for understanding and working together to preserve the serenity of our space, ensuring a peaceful environment for all guests.
@@ -87,11 +91,13 @@ function Faq () {
                     open={collapse === 7}
                     onClick={() => (collapse === 7 ? setCollapse(false) : setCollapse(7))}
                   >
-                    3832 East Main Street
-                    <br></br>
-                    Suite B
-                    <br></br>
-                    Farmington NM 87402
+                    <a href={mapsSelector()}>
+                      3832 East Main Street
+                      <br></br>
+                      Suite B
+                      <br></br>
+                      Farmington NM 87402
+                    </a>
                   </FaqCollapse>
                 </MKBox>
               </Card>

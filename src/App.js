@@ -7,9 +7,11 @@ import { ThemeProvider } from '@mui/material/styles'
 
 import theme from 'assets/theme'
 
-import Services from 'pages/Salon/sections/Services'
+import EstServices from 'pages/Salon/sections/Services/EstServices'
 import Salon from 'pages/Salon/Salon'
 import AboutUs from 'pages/Salon/sections/AboutUs'
+import SalonServices from 'pages/Salon/sections/Services/SalonServices'
+import Esthetics from 'pages/Salon/Esthetics'
 
 export default function App () {
   const { pathname } = useLocation()
@@ -25,7 +27,9 @@ export default function App () {
       <CssBaseline />
       <Routes>
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/estaboutus" element={<Esthetics />} />
+        <Route path="/estservices" element={<EstServices />} />
+        <Route path="/services" element={<SalonServices />} />
         <Route path="/" element={<Salon />} />
         <Route path="*" element={<Navigate to="/"/>} />
       </Routes>

@@ -1,4 +1,3 @@
-import Card from '@mui/material/Card'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 
@@ -9,11 +8,11 @@ import footerRoutes from 'footer.routes'
 import routes from 'salonRoutes'
 
 import pnwLogo from 'assets/images/p&wlogo-tight.png'
-import SalonInformation from './sections/SalonInformation'
 import DefaultNavbar from './sections/DefaultNavbar'
 import DefaultFooter from './sections/DefaultFooter'
+import EstAboutUs from './sections/AboutUs/EstAboutUs'
 
-function Salon () {
+function Esthetics () {
   return (
     <>
       <DefaultNavbar
@@ -40,7 +39,7 @@ function Salon () {
             `${linearGradient(
               rgba(gradients.dark.main, 0.6),
               rgba(gradients.dark.state, 0.6)
-            )}, url('/p&w-bg.png')`,
+            )}, url('/est-bg.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'grid',
@@ -102,18 +101,7 @@ function Salon () {
           </Grid>
         </Container>
       </MKBox>
-      <Card
-        sx={{
-          background: 'white',
-          p: 2,
-          mx: { xs: 2, lg: 3 },
-          mt: -8,
-          mb: 4,
-          boxShadow: ({ boxShadows: { xxl } }) => xxl
-        }}
-      >
-        <SalonInformation />
-      </Card>
+      <EstAboutUs />
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
@@ -121,4 +109,4 @@ function Salon () {
   )
 }
 
-export default Salon
+export default Esthetics

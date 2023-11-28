@@ -41,6 +41,9 @@ export default styled(Box)(({ theme, ownerState }) => {
   const validGradients = [
     'primary',
     'secondary',
+    'olive',
+    'pink',
+    'gold',
     'info',
     'success',
     'warning',

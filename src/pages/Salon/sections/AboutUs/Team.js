@@ -10,13 +10,14 @@ import team3 from 'assets/images/ivana-squares.jpg'
 import team4 from 'assets/images/ivana-square.jpg'
 import HorizontalTeamCard from 'components/HorizontalTeamCard'
 
-function Team () {
+// eslint-disable-next-line react/prop-types
+function Team ({ color }) {
   return (
     <>
       <MKBox
         component="section"
         variant="gradient"
-        bgColor="dark"
+        bgColor={color || 'dark'}
         position="relative"
         py={6}
         pt={12}
@@ -41,26 +42,24 @@ function Team () {
                   image={team1}
                   name="Ginger Lydic"
                   position={{ color: 'info', label: 'Owner & Esthetician' }}
-                  // eslint-disable-next-line quotes
                   description={
                     <>Welcome to my world of beauty and wellness! <br></br>
-                      I&apos;m Ginger Lydic, a passionate and trained esthetician dedicated to helping you achieve your skin&apos;s optimal health and radiance.
+                      I&apos;m Ginger Lydic, a passionate and trained esthetician dedicated to enhancing your skin&apos;s health and radiance.
                       <br></br>
                       <br></br>
-                      In the pursuit of my true passion, I made a bold decision to follow my heart after spending over two decades as a financial analyst. With unwavering enthusiasm for skincare,
-                      I decided to embark on a new path and devote myself to this lifelong interest.
+                      After over two decades as a financial analyst, I made a bold decision and decided to embark on a new path, to pursue my interest in skincare.
                       <br></br>
                       <br></br>
-                      As your skincare specialist, I take pride in customizing each treatment to address your unique concerns and goals. Whether you&apos;re seeking rejuvenation, acne management, or simply a moment of relaxation, I am here to create a personalized experience tailored just for you. Throughout our time together, my mission is to not only empower others to feel confident in their own skin but also provide you with a soothing sanctuary where you can unwind and feel pampered.
+                      Upon finishing esthetic school, an opportunity arose to procure this space
                       <br></br>
                       <br></br>
-                      I cherish the connections I make with each individual and believe that the power of human touch combined with exceptional skincare can create a transformative experience.
+                      My vision was a salon where independent spirits come together to create something extraordinary
                       <br></br>
                       <br></br>
-                      When I&apos;m not in the treatment room, you can find me attending industry seminars, reading up on the latest skincare research, or spending quality time with my loved ones. I am truly grateful for the opportunity to do what I love, make a positive impact, and am always eager to discover new ways to enhance the wellbeing of my clients. \n I cannot wait to embark on this skincare journey with you.
+                      It&apos;s a celebration of individuality, a haven where professionals and clients alike embark on a shared journey of grooming, beauty, wellness, and empowerment.
                       <br></br>
                       <br></br>
-                      Together, let&apos;s achieve your skin&apos;s full potential and embrace a future filled with radiance and confidence. Book your appointment today, and I look forward to welcoming you into my oasis of skincare bliss.
+                      Learn more about my skincare passion, under the P&W Esthetic page.
                     </>}
                 />
               </MKBox>

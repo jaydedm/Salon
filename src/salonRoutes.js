@@ -8,7 +8,7 @@ const routes = [
     rowsPerColumn: 2,
     collapse: [
       {
-        name: 'P&W Salon | Barber',
+        name: 'Penelope & Watson',
         collapse: [
           {
             name: 'Home',
@@ -17,6 +17,10 @@ const routes = [
           {
             name: 'About Us',
             route: '/aboutus'
+          },
+          {
+            name: 'Services',
+            route: '/services'
           }
         ]
       },
@@ -25,11 +29,11 @@ const routes = [
         collapse: [
           {
             name: 'About Us',
-            route: '/aboutus'
+            route: '/estaboutus'
           },
           {
             name: 'Services',
-            route: '/services'
+            route: '/estservices'
           }
         ]
       }
