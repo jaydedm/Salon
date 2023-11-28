@@ -26,10 +26,10 @@ function EstTeam ({ color }) {
           <Grid container>
             <Grid item xs={12} md={8} sx={{ mb: 6 }}>
               <MKTypography variant="h3" color="white">
-                Our Team
+                The Team
               </MKTypography>
               <MKTypography variant="body2" color="white" opacity={0.8}>
-                We&apos;re excited to say hello
+                I&apos;m excited to say hello
               </MKTypography>
             </Grid>
           </Grid>
