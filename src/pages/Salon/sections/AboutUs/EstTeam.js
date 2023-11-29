@@ -34,7 +34,7 @@ function EstTeam ({ color }) {
             </Grid>
           </Grid>
           <Grid container spacing={3}>
-            <Grid item xs={12} lg={6}>
+            <Grid item xs={12} lg={6} sx={{ maxWidth: '100% !important', flexBasis: '100% !important' }}>
               <MKBox mb={1}>
                 <HorizontalTeamCard
                   image={ginger2}
@@ -62,7 +62,7 @@ function EstTeam ({ color }) {
               </MKBox>
             </Grid>
           </Grid>
-          <FaqPage color='gold'/>
+          <FaqPage color='gold' est={true} />
         </Container>
       </MKBox>
     </>

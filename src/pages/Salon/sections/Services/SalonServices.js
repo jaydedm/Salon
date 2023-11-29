@@ -183,7 +183,7 @@ function SalonServices () {
                       Full Head
                     </FaqCollapse>
                   </FaqCategoryCollapse>
-                  <FaqCategoryCollapse title='Hands and Feet' open={categoryCollapse === 5} onClick={() => (categoryCollapse === 5 ? setCategoryCollapse(false) : openNewCategory(5))} >
+                  <FaqCategoryCollapse title='Hands and Feet' open={categoryCollapse === 9} onClick={() => (categoryCollapse === 9 ? setCategoryCollapse(false) : openNewCategory(9))} >
                     <FaqCollapse
                       title="Manicure - Starting at $XXX.XX"
                       open={collapse === 19}
