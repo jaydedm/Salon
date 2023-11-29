@@ -101,7 +101,7 @@ function EstFaq ({ color }) {
                     Clients below 18 years of age must have a parent or guardian present during treatment and consultation.
                     <br></br>
                     <br></br>
-                    To ensure a peaceful atmosphere, I request accompanying companions to wait quietly in the designated waiting area after the consultation, or may choose to leave the salon.
+                    To ensure a peaceful atmosphere, I request accompanying companions to wait quietly in the designated waiting area after the consultation.
                   </FaqCollapse>
                   <MKTypography variant="h5" mt={6} mb={3}>
                     FAQ

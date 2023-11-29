@@ -43,17 +43,17 @@ function Team ({ color }) {
                   name="Ginger Lydic"
                   position={{ color: 'info', label: 'Owner & Esthetician' }}
                   description={
-                    <>Welcome to my world of beauty and wellness! <br></br>
-                      I&apos;m Ginger Lydic, a passionate and trained esthetician dedicated to enhancing your skin&apos;s health and radiance.
+                    <>
+                      I&apos;m Ginger Lydic, a passionate esthetician dedicated to enhancing your skin&apos;s health and radiance.
                       <br></br>
                       <br></br>
                       After over two decades as a financial analyst, I made a bold decision and decided to embark on a new path, to pursue my interest in skincare.
                       <br></br>
                       <br></br>
-                      Upon finishing esthetic school, an opportunity arose to procure this space
+                      Upon finishing esthetic school, an opportunity arose to procure this space.
                       <br></br>
                       <br></br>
-                      My vision was a salon where independent spirits come together to create something extraordinary
+                      My vision was a salon where independent spirits come together to create something extraordinary.
                       <br></br>
                       <br></br>
                       It&apos;s a celebration of individuality, a haven where professionals and clients alike embark on a shared journey of grooming, beauty, wellness, and empowerment.

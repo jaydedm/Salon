@@ -8,11 +8,13 @@ import CenteredBlogCard from 'components/CenteredBlogCard'
 
 const DescriptionText =
   <div>
+    <p>A haven for salon, barber, and esthetician services. Our space has undergone a refreshing transformation, and we are thrilled to bring you a range of exceptional services to cater to your unique needs. </p>
+    <br></br>
     <p>We celebrate a community of independent business providers, leading to variations in services, prices, and policies. Explore important information below for a seamless experience.</p>
     <br></br>
     <p>You can navigate to both our salon and esthetic service pages, with pricing and description, under pages at the top of the website. You can also learn about the service providers on the “about us” page.</p>
     <br></br>
-    <p>Thank you for choosing Penelope & Watson we&apos;re excited to pamper you and bring out your best.</p>
+    <p>Thank you for choosing Penelope & Watson - We&apos;re excited to pamper you and bring out your best.</p>
   </div>
 
 function SalonInformation () {

@@ -129,7 +129,7 @@ function SalonServices () {
                       open={collapse === 1002}
                       onClick={() => (collapse === 1002 ? setCollapse(false) : setCollapse(1002))}
                     >
-                      ¾  Head
+                      3/4 Head
                     </FaqCollapse>
                     <FaqCollapse
                       title="Highlights and Lowlights - Starting at $XXX.XX"
@@ -152,7 +152,7 @@ function SalonServices () {
                       open={collapse === 14}
                       onClick={() => (collapse === 14 ? setCollapse(false) : setCollapse(14))}
                     >
-                      Adding length or volume to natural hair using either synthetic or natural hair extensions, providing versatility in styling
+                      Adding length or volume to natural hair using either synthetic or natural hair extensions, providing versatility in styling.
                     </FaqCollapse>
                     <FaqCollapse
                       title="Hair and Scalp Treatments - Starting at $XXX.XX"
@@ -166,21 +166,14 @@ function SalonServices () {
                       open={collapse === 16}
                       onClick={() => (collapse === 16 ? setCollapse(false) : setCollapse(16))}
                     >
-                      Professional makeup services for various occasions, including natural looks, glamour, and special effects makeup.
+                      Elegant and specialized hairstyling services for weddings and other special events.
                     </FaqCollapse>
                     <FaqCollapse
                       title="Makeup Application, Starting at $XXX.XX"
                       open={collapse === 17}
                       onClick={() => (collapse === 17 ? setCollapse(false) : setCollapse(17))}
                     >
-                      ¾  Head
-                    </FaqCollapse>
-                    <FaqCollapse
-                      title="Highlights and Lowlights - Starting at $XXX.XX"
-                      open={collapse === 18}
-                      onClick={() => (collapse === 18 ? setCollapse(false) : setCollapse(18))}
-                    >
-                      Full Head
+                      Professional makeup services for various occasions, including natural looks, glamour, and special effects makeup.
                     </FaqCollapse>
                   </FaqCategoryCollapse>
                   <FaqCategoryCollapse title='Hands and Feet' open={categoryCollapse === 9} onClick={() => (categoryCollapse === 9 ? setCategoryCollapse(false) : openNewCategory(9))} >
@@ -249,7 +242,7 @@ function SalonServices () {
                       open={collapse === 27}
                       onClick={() => (collapse === 27 ? setCollapse(false) : setCollapse(27))}
                     >
-                      Precision cutting and styling tailored to your preferences, creating a personalized and polished look.
+                      Creative and customized hair designs or patterns, adding a unique and artistic element to your haircut.
                     </FaqCollapse>
                     <FaqCollapse
                       title="Head Shave - Starting at $XXX.XX"

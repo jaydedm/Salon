@@ -78,7 +78,7 @@ function Faq ({ color }) {
                     open={collapse === 6}
                     onClick={() => (collapse === 6 ? setCollapse(false) : setCollapse(6))}
                   >
-                    We offer personalized services by appointment only, for a focused experience.
+                    We offer personalized services by appointment, for a focused experience.
                     <br></br>
                     <br></br>
                     Walk-in appointments may be available but will vary, as well as pricing.
