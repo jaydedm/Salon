@@ -4,8 +4,8 @@ const routes = [
   {
     name: 'pages',
     icon: <Icon>dashboard</Icon>,
-    columns: 3,
-    rowsPerColumn: 2,
+    columns: 2,
+    rowsPerColumn: 1,
     collapse: [
       {
         name: 'Penelope & Watson',

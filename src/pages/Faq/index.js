@@ -12,9 +12,6 @@ import { mapsSelector } from 'utils'
 // eslint-disable-next-line react/prop-types
 function Faq ({ color }) {
   const [collapse, setCollapse] = useState(false)
-
-  console.log(color)
-
   return (
     <>
       <MKBox component="section" pt={20} pb={12}>
