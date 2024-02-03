@@ -58,7 +58,7 @@ function Salon () {
             flexDirection="column"
             sx={{ mx: 'auto', textAlign: 'center' }}
           >
-            <img src={pnwLogo} style={{ width: '75%' }}></img>
+            <img src={pnwLogo} style={{ width: '75%' }} alt='Logo for Penolope & Watson, the best spa, salon, and barber in Farmington and Durango'></img>
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Find us on
             </MKTypography>

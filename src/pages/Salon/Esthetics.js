@@ -7,7 +7,7 @@ import MKTypography from 'components/MKTypography'
 import footerRoutes from 'footer.routes'
 import routes from 'salonRoutes'
 
-import pnwLogo from 'assets/images/p&wlogo-tight.png'
+import pnwLogo from 'assets/images/pnwestlogo.png'
 import DefaultNavbar from './sections/DefaultNavbar'
 import DefaultFooter from './sections/DefaultFooter'
 import EstAboutUs from './sections/AboutUs/EstAboutUs'
@@ -57,7 +57,7 @@ function Esthetics () {
             flexDirection="column"
             sx={{ mx: 'auto', textAlign: 'center' }}
           >
-            <img src={pnwLogo} style={{ width: '75%' }}></img>
+            <img src={pnwLogo} style={{ width: '75%' }} alt='Logo for P&W Esthetics, the best Esthetician in Farmington and Durango'></img>
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Find us on
             </MKTypography>
