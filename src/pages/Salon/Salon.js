@@ -68,6 +68,7 @@ function Salon () {
                 variant="body1"
                 color="white"
                 href="#"
+                alt="Link to Penelope & Watson Facebook"
                 mr={3}
               >
                 <i className="fab fa-facebook" />
@@ -77,6 +78,7 @@ function Salon () {
                 variant="body1"
                 color="white"
                 href="#"
+                alt="Link to Penelope & Watson Instagram"
                 mr={3}
               >
                 <i className="fab fa-instagram" />
@@ -86,6 +88,7 @@ function Salon () {
                 variant="body1"
                 color="white"
                 href="#"
+                alt="Link to Penelope & Watson Twitter"
                 mr={3}
               >
                 <i className="fab fa-twitter" />
@@ -94,6 +97,7 @@ function Salon () {
                 component="a"
                 variant="body1"
                 color="white"
+                alt="Link to Penelope & Watson Google Plus"
                 href="#"
               >
                 <i className="fab fa-google-plus" />
