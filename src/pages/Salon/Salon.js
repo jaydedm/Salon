@@ -8,7 +8,7 @@ import MKTypography from 'components/MKTypography'
 import footerRoutes from 'footer.routes'
 import routes from 'salonRoutes'
 
-import pnwLogo from 'assets/images/p&wlogo-tight.png'
+import pnwLogo from 'assets/images/p&wlogo-tight.webp'
 import SalonInformation from './sections/SalonInformation'
 import DefaultNavbar from './sections/DefaultNavbar'
 import DefaultFooter from './sections/DefaultFooter'

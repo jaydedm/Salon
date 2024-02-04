@@ -23,7 +23,7 @@ function SalonInformation () {
       <Container>
         <Grid container spacing={3} alignItems="center">
           <CenteredBlogCard
-            image="/pnwstations-small.png"
+            image="/pnwstations-small.webp"
             title="Welcome to Penelope & Watson"
             description={DescriptionText}
             action={{
