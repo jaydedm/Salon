@@ -8,7 +8,7 @@ import MKTypography from 'components/MKTypography'
 import footerRoutes from 'footer.routes'
 import routes from 'salonRoutes'
 
-import pnwLogo from 'assets/images/p&wlogo-tight.webp'
+// import pnwLogo from 'assets/images/p&wlogo-tight.webp'
 import SalonInformation from './sections/SalonInformation'
 import DefaultNavbar from './sections/DefaultNavbar'
 import DefaultFooter from './sections/DefaultFooter'
@@ -58,7 +58,7 @@ function Salon () {
             flexDirection="column"
             sx={{ mx: 'auto', textAlign: 'center' }}
           >
-            <img src={pnwLogo} style={{ width: '75%' }} alt='Logo for Penolope & Watson, the best spa, salon, and barber in Farmington and Durango'></img>
+            {/* <img src={pnwLogo} style={{ width: '75%' }} alt='Logo for Penolope & Watson, the best spa, salon, and barber in Farmington and Durango'></img> */}
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Find us on
             </MKTypography>
