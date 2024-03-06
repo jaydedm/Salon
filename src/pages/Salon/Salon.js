@@ -67,7 +67,7 @@ function Salon () {
                 component="a"
                 variant="body1"
                 color="white"
-                href="#"
+                href="https://www.facebook.com/penelopeandwatson"
                 alt="Link to Penelope & Watson Facebook"
                 mr={3}
               >
@@ -87,20 +87,10 @@ function Salon () {
                 component="a"
                 variant="body1"
                 color="white"
-                href="#"
-                alt="Link to Penelope & Watson Twitter"
-                mr={3}
-              >
-                <i className="fab fa-twitter" />
-              </MKTypography>
-              <MKTypography
-                component="a"
-                variant="body1"
-                color="white"
-                alt="Link to Penelope & Watson Google Plus"
+                alt="Link to Penelope & Watson Yelp"
                 href="#"
               >
-                <i className="fab fa-google-plus" />
+                <i className="fab fa-yelp" />
               </MKTypography>
             </MKBox>
           </Grid>
