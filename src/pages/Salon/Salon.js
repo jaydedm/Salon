@@ -33,14 +33,14 @@ function Salon () {
         minHeight="75vh"
         width="100%"
         sx={{
-          backgroundImage: ({
-            functions: { linearGradient, rgba },
-            palette: { gradients }
-          }) =>
-            `${linearGradient(
-              rgba(gradients.dark.main, 0.6),
-              rgba(gradients.dark.state, 0.6)
-            )}, url('/p&w-bg.webp')`,
+          // backgroundImage: ({
+          //   functions: { linearGradient, rgba },
+          //   palette: { gradients }
+          // }) =>
+          //   `${linearGradient(
+          //     rgba(gradients.dark.main, 0.6),
+          //     rgba(gradients.dark.state, 0.6)
+          //   )}, url('/p&w-bg.webp')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'grid',
