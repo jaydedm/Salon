@@ -46,7 +46,11 @@ Coded by www.creative-tim.com
 
     <link
       href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
-      rel="stylesheet"
+      rel="preload"
+      as="stylesheet"
+      media="print"
+      onload="this.onload=null;this.rel='stylesheet';this.removeAttribute('media');"
+      fetchpriority="high"
     />
     <link rel="preload" as="image" href="/p&w-bg.webp">
     <link rel="preload" as="image" href="/pnwstations-small.webp">
