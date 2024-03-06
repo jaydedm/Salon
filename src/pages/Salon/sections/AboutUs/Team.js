@@ -5,9 +5,9 @@ import MKTypography from 'components/MKTypography'
 
 // Images
 import team1 from 'assets/images/ginger.png'
-import team2 from 'assets/images/bruce-mars.jpg'
-import team3 from 'assets/images/ivana-squares.jpg'
-import team4 from 'assets/images/ivana-square.jpg'
+import team2 from 'assets/images/cutepic.jpeg'
+// import team3 from 'assets/images/ivana-squares.jpg'
+// import team4 from 'assets/images/ivana-square.jpg'
 import HorizontalTeamCard from 'components/HorizontalTeamCard'
 
 // eslint-disable-next-line react/prop-types
@@ -68,13 +68,13 @@ function Team ({ color }) {
               <MKBox mb={1}>
                 <HorizontalTeamCard
                   image={team2}
-                  name="William Pearce"
-                  position={{ color: 'info', label: 'Boss' }}
-                  description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                  name="This Could Be You"
+                  position={{ color: 'info', label: 'Stylist' }}
+                  description={<span>We&apos;re always welcoming professional and passionate creatives to join our team. <a href="mailto:ginger.lydic@gmail.com">Contact us </a> to learn more.</span>}
                 />
               </MKBox>
             </Grid>
-            <Grid item xs={12} lg={6}>
+            {/* <Grid item xs={12} lg={6}>
               <MKBox mb={{ xs: 1, lg: 0 }}>
                 <HorizontalTeamCard
                   image={team3}
@@ -93,7 +93,7 @@ function Team ({ color }) {
                   description="Artist is a term applied to a person who engages in an activity deemed to be an art."
                 />
               </MKBox>
-            </Grid>
+            </Grid> */}
           </Grid>
         </Container>
       </MKBox>
