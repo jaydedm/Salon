@@ -8,7 +8,7 @@ import MKTypography from 'components/MKTypography'
 import footerRoutes from 'footer.routes'
 import routes from 'salonRoutes'
 
-// import pnwLogo from 'assets/images/p&wlogo-tight.webp'
+import pnwLogo from 'assets/images/p&wlogo-tight.webp'
 import SalonInformation from './sections/SalonInformation'
 import DefaultNavbar from './sections/DefaultNavbar'
 import DefaultFooter from './sections/DefaultFooter'
@@ -33,14 +33,14 @@ function Salon () {
         minHeight="75vh"
         width="100%"
         sx={{
-          // backgroundImage: ({
-          //   functions: { linearGradient, rgba },
-          //   palette: { gradients }
-          // }) =>
-          //   `${linearGradient(
-          //     rgba(gradients.dark.main, 0.6),
-          //     rgba(gradients.dark.state, 0.6)
-          //   )}, url('/p&w-bg.webp')`,
+          backgroundImage: ({
+            functions: { linearGradient, rgba },
+            palette: { gradients }
+          }) =>
+            `${linearGradient(
+              rgba(gradients.dark.main, 0.6),
+              rgba(gradients.dark.state, 0.6)
+            )}, url('/p&w-bg.webp')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           display: 'grid',
@@ -58,7 +58,7 @@ function Salon () {
             flexDirection="column"
             sx={{ mx: 'auto', textAlign: 'center' }}
           >
-            {/* <img src={pnwLogo} style={{ width: '75%' }} alt='Logo for Penolope & Watson, the best spa, salon, and barber in Farmington and Durango'></img> */}
+            <img src={pnwLogo} style={{ width: '75%' }} alt='Logo for Penolope & Watson, the best spa, salon, and barber in Farmington and Durango'></img>
             <MKTypography variant="h6" color="white" mt={8} mb={1}>
               Find us on
             </MKTypography>
