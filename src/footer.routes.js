@@ -1,12 +1,9 @@
 import FacebookIcon from '@mui/icons-material/Facebook'
-import TwitterIcon from '@mui/icons-material/Twitter'
-import GitHubIcon from '@mui/icons-material/GitHub'
-import YouTubeIcon from '@mui/icons-material/YouTube'
 
 import MKTypography from 'components/MKTypography'
 
 // Images
-import logoCT from 'assets/images/logo-ct-dark.png'
+import logoCT from 'assets/images/pnwfavicon.png'
 import { mapsSelector } from 'utils'
 
 const date = new Date().getFullYear()
@@ -20,19 +17,7 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-    },
-    {
-      icon: <TwitterIcon />,
-      link: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-    },
-    {
-      icon: <GitHubIcon />,
-      link: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
-    },
-    {
-      icon: <YouTubeIcon />,
-      link: 'https://material-ui.com/store/items/otis-kit-pro-material-kit-react/'
+      link: 'https://www.facebook.com/penelopeandwatson'
     }
   ],
   menus: [
