@@ -70,7 +70,7 @@ function Team ({ color }) {
                   image={team2}
                   name="This Could Be You"
                   position={{ color: 'info', label: 'Stylist' }}
-                  description={<span>We&apos;re always welcoming professional and passionate creatives to join our team. <a href="mailto:ginger.lydic@gmail.com">Contact us </a> to learn more.</span>}
+                  description={<span>We&apos;re always welcoming professional and passionate creatives to join our team. <a href="mailto:owner@penelopeandwatson.com">Contact us </a> to learn more.</span>}
                 />
               </MKBox>
             </Grid>

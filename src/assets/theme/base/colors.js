@@ -56,7 +56,7 @@ export default {
   },
 
   info: {
-    main: '#1A73E8',
+    main: '#000000',
     focus: '#1662C4'
   },
 

@@ -61,9 +61,6 @@ function EstFaq ({ color }) {
                     Should you wish to change your appointment, please give a minimum of 48 hours&apos; advance notice, enabling other clients to utilize the vacated slot.
                     <br></br>
                     <br></br>
-                    For rescheduling done between 24 and 48 hours before the scheduled appointment, an extra non-refundable 25% deposit is necessary; this sum will be subtracted from the ultimate service charge upon final payment.
-                    <br></br>
-                    <br></br>
                     Rescheduling within 24 hours of the arranged appointment will result in a non-refundable $25 rescheduling fee, unconnected to the total service expense.
                   </FaqCollapse>
                   <FaqCollapse
