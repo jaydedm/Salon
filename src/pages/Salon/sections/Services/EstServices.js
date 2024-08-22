@@ -192,7 +192,7 @@ function EstServices () {
                     Waxing
                   </MKTypography>
                   <MKTypography variant="h6" mt={6} mb={3} sx={{ color: '#7b809a' }}>
-                    Hair removal. Options are: Nose ($15.00), Eyebrow ($25.00), Upper Lip ($15.00) and Underarms ($35.00)
+                    Hair removal. Options are: Nose ($15.00), Eyebrow ($25.00), Upper Lip ($15.00)
                   </MKTypography>
                 </MKBox>
               </Card>
