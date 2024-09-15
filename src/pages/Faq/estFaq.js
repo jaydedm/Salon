@@ -48,7 +48,7 @@ function EstFaq ({ color }) {
                     All services are exclusively accessible through appointments, guaranteeing individualized focus and a smooth procedure.
                     <br></br>
                     <br></br>
-                    For all services, a valid card must be placed on record, accompanied by a 25% deposit during the reservation.
+                    For all services, a valid card must be placed on record, accompanied by a 50% deposit during the reservation.
                     <br></br>
                     <br></br>
                     This deposit is non-refundable and will be deducted as credit from the overall service expense upon final payment.
@@ -78,7 +78,7 @@ function EstFaq ({ color }) {
                     open={collapse === 4}
                     onClick={() => (collapse === 4 ? setCollapse(false) : setCollapse(4))}
                   >
-                    In the event that you are beyond 15 minutes late or fail to attend your arranged appointment, the outstanding balance for the service expense will be billed to the card registered on record. Consequently, you will be billed 100% of the service cost.
+                    If you are more than 15 minutes late or fail to attend your scheduled appointment, you will be considered a no-show. In such cases, the 50% booking deposit will not be applied to any future appointments or refunded. I value your time and ask that you respect mine as well.
                   </FaqCollapse>
                   <FaqCollapse
                     title="Payment and Gratuity Policy"

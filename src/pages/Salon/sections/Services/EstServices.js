@@ -53,7 +53,7 @@ function EstServices () {
                     Facials
                   </MKTypography>
                   <FaqCollapse
-                    title="Express Facial - $55.00"
+                    title="Express Facial - $60.00"
                     open={collapse === 1}
                     onClick={() => (collapse === 1 ? setCollapse(false) : setCollapse(1))}
                   >
@@ -64,7 +64,7 @@ function EstServices () {
 
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Tranquility Facial - $75.00"
+                    title="Tranquility Facial - $85.00"
                     open={collapse === 2}
                     onClick={() => (collapse === 2 ? setCollapse(false) : setCollapse(2))}
                   >
@@ -77,7 +77,7 @@ function EstServices () {
                     Experience the revitalizing effects of this well-rounded treatment, leaving your skin nourished, radiant, and glowing with renewed vitality. Indulge in the care and attention you deserve during this personalized skincare experience.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Refresh & Renew - $95.00"
+                    title="Refresh & Renew - $105.00"
                     open={collapse === 3}
                     onClick={() => (collapse === 3 ? setCollapse(false) : setCollapse(3))}
                   >
@@ -92,7 +92,7 @@ function EstServices () {
                     <br></br>
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Signature Facial - $115.00"
+                    title="Signature Facial - $125.00"
                     open={collapse === 4}
                     onClick={() => (collapse === 4 ? setCollapse(false) : setCollapse(4))}
                   >
@@ -108,7 +108,7 @@ function EstServices () {
                     Lashes
                   </MKTypography>
                   <FaqCollapse
-                    title="Lash Lift - $65.00"
+                    title="Lash Lift - $75.00"
                     open={collapse === 5}
                     onClick={() => (collapse === 5 ? setCollapse(false) : setCollapse(5))}
                   >
@@ -124,7 +124,7 @@ function EstServices () {
                     Unlike traditional eyelash curlers, the lash lift offers semi-permanent magic that can endure for several weeks, gracefully adapting to your natural lash growth cycle.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Lash Tint - $30.00"
+                    title="Lash Tint - $35.00"
                     open={collapse === 6}
                     onClick={() => (collapse === 6 ? setCollapse(false) : setCollapse(6))}
                   >
@@ -134,7 +134,7 @@ function EstServices () {
                     Elevate the allure of your natural lashes with a touch of enchantment, as we skillfully darken and accentuate your eyes for an intensified and defined look.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Lash Lift & Tint - $85.00"
+                    title="Lash Lift & Tint - $95.00"
                     open={collapse === 7}
                     onClick={() => (collapse === 7 ? setCollapse(false) : setCollapse(7))}
                   >
@@ -153,7 +153,7 @@ function EstServices () {
                     Brows
                   </MKTypography>
                   <FaqCollapse
-                    title="Brow Lamination - $50.00"
+                    title="Brow Lamination - $55.00"
                     open={collapse === 8}
                     onClick={() => (collapse === 8 ? setCollapse(false) : setCollapse(8))}
                   >
@@ -166,7 +166,7 @@ function EstServices () {
                     Embrace the beauty of perfectly groomed brows that frame your eyes and elevate your entire appearance without the need for daily maintenance.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Brow Tint - $30.00"
+                    title="Brow Tint - $35.00"
                     open={collapse === 9}
                     onClick={() => (collapse === 9 ? setCollapse(false) : setCollapse(9))}
                   >
@@ -176,7 +176,7 @@ function EstServices () {
                     Experience brow intensification as we choose the shade to complement your hair and skin tone and skillfully darken and define your eyebrows, enhancing their natural beauty.
                   </FaqCollapse>
                   <FaqCollapse
-                    title="Brow Lamination & Tint - $65.00"
+                    title="Brow Lamination & Tint - $75.00"
                     open={collapse === 10}
                     onClick={() => (collapse === 10 ? setCollapse(false) : setCollapse(10))}
                   >

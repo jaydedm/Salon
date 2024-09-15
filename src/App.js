@@ -33,7 +33,7 @@ export default function App () {
       <CssBaseline />
       <Dialog isOpen={showDialog} onDismiss={close} style={{ textAlign: 'center' }}>
         <img src={openingSoon} style={{ width: '100%' }}></img>
-        <button onClick={close} style={{ padding: '8px', color: 'darkolivegreen', border: '1px solid mistyrose', borderRadius: '4px', backgroundColor: 'white', fontFamily: 'inherit' }}>Can&apos;t wait!</button>
+        <button onClick={close} style={{ padding: '8px', color: 'darkolivegreen', border: '1px solid mistyrose', cursor: 'pointer', borderRadius: '4px', backgroundColor: 'white', fontFamily: 'inherit' }}>Can&apos;t wait!</button>
       </Dialog>
       <Routes>
         <Route path="/aboutus" element={<AboutUs />} />
