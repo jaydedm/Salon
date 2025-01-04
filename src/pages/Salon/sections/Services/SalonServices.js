@@ -11,7 +11,7 @@ import FaqCategoryCollapse from "components/FaqCategoryCollapse";
 import FaqCollapse from "components/FaqCollapse";
 import routes from "salonRoutes";
 import DefaultNavbar from "../DefaultNavbar";
-import services from "./services.ts";
+import services from "./services";
 
 function SalonServices() {
   const [activeCollapse, setActiveCollapse] = useState(null);
