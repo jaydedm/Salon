@@ -31,10 +31,6 @@ const routes = [
             name: 'About Us',
             route: '/estaboutus'
           },
-          {
-            name: 'Services',
-            route: '/estservices'
-          }
         ]
       }
     ]

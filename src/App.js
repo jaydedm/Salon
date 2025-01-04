@@ -11,7 +11,6 @@ import '@reach/dialog/styles.css'
 import Esthetics from 'pages/Salon/Esthetics'
 import Salon from 'pages/Salon/Salon'
 import AboutUs from 'pages/Salon/sections/AboutUs'
-import EstServices from 'pages/Salon/sections/Services/EstServices'
 import SalonServices from 'pages/Salon/sections/Services/SalonServices'
 
 export default function App () {
@@ -29,7 +28,6 @@ export default function App () {
       <Routes>
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/estaboutus" element={<Esthetics />} />
-        <Route path="/estservices" element={<EstServices />} />
         <Route path="/services" element={<SalonServices />} />
         <Route path="/" element={<Salon />} />
         <Route path="*" element={<Navigate to="/" />} />

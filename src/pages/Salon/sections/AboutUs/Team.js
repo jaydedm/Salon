@@ -148,7 +148,7 @@ function Team({ color }) {
               <MKBox mb={1}>
                 <HorizontalTeamCard
                   image={team2}
-                  name="This Could Be You"
+                  name="This Could Be Your Friend"
                   position={{ color: "info", label: "Stylist" }}
                   description={
                     <span>
