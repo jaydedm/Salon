@@ -147,22 +147,34 @@ const services = [
     categoryId: 7,
     services: [
       {
-        title: "Color Basic",
+        title: "Toner - Starting at $45.00",
         content:
-          "Features a carefully curated selection of essential colors with high-quality pigments, delivering vibrant, consistent, and professional results.",
+          "A semi-permanent hair color designed to refine and enhance your color, neutralizing unwanted undertones like yellows or brassiness. It can add cool or warm tones for a more balanced, polished look. Perfect for refreshing your color, boosting shine, and achieving a natural, flawless finish. 90 minutes.",
         id: 19,
       },
       {
-        title: "Color Custom Made",
+        title: "Root Touch Up - Starting at $50.00",
         content:
-          "Offers personalized color solutions designed to meet your unique needs and preferences. Our expert stylist collaborates with you to craft a distinctive and customized look, ensuring a stunning finish that’s truly your own.",
+          "A targeted application at the roots to maintain your current hair color, ensuring a fresh, consistent look as your hair grows. This service is perfect for keeping your color vibrant and seamless between full color appointments. 45 minutes.",
         id: 20,
       },
       {
-        title: "Specialty Highlight",
+        title: "Single Basic - Starting at $65.00",
         content:
-          "Experience a unique approach to hair highlighting with specialized techniques that deliver stunning, head-turning results. Perfect for adding dimension and flair, this service enhances your natural beauty with customized color solutions tailored to your style.",
+          "A single-process color is perfect for changing up your look or covering and blending grays. It provides even, full-head coverage with permanent color, ensuring a consistent and uniform tone throughout. Whether you’re looking for a natural change or a bold transformation, this service offers a seamless result. 60 minutes.",
         id: 21,
+      },
+      {
+        title: "Baby Lights (Partial Highlights / Lowlights) - Starting $75.00",
+        content:
+          "Selected sections (top, sides, and underside) of your hair will receive strategically placed lightener or color to brighten or darken the overall tone, enhancing depth and dimension without the need for full-head color. 90 minutes.",
+        id: 31,
+      },
+      {
+        title: "Full Highlights / Lowlights - Starting at $150.00",
+        content:
+          "This coloring treatment involves applying highlights and lowlights throughout your entire head to create depth, dimension, and contrast. The combination of light and dark tones enhances your natural color, adding brightness and richness for a multi-dimensional, vibrant look that complements any style. 120 minutes.",
+        id: 32,
       },
     ],
   },
