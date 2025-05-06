@@ -254,7 +254,6 @@ function DefaultNavbar ({ brand, routes, transparent, light, action, sticky, rel
         )
       })
     }
-
     return template
   })
 
@@ -388,7 +387,6 @@ function DefaultNavbar ({ brand, routes, transparent, light, action, sticky, rel
                 )
               })
         }
-
         return template
       })
       : null

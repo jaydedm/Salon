@@ -14,7 +14,7 @@ import DefaultNavbarDropdown from './DefaultNavbarDropdown'
 function DefaultNavbarMobile ({ routes, open }) {
   const [collapse, setCollapse] = useState('')
 
-  const handleSetCollapse = (name) => (collapse === name ? setCollapse(false) : setCollapse(name))
+  const handleSetCollapse = (name) => (collapse === name ? setCollapse(false) : setCollapse(false))
 
   const renderNavbarItems = routes.map(
     ({ name, icon, collapse: routeCollapses, href, route, collapse: navCollapse }) => (
