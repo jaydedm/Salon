@@ -165,7 +165,7 @@ const services = [
         id: 21,
       },
       {
-        title: "Baby Lights (Partial Highlights / Lowlights) - Starting $75.00",
+        title: "Baby Lights (Partial Highlights / Lowlights) - Starting at $75.00",
         content:
           "Selected sections (top, sides, and underside) of your hair will receive strategically placed lightener or color to brighten or darken the overall tone, enhancing depth and dimension without the need for full-head color. 90 minutes.",
         id: 31,
